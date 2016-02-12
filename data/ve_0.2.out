@@ -1,0 +1,2730 @@
+
+----------------------------------------
+
+ DEVSIM
+
+ Version: Beta 0.01
+
+ Copyright 2009-2013 Devsim LLC
+
+----------------------------------------
+
+
+Adding 14773 nodes
+Adding 43698 edges with 0 duplicates removed
+Adding 28926 triangles  with 0 duplicate removed
+Contact base in region bjt with 63 nodes
+Contact collector in region bjt with 345 nodes
+Contact emitter in region bjt with 63 nodes
+Replacing Node Model Acceptors in region bjt of material Silicon
+Replacing Node Model DEG in region bjt of material Silicon
+Replacing Edge Model DField in region bjt of material Silicon
+Replacing Edge Model DField:Potential@n0 in region bjt of material Silicon
+Replacing Edge Model DField:Potential@n1 in region bjt of material Silicon
+Replacing Node Model Donors in region bjt of material Silicon
+Replacing Node Model EC in region bjt of material Silicon
+Replacing Node Model EC:Potential in region bjt of material Silicon
+Replacing Node Model EFN in region bjt of material Silicon
+Replacing Node Model EFN:Electrons in region bjt of material Silicon
+Replacing Node Model EFN:Potential in region bjt of material Silicon
+Replacing Node Model EFP in region bjt of material Silicon
+Replacing Node Model EFP:Holes in region bjt of material Silicon
+Replacing Node Model EFP:Potential in region bjt of material Silicon
+Replacing Edge Model EField in region bjt of material Silicon
+Replacing Edge Model EField:Potential@n0 in region bjt of material Silicon
+Replacing Edge Model EField:Potential@n1 in region bjt of material Silicon
+Replacing Triangle Edge Model EField_x in region bjt of material Silicon
+Replacing Triangle Edge Model EField_y in region bjt of material Silicon
+Replacing Node Model EG in region bjt of material Silicon
+Replacing Node Model EI in region bjt of material Silicon
+Replacing Node Model EI:Potential in region bjt of material Silicon
+Replacing Node Model EV in region bjt of material Silicon
+Replacing Node Model EV:Potential in region bjt of material Silicon
+Replacing Node Model ElectronGeneration in region bjt of material Silicon
+Replacing Node Model ElectronGeneration:Electrons in region bjt of material Silicon
+Replacing Node Model ElectronGeneration:Holes in region bjt of material Silicon
+Replacing Edge Model Electrons@n0 in region bjt of material Silicon
+Replacing Edge Model Electrons@n1 in region bjt of material Silicon
+Replacing Triangle Edge Model Emag in region bjt of material Silicon
+Replacing Edge Model Epar_n in region bjt of material Silicon
+Replacing Edge Model Epar_n:Potential@n0 in region bjt of material Silicon
+Replacing Edge Model Epar_n:Potential@n1 in region bjt of material Silicon
+Replacing Edge Model Epar_p in region bjt of material Silicon
+Replacing Edge Model Epar_p:Potential@n0 in region bjt of material Silicon
+Replacing Edge Model Epar_p:Potential@n1 in region bjt of material Silicon
+Replacing Node Model HoleGeneration in region bjt of material Silicon
+Replacing Node Model HoleGeneration:Electrons in region bjt of material Silicon
+Replacing Node Model HoleGeneration:Holes in region bjt of material Silicon
+Replacing Edge Model Holes@n0 in region bjt of material Silicon
+Replacing Edge Model Holes@n1 in region bjt of material Silicon
+Replacing Node Model IntrinsicCharge in region bjt of material Silicon
+Replacing Node Model IntrinsicCharge:Potential in region bjt of material Silicon
+Replacing Node Model IntrinsicElectrons in region bjt of material Silicon
+Replacing Node Model IntrinsicElectrons:Potential in region bjt of material Silicon
+Replacing Node Model IntrinsicHoles in region bjt of material Silicon
+Replacing Node Model IntrinsicHoles:Potential in region bjt of material Silicon
+Replacing Edge Model Jn in region bjt of material Silicon
+Replacing Edge Model Jn:Electrons@n0 in region bjt of material Silicon
+Replacing Edge Model Jn:Electrons@n1 in region bjt of material Silicon
+Replacing Edge Model Jn:Holes@n0 in region bjt of material Silicon
+Replacing Edge Model Jn:Holes@n1 in region bjt of material Silicon
+Replacing Edge Model Jn:Potential@n0 in region bjt of material Silicon
+Replacing Edge Model Jn:Potential@n1 in region bjt of material Silicon
+Replacing Edge Model Jn_arora_lf in region bjt of material Silicon
+Replacing Edge Model Jn_arora_lf:Electrons@n0 in region bjt of material Silicon
+Replacing Edge Model Jn_arora_lf:Electrons@n1 in region bjt of material Silicon
+Replacing Edge Model Jn_arora_lf:Holes@n0 in region bjt of material Silicon
+Replacing Edge Model Jn_arora_lf:Holes@n1 in region bjt of material Silicon
+Replacing Edge Model Jn_arora_lf:Potential@n0 in region bjt of material Silicon
+Replacing Edge Model Jn_arora_lf:Potential@n1 in region bjt of material Silicon
+Replacing Triangle Edge Model Jn_x in region bjt of material Silicon
+Replacing Triangle Edge Model Jn_y in region bjt of material Silicon
+Replacing Triangle Edge Model Jnmag in region bjt of material Silicon
+Replacing Edge Model Jp in region bjt of material Silicon
+Replacing Edge Model Jp:Electrons@n0 in region bjt of material Silicon
+Replacing Edge Model Jp:Electrons@n1 in region bjt of material Silicon
+Replacing Edge Model Jp:Holes@n0 in region bjt of material Silicon
+Replacing Edge Model Jp:Holes@n1 in region bjt of material Silicon
+Replacing Edge Model Jp:Potential@n0 in region bjt of material Silicon
+Replacing Edge Model Jp:Potential@n1 in region bjt of material Silicon
+Replacing Edge Model Jp_arora_lf in region bjt of material Silicon
+Replacing Edge Model Jp_arora_lf:Electrons@n0 in region bjt of material Silicon
+Replacing Edge Model Jp_arora_lf:Electrons@n1 in region bjt of material Silicon
+Replacing Edge Model Jp_arora_lf:Holes@n0 in region bjt of material Silicon
+Replacing Edge Model Jp_arora_lf:Holes@n1 in region bjt of material Silicon
+Replacing Edge Model Jp_arora_lf:Potential@n0 in region bjt of material Silicon
+Replacing Edge Model Jp_arora_lf:Potential@n1 in region bjt of material Silicon
+Replacing Triangle Edge Model Jp_x in region bjt of material Silicon
+Replacing Triangle Edge Model Jp_y in region bjt of material Silicon
+Replacing Triangle Edge Model Jpmag in region bjt of material Silicon
+Replacing Node Model LogNetDoping in region bjt of material Silicon
+Replacing Node Model NC in region bjt of material Silicon
+Replacing Node Model NCharge in region bjt of material Silicon
+Replacing Node Model NCharge:Electrons in region bjt of material Silicon
+Replacing Node Model NIE in region bjt of material Silicon
+Replacing Node Model NTOT in region bjt of material Silicon
+Replacing Node Model NV in region bjt of material Silicon
+Replacing Node Model NetDoping in region bjt of material Silicon
+Replacing Node Model PCharge in region bjt of material Silicon
+Replacing Node Model PCharge:Holes in region bjt of material Silicon
+Replacing Edge Model Potential@n0 in region bjt of material Silicon
+Replacing Edge Model Potential@n1 in region bjt of material Silicon
+Replacing Node Model PotentialIntrinsicCharge in region bjt of material Silicon
+Replacing Node Model PotentialIntrinsicCharge:Potential in region bjt of material Silicon
+Replacing Node Model PotentialNodeCharge in region bjt of material Silicon
+Replacing Node Model PotentialNodeCharge:Electrons in region bjt of material Silicon
+Replacing Node Model PotentialNodeCharge:Holes in region bjt of material Silicon
+Replacing Node Model Tn in region bjt of material Silicon
+Replacing Node Model USRH in region bjt of material Silicon
+Replacing Node Model USRH:Electrons in region bjt of material Silicon
+Replacing Node Model USRH:Holes in region bjt of material Silicon
+Replacing Node Model V_t in region bjt of material Silicon
+Replacing Edge Model V_t_edge in region bjt of material Silicon
+Replacing Node Model basenodeelectrons in region bjt of material Silicon
+Replacing Node Model basenodeelectrons:Electrons in region bjt of material Silicon
+Replacing Node Model basenodeholes in region bjt of material Silicon
+Replacing Node Model basenodeholes:Holes in region bjt of material Silicon
+Replacing Node Model basenodemodel in region bjt of material Silicon
+Replacing Node Model basenodemodel:Potential in region bjt of material Silicon
+Replacing Edge Model beta_n in region bjt of material Silicon
+Replacing Edge Model beta_p in region bjt of material Silicon
+Replacing Node Model collectornodeelectrons in region bjt of material Silicon
+Replacing Node Model collectornodeelectrons:Electrons in region bjt of material Silicon
+Replacing Node Model collectornodeholes in region bjt of material Silicon
+Replacing Node Model collectornodeholes:Holes in region bjt of material Silicon
+Replacing Node Model collectornodemodel in region bjt of material Silicon
+Replacing Node Model collectornodemodel:Potential in region bjt of material Silicon
+Replacing Node Model contactcharge_node in region bjt of material Silicon
+Replacing Node Model emitternodeelectrons in region bjt of material Silicon
+Replacing Node Model emitternodeelectrons:Electrons in region bjt of material Silicon
+Replacing Node Model emitternodeholes in region bjt of material Silicon
+Replacing Node Model emitternodeholes:Holes in region bjt of material Silicon
+Replacing Node Model emitternodemodel in region bjt of material Silicon
+Replacing Node Model emitternodemodel:Potential in region bjt of material Silicon
+Replacing Edge Model mu_arora_n_lf in region bjt of material Silicon
+Replacing Node Model mu_arora_n_node in region bjt of material Silicon
+Replacing Edge Model mu_arora_p_lf in region bjt of material Silicon
+Replacing Node Model mu_arora_p_node in region bjt of material Silicon
+Replacing Edge Model mu_n in region bjt of material Silicon
+Replacing Edge Model mu_n:Electrons@n0 in region bjt of material Silicon
+Replacing Edge Model mu_n:Electrons@n1 in region bjt of material Silicon
+Replacing Edge Model mu_n:Holes@n0 in region bjt of material Silicon
+Replacing Edge Model mu_n:Holes@n1 in region bjt of material Silicon
+Replacing Edge Model mu_n:Potential@n0 in region bjt of material Silicon
+Replacing Edge Model mu_n:Potential@n1 in region bjt of material Silicon
+Replacing Edge Model mu_p in region bjt of material Silicon
+Replacing Edge Model mu_p:Electrons@n0 in region bjt of material Silicon
+Replacing Edge Model mu_p:Electrons@n1 in region bjt of material Silicon
+Replacing Edge Model mu_p:Holes@n0 in region bjt of material Silicon
+Replacing Edge Model mu_p:Holes@n1 in region bjt of material Silicon
+Replacing Edge Model mu_p:Potential@n0 in region bjt of material Silicon
+Replacing Edge Model mu_p:Potential@n1 in region bjt of material Silicon
+Replacing Edge Model vsat_n in region bjt of material Silicon
+Replacing Edge Model vsat_p in region bjt of material Silicon
+Replacing Node Model basenodemodel in region bjt of material Silicon
+Replacing Node Model basenodemodel:Potential in region bjt of material Silicon
+Warning: Replacing Contact Equation with Contact Equation of the same name.
+Contact: base, Equation: PotentialEquation, Variable: Potential
+Replacing Node Model basenodeelectrons in region bjt of material Silicon
+Replacing Node Model basenodeelectrons:Electrons in region bjt of material Silicon
+Replacing Node Model basenodeholes in region bjt of material Silicon
+Replacing Node Model basenodeholes:Holes in region bjt of material Silicon
+Warning: Replacing Contact Equation with Contact Equation of the same name.
+Contact: base, Equation: ElectronContinuityEquation, Variable: Electrons
+Warning: Replacing Contact Equation with Contact Equation of the same name.
+Contact: base, Equation: HoleContinuityEquation, Variable: Holes
+Replacing Node Model emitternodemodel in region bjt of material Silicon
+Replacing Node Model emitternodemodel:Potential in region bjt of material Silicon
+Warning: Replacing Contact Equation with Contact Equation of the same name.
+Contact: emitter, Equation: PotentialEquation, Variable: Potential
+Replacing Node Model emitternodeelectrons in region bjt of material Silicon
+Replacing Node Model emitternodeelectrons:Electrons in region bjt of material Silicon
+Replacing Node Model emitternodeholes in region bjt of material Silicon
+Replacing Node Model emitternodeholes:Holes in region bjt of material Silicon
+Warning: Replacing Contact Equation with Contact Equation of the same name.
+Contact: emitter, Equation: ElectronContinuityEquation, Variable: Electrons
+Warning: Replacing Contact Equation with Contact Equation of the same name.
+Contact: emitter, Equation: HoleContinuityEquation, Variable: Holes
+Replacing Node Model collectornodemodel in region bjt of material Silicon
+Replacing Node Model collectornodemodel:Potential in region bjt of material Silicon
+Warning: Replacing Contact Equation with Contact Equation of the same name.
+Contact: collector, Equation: PotentialEquation, Variable: Potential
+Replacing Node Model collectornodeelectrons in region bjt of material Silicon
+Replacing Node Model collectornodeelectrons:Electrons in region bjt of material Silicon
+Replacing Node Model collectornodeholes in region bjt of material Silicon
+Replacing Node Model collectornodeholes:Holes in region bjt of material Silicon
+Warning: Replacing Contact Equation with Contact Equation of the same name.
+Contact: collector, Equation: ElectronContinuityEquation, Variable: Electrons
+Warning: Replacing Contact Equation with Contact Equation of the same name.
+Contact: collector, Equation: HoleContinuityEquation, Variable: Holes
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+creating solution dcop with 6 nodes
+number of equations 44325
+creating solution dcop_prev with 6 nodes
+Iteration: 0
+  Device: "bjt"	RelError: 3.38221e-02	AbsError: 1.75590e+04
+    Region: "bjt"	RelError: 3.38221e-02	AbsError: 1.75590e+04
+      Equation: "ElectronContinuityEquation"	RelError: 2.50189e-02	AbsError: 1.73747e+04
+      Equation: "HoleContinuityEquation"	RelError: 8.80319e-03	AbsError: 1.84233e+02
+      Equation: "PotentialEquation"	RelError: 4.43006e-13	AbsError: 1.59041e-16
+  Circuit: 	RelError: 2.26638e-09	AbsError: 4.53277e-19
+Circuit Solution:
+Vb.I	-2.57019e-21
+Vc.I	-2.24068e-19
+Ve.I	2.26638e-19
+base_bias	0
+collector_bias	0
+emitter_bias	0
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 3.16804e-01	AbsError: 8.30056e+03
+    Region: "bjt"	RelError: 3.16804e-01	AbsError: 8.30056e+03
+      Equation: "ElectronContinuityEquation"	RelError: 4.75493e-02	AbsError: 8.17769e+03
+      Equation: "HoleContinuityEquation"	RelError: 2.69255e-01	AbsError: 1.22865e+02
+      Equation: "PotentialEquation"	RelError: 1.61613e-12	AbsError: 1.90411e-16
+  Circuit: 	RelError: 9.61194e-09	AbsError: 1.92239e-18
+Iteration: 1
+  Device: "bjt"	RelError: 2.86974e-02	AbsError: 8.30216e+03
+    Region: "bjt"	RelError: 2.86974e-02	AbsError: 8.30216e+03
+      Equation: "ElectronContinuityEquation"	RelError: 1.91796e-02	AbsError: 8.17769e+03
+      Equation: "HoleContinuityEquation"	RelError: 9.51782e-03	AbsError: 1.24464e+02
+      Equation: "PotentialEquation"	RelError: 1.05389e-12	AbsError: 1.04303e-16
+  Circuit: 	RelError: 6.24756e-09	AbsError: 1.24951e-18
+Circuit Solution:
+Vb.I	3.32905e-21
+Vc.I	-1.80956e-18
+Ve.I	1.80623e-18
+base_bias	0
+collector_bias	0
+emitter_bias	0
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 2.86340e-01	AbsError: 8.32032e+03
+    Region: "bjt"	RelError: 2.86340e-01	AbsError: 8.32032e+03
+      Equation: "ElectronContinuityEquation"	RelError: 8.30461e-02	AbsError: 8.17769e+03
+      Equation: "HoleContinuityEquation"	RelError: 2.03294e-01	AbsError: 1.42627e+02
+      Equation: "PotentialEquation"	RelError: 1.13475e-13	AbsError: 9.44159e-17
+  Circuit: 	RelError: 1.26342e-08	AbsError: 2.52683e-18
+Iteration: 1
+  Device: "bjt"	RelError: 6.22369e-02	AbsError: 8.29269e+03
+    Region: "bjt"	RelError: 6.22369e-02	AbsError: 8.29269e+03
+      Equation: "ElectronContinuityEquation"	RelError: 6.02786e-02	AbsError: 8.17769e+03
+      Equation: "HoleContinuityEquation"	RelError: 1.95823e-03	AbsError: 1.14994e+02
+      Equation: "PotentialEquation"	RelError: 1.14363e-12	AbsError: 8.29305e-17
+  Circuit: 	RelError: 5.51668e-09	AbsError: 1.10334e-18
+Circuit Solution:
+Vb.I	-2.82567e-21
+Vc.I	-1.09762e-18
+Ve.I	1.10045e-18
+base_bias	0
+collector_bias	0
+emitter_bias	0
+last end 0.000000e+00 2.000000e-01
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 1.35646e+04	AbsError: 8.79971e+15
+    Region: "bjt"	RelError: 1.35646e+04	AbsError: 8.79971e+15
+      Equation: "ElectronContinuityEquation"	RelError: 1.74877e+03	AbsError: 1.52242e+15
+      Equation: "HoleContinuityEquation"	RelError: 1.11889e+04	AbsError: 7.27729e+15
+      Equation: "PotentialEquation"	RelError: 6.27018e+02	AbsError: 1.14294e-01
+  Circuit: 	RelError: 1.00000e+00	AbsError: 1.00000e-01
+Iteration: 1
+  Device: "bjt"	RelError: 1.70708e+05	AbsError: 9.18373e+14
+    Region: "bjt"	RelError: 1.70708e+05	AbsError: 9.18373e+14
+      Equation: "ElectronContinuityEquation"	RelError: 1.43653e+05	AbsError: 2.69751e+14
+      Equation: "HoleContinuityEquation"	RelError: 2.70486e+04	AbsError: 6.48621e+14
+      Equation: "PotentialEquation"	RelError: 7.20774e+00	AbsError: 1.42936e-02
+  Circuit: 	RelError: 9.83720e-01	AbsError: 1.09266e-08
+Iteration: 2
+  Device: "bjt"	RelError: 2.48594e+01	AbsError: 1.38176e+14
+    Region: "bjt"	RelError: 2.48594e+01	AbsError: 1.38176e+14
+      Equation: "ElectronContinuityEquation"	RelError: 1.77066e+01	AbsError: 1.20980e+14
+      Equation: "HoleContinuityEquation"	RelError: 6.68095e+00	AbsError: 1.71955e+13
+      Equation: "PotentialEquation"	RelError: 4.71830e-01	AbsError: 1.39375e-03
+  Circuit: 	RelError: 5.40810e+01	AbsError: 1.09175e-08
+Iteration: 3
+  Device: "bjt"	RelError: 1.79503e-01	AbsError: 2.13544e+12
+    Region: "bjt"	RelError: 1.79503e-01	AbsError: 2.13544e+12
+      Equation: "ElectronContinuityEquation"	RelError: 1.46529e-01	AbsError: 2.06765e+12
+      Equation: "HoleContinuityEquation"	RelError: 3.07669e-02	AbsError: 6.77966e+10
+      Equation: "PotentialEquation"	RelError: 2.20709e-03	AbsError: 5.40689e-06
+  Circuit: 	RelError: 1.29140e-05	AbsError: 2.58616e-15
+Iteration: 4
+  Device: "bjt"	RelError: 9.30560e-02	AbsError: 6.79336e+08
+    Region: "bjt"	RelError: 9.30560e-02	AbsError: 6.79336e+08
+      Equation: "ElectronContinuityEquation"	RelError: 9.04937e-02	AbsError: 6.31602e+08
+      Equation: "HoleContinuityEquation"	RelError: 2.56213e-03	AbsError: 4.77337e+07
+      Equation: "PotentialEquation"	RelError: 1.22566e-07	AbsError: 1.15325e-09
+  Circuit: 	RelError: 1.71623e-08	AbsError: 3.45061e-18
+Iteration: 5
+  Device: "bjt"	RelError: 3.51087e-01	AbsError: 5.46392e+04
+    Region: "bjt"	RelError: 3.51087e-01	AbsError: 5.46392e+04
+      Equation: "ElectronContinuityEquation"	RelError: 8.17810e-02	AbsError: 5.41828e+04
+      Equation: "HoleContinuityEquation"	RelError: 2.69306e-01	AbsError: 4.56395e+02
+      Equation: "PotentialEquation"	RelError: 3.64582e-12	AbsError: 6.00738e-14
+  Circuit: 	RelError: 1.37296e-08	AbsError: 2.75878e-18
+Iteration: 6
+  Device: "bjt"	RelError: 2.21357e-01	AbsError: 8.29852e+03
+    Region: "bjt"	RelError: 2.21357e-01	AbsError: 8.29852e+03
+      Equation: "ElectronContinuityEquation"	RelError: 1.04590e-02	AbsError: 8.17769e+03
+      Equation: "HoleContinuityEquation"	RelError: 2.10898e-01	AbsError: 1.20822e+02
+      Equation: "PotentialEquation"	RelError: 4.08124e-12	AbsError: 1.32296e-16
+  Circuit: 	RelError: 3.33115e-09	AbsError: 6.66349e-19
+Iteration: 7
+  Device: "bjt"	RelError: 4.88728e-02	AbsError: 8.27536e+03
+    Region: "bjt"	RelError: 4.88728e-02	AbsError: 8.27536e+03
+      Equation: "ElectronContinuityEquation"	RelError: 3.02591e-02	AbsError: 8.17769e+03
+      Equation: "HoleContinuityEquation"	RelError: 1.86137e-02	AbsError: 9.76607e+01
+      Equation: "PotentialEquation"	RelError: 6.17174e-12	AbsError: 9.64390e-17
+  Circuit: 	RelError: 4.04084e-09	AbsError: 8.08311e-19
+Circuit Solution:
+Vb.I	9.3846e-13
+Vc.I	-9.56248e-13
+Ve.I	1.77874e-14
+base_bias	0
+collector_bias	0.1
+emitter_bias	0
+Succeeded
+BIAS collector 0.1
+last end 1.000000e-01 2.000000e-01
+setting to last bias 2.000000e-01
+setting next bias 2.000000e-01
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 3.91548e+04	AbsError: 8.52904e+15
+    Region: "bjt"	RelError: 3.91548e+04	AbsError: 8.52904e+15
+      Equation: "ElectronContinuityEquation"	RelError: 3.71700e+04	AbsError: 1.44214e+15
+      Equation: "HoleContinuityEquation"	RelError: 1.83209e+03	AbsError: 7.08690e+15
+      Equation: "PotentialEquation"	RelError: 1.52649e+02	AbsError: 1.14962e-01
+  Circuit: 	RelError: 5.00000e-01	AbsError: 1.00000e-01
+Iteration: 1
+  Device: "bjt"	RelError: 2.42116e+05	AbsError: 8.35570e+14
+    Region: "bjt"	RelError: 2.42116e+05	AbsError: 8.35570e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.09579e+05	AbsError: 2.29549e+14
+      Equation: "HoleContinuityEquation"	RelError: 3.25039e+04	AbsError: 6.06021e+14
+      Equation: "PotentialEquation"	RelError: 3.26076e+01	AbsError: 1.49623e-02
+  Circuit: 	RelError: 9.36098e-01	AbsError: 2.84635e-09
+Iteration: 2
+  Device: "bjt"	RelError: 4.25198e+01	AbsError: 6.17174e+13
+    Region: "bjt"	RelError: 4.25198e+01	AbsError: 6.17174e+13
+      Equation: "ElectronContinuityEquation"	RelError: 3.07892e+01	AbsError: 5.92252e+13
+      Equation: "HoleContinuityEquation"	RelError: 1.16386e+01	AbsError: 2.49221e+12
+      Equation: "PotentialEquation"	RelError: 9.21021e-02	AbsError: 2.38238e-05
+  Circuit: 	RelError: 1.40029e+01	AbsError: 2.84509e-09
+Iteration: 3
+  Device: "bjt"	RelError: 7.82365e-01	AbsError: 4.29966e+12
+    Region: "bjt"	RelError: 7.82365e-01	AbsError: 4.29966e+12
+      Equation: "ElectronContinuityEquation"	RelError: 5.13845e-01	AbsError: 4.19331e+12
+      Equation: "HoleContinuityEquation"	RelError: 2.66925e-01	AbsError: 1.06349e+11
+      Equation: "PotentialEquation"	RelError: 1.59477e-03	AbsError: 1.06078e-05
+  Circuit: 	RelError: 6.61347e-06	AbsError: 1.26196e-15
+Iteration: 4
+  Device: "bjt"	RelError: 1.03550e-01	AbsError: 5.64487e+08
+    Region: "bjt"	RelError: 1.03550e-01	AbsError: 5.64487e+08
+      Equation: "ElectronContinuityEquation"	RelError: 8.77942e-02	AbsError: 5.44983e+08
+      Equation: "HoleContinuityEquation"	RelError: 1.57553e-02	AbsError: 1.95041e+07
+      Equation: "PotentialEquation"	RelError: 4.06487e-08	AbsError: 1.25587e-09
+  Circuit: 	RelError: 1.58594e-08	AbsError: 3.16706e-18
+Iteration: 5
+  Device: "bjt"	RelError: 3.07062e-01	AbsError: 2.59162e+05
+    Region: "bjt"	RelError: 3.07062e-01	AbsError: 2.59162e+05
+      Equation: "ElectronContinuityEquation"	RelError: 1.03787e-01	AbsError: 2.58563e+05
+      Equation: "HoleContinuityEquation"	RelError: 2.03275e-01	AbsError: 5.98214e+02
+      Equation: "PotentialEquation"	RelError: 2.07829e-11	AbsError: 1.63237e-13
+  Circuit: 	RelError: 1.67060e-08	AbsError: 3.34181e-18
+Iteration: 6
+  Device: "bjt"	RelError: 1.02154e-01	AbsError: 8.29715e+03
+    Region: "bjt"	RelError: 1.02154e-01	AbsError: 8.29715e+03
+      Equation: "ElectronContinuityEquation"	RelError: 6.51795e-02	AbsError: 8.17769e+03
+      Equation: "HoleContinuityEquation"	RelError: 3.69744e-02	AbsError: 1.19452e+02
+      Equation: "PotentialEquation"	RelError: 5.60337e-12	AbsError: 1.89407e-16
+  Circuit: 	RelError: 8.87720e-09	AbsError: 1.77750e-18
+Iteration: 7
+  Device: "bjt"	RelError: 9.11964e-02	AbsError: 8.26679e+03
+    Region: "bjt"	RelError: 9.11964e-02	AbsError: 8.26679e+03
+      Equation: "ElectronContinuityEquation"	RelError: 3.34629e-02	AbsError: 8.17769e+03
+      Equation: "HoleContinuityEquation"	RelError: 5.77334e-02	AbsError: 8.90944e+01
+      Equation: "PotentialEquation"	RelError: 3.71427e-12	AbsError: 1.84096e-16
+  Circuit: 	RelError: 5.44845e-09	AbsError: 1.09163e-18
+Circuit Solution:
+Vb.I	1.5901e-12
+Vc.I	-1.60829e-12
+Ve.I	1.81926e-14
+base_bias	0
+collector_bias	0.2
+emitter_bias	0
+Succeeded
+BIAS collector 0.2
+HEADER: V(base) V(collector) V(emitter) I(base) I(collector) I(emitter)
+last end 0.000000e+00 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 4.12835e+01	AbsError: 1.26883e+17
+    Region: "bjt"	RelError: 4.12835e+01	AbsError: 1.26883e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.94300e-01	AbsError: 7.30443e+16
+      Equation: "HoleContinuityEquation"	RelError: 7.94392e-01	AbsError: 5.38392e+16
+      Equation: "PotentialEquation"	RelError: 3.96948e+01	AbsError: 1.00188e-01
+  Circuit: 	RelError: 1.00000e+00	AbsError: 1.00000e-01
+Iteration: 1
+  Device: "bjt"	RelError: 2.71221e+00	AbsError: 1.76845e+16
+    Region: "bjt"	RelError: 2.71221e+00	AbsError: 1.76845e+16
+      Equation: "ElectronContinuityEquation"	RelError: 9.02261e-01	AbsError: 9.78031e+15
+      Equation: "HoleContinuityEquation"	RelError: 9.01509e-01	AbsError: 7.90422e+15
+      Equation: "PotentialEquation"	RelError: 9.08440e-01	AbsError: 4.83479e-03
+  Circuit: 	RelError: 2.00057e-02	AbsError: 2.92682e-12
+Iteration: 2
+  Device: "bjt"	RelError: 1.51025e-01	AbsError: 1.96096e+14
+    Region: "bjt"	RelError: 1.51025e-01	AbsError: 1.96096e+14
+      Equation: "ElectronContinuityEquation"	RelError: 7.18002e-02	AbsError: 7.05812e+13
+      Equation: "HoleContinuityEquation"	RelError: 7.07050e-02	AbsError: 1.25515e+14
+      Equation: "PotentialEquation"	RelError: 8.52004e-03	AbsError: 6.05917e-05
+  Circuit: 	RelError: 1.14147e-04	AbsError: 2.32712e-14
+Iteration: 3
+  Device: "bjt"	RelError: 1.61375e-02	AbsError: 2.95146e+10
+    Region: "bjt"	RelError: 1.61375e-02	AbsError: 2.95146e+10
+      Equation: "ElectronContinuityEquation"	RelError: 1.15593e-02	AbsError: 9.16503e+09
+      Equation: "HoleContinuityEquation"	RelError: 4.57680e-03	AbsError: 2.03495e+10
+      Equation: "PotentialEquation"	RelError: 1.42736e-06	AbsError: 2.08702e-08
+  Circuit: 	RelError: 7.19258e-06	AbsError: 1.45425e-15
+Iteration: 4
+  Device: "bjt"	RelError: 7.90645e-03	AbsError: 3.21718e+06
+    Region: "bjt"	RelError: 7.90645e-03	AbsError: 3.21718e+06
+      Equation: "ElectronContinuityEquation"	RelError: 2.93200e-03	AbsError: 1.96532e+06
+      Equation: "HoleContinuityEquation"	RelError: 4.97444e-03	AbsError: 1.25185e+06
+      Equation: "PotentialEquation"	RelError: 3.82389e-11	AbsError: 2.72518e-12
+  Circuit: 	RelError: 1.79662e-08	AbsError: 3.64889e-18
+Iteration: 5
+  Device: "bjt"	RelError: 5.86650e-03	AbsError: 8.34361e+03
+    Region: "bjt"	RelError: 5.86650e-03	AbsError: 8.34361e+03
+      Equation: "ElectronContinuityEquation"	RelError: 1.03472e-03	AbsError: 8.19190e+03
+      Equation: "HoleContinuityEquation"	RelError: 4.83178e-03	AbsError: 1.51713e+02
+      Equation: "PotentialEquation"	RelError: 1.04476e-12	AbsError: 1.71871e-16
+  Circuit: 	RelError: 2.49854e-09	AbsError: 5.11889e-19
+Circuit Solution:
+Vb.I	1.37432e-12
+Vc.I	-2.43748e-12
+Ve.I	1.06316e-12
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.1
+Succeeded
+CURVE: 0 0.2 -0.1 -1.37431743525892e-12 2.43747538827334e-12 -1.06315795301441e-12
+last end -1.000000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 5.74541e+01	AbsError: 1.33170e+17
+    Region: "bjt"	RelError: 5.74541e+01	AbsError: 1.33170e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.94302e-01	AbsError: 7.81688e+16
+      Equation: "HoleContinuityEquation"	RelError: 7.94997e-01	AbsError: 5.50014e+16
+      Equation: "PotentialEquation"	RelError: 5.58648e+01	AbsError: 1.00104e-01
+  Circuit: 	RelError: 5.00000e-01	AbsError: 1.00000e-01
+Iteration: 1
+  Device: "bjt"	RelError: 2.18780e+00	AbsError: 1.75546e+16
+    Region: "bjt"	RelError: 2.18780e+00	AbsError: 1.75546e+16
+      Equation: "ElectronContinuityEquation"	RelError: 9.02003e-01	AbsError: 9.51416e+15
+      Equation: "HoleContinuityEquation"	RelError: 9.01688e-01	AbsError: 8.04046e+15
+      Equation: "PotentialEquation"	RelError: 3.84108e-01	AbsError: 4.15779e-03
+  Circuit: 	RelError: 2.52553e-01	AbsError: 7.12786e-11
+Iteration: 2
+  Device: "bjt"	RelError: 1.39605e-01	AbsError: 1.75626e+14
+    Region: "bjt"	RelError: 1.39605e-01	AbsError: 1.75626e+14
+      Equation: "ElectronContinuityEquation"	RelError: 6.49251e-02	AbsError: 8.24471e+13
+      Equation: "HoleContinuityEquation"	RelError: 7.11774e-02	AbsError: 9.31788e+13
+      Equation: "PotentialEquation"	RelError: 3.50244e-03	AbsError: 4.36508e-05
+  Circuit: 	RelError: 2.97470e-03	AbsError: 8.38802e-13
+Iteration: 3
+  Device: "bjt"	RelError: 1.71303e-02	AbsError: 1.69986e+11
+    Region: "bjt"	RelError: 1.71303e-02	AbsError: 1.69986e+11
+      Equation: "ElectronContinuityEquation"	RelError: 1.48682e-02	AbsError: 1.54259e+11
+      Equation: "HoleContinuityEquation"	RelError: 2.25297e-03	AbsError: 1.57274e+10
+      Equation: "PotentialEquation"	RelError: 9.14576e-06	AbsError: 3.97905e-08
+  Circuit: 	RelError: 2.20688e-04	AbsError: 6.22454e-14
+Iteration: 4
+  Device: "bjt"	RelError: 2.00892e-04	AbsError: 6.13513e+06
+    Region: "bjt"	RelError: 2.00892e-04	AbsError: 6.13513e+06
+      Equation: "ElectronContinuityEquation"	RelError: 2.38200e-05	AbsError: 2.09989e+06
+      Equation: "HoleContinuityEquation"	RelError: 1.77072e-04	AbsError: 4.03524e+06
+      Equation: "PotentialEquation"	RelError: 1.64786e-10	AbsError: 8.57759e-12
+  Circuit: 	RelError: 1.50741e-08	AbsError: 4.25666e-18
+Iteration: 5
+  Device: "bjt"	RelError: 1.92164e-04	AbsError: 8.28587e+03
+    Region: "bjt"	RelError: 1.92164e-04	AbsError: 8.28587e+03
+      Equation: "ElectronContinuityEquation"	RelError: 5.75339e-06	AbsError: 8.15812e+03
+      Equation: "HoleContinuityEquation"	RelError: 1.86411e-04	AbsError: 1.27759e+02
+      Equation: "PotentialEquation"	RelError: 8.56542e-13	AbsError: 5.16763e-16
+  Circuit: 	RelError: 1.76337e-09	AbsError: 4.97953e-19
+Circuit Solution:
+Vb.I	-1.778e-13
+Vc.I	-4.10156e-11
+Ve.I	4.11934e-11
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.2
+Succeeded
+CURVE: 0 0.2 -0.2 1.7779986000861e-13 4.10155950390391e-11 -4.11933948990477e-11
+last end -2.000000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 2.61448e+03	AbsError: 1.40186e+17
+    Region: "bjt"	RelError: 2.61448e+03	AbsError: 1.40186e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.94296e-01	AbsError: 8.11053e+16
+      Equation: "HoleContinuityEquation"	RelError: 7.94365e-01	AbsError: 5.90809e+16
+      Equation: "PotentialEquation"	RelError: 2.61289e+03	AbsError: 1.00074e-01
+  Circuit: 	RelError: 5.28245e-01	AbsError: 1.00000e-01
+Iteration: 1
+  Device: "bjt"	RelError: 4.63824e+00	AbsError: 1.92820e+16
+    Region: "bjt"	RelError: 4.63824e+00	AbsError: 1.92820e+16
+      Equation: "ElectronContinuityEquation"	RelError: 9.02168e-01	AbsError: 1.02598e+16
+      Equation: "HoleContinuityEquation"	RelError: 9.02214e-01	AbsError: 9.02228e+15
+      Equation: "PotentialEquation"	RelError: 2.83386e+00	AbsError: 4.27888e-03
+  Circuit: 	RelError: 8.50345e-01	AbsError: 3.33673e-09
+Iteration: 2
+  Device: "bjt"	RelError: 1.97158e-01	AbsError: 2.27678e+14
+    Region: "bjt"	RelError: 1.97158e-01	AbsError: 2.27678e+14
+      Equation: "ElectronContinuityEquation"	RelError: 9.56647e-02	AbsError: 1.00993e+14
+      Equation: "HoleContinuityEquation"	RelError: 6.64171e-02	AbsError: 1.26686e+14
+      Equation: "PotentialEquation"	RelError: 3.50762e-02	AbsError: 6.47838e-05
+  Circuit: 	RelError: 1.13612e-02	AbsError: 4.38961e-11
+Iteration: 3
+  Device: "bjt"	RelError: 3.14792e-02	AbsError: 3.62543e+11
+    Region: "bjt"	RelError: 3.14792e-02	AbsError: 3.62543e+11
+      Equation: "ElectronContinuityEquation"	RelError: 3.09400e-02	AbsError: 2.61728e+11
+      Equation: "HoleContinuityEquation"	RelError: 4.94729e-04	AbsError: 1.00816e+11
+      Equation: "PotentialEquation"	RelError: 4.44124e-05	AbsError: 8.79794e-08
+  Circuit: 	RelError: 1.17341e-03	AbsError: 4.53916e-12
+Iteration: 4
+  Device: "bjt"	RelError: 8.87522e-06	AbsError: 5.96960e+07
+    Region: "bjt"	RelError: 8.87522e-06	AbsError: 5.96960e+07
+      Equation: "ElectronContinuityEquation"	RelError: 3.72635e-06	AbsError: 2.32933e+07
+      Equation: "HoleContinuityEquation"	RelError: 5.13873e-06	AbsError: 3.64027e+07
+      Equation: "PotentialEquation"	RelError: 1.01376e-08	AbsError: 5.40349e-11
+  Circuit: 	RelError: 2.06037e-08	AbsError: 8.02079e-17
+Iteration: 5
+  Device: "bjt"	RelError: 5.73972e-07	AbsError: 2.58111e+04
+    Region: "bjt"	RelError: 5.73972e-07	AbsError: 2.58111e+04
+      Equation: "ElectronContinuityEquation"	RelError: 2.52638e-07	AbsError: 1.05104e+04
+      Equation: "HoleContinuityEquation"	RelError: 3.21326e-07	AbsError: 1.53007e+04
+      Equation: "PotentialEquation"	RelError: 7.52902e-12	AbsError: 1.57864e-14
+  Circuit: 	RelError: 2.89594e-10	AbsError: 1.12021e-18
+Circuit Solution:
+Vb.I	-1.23463e-11
+Vc.I	-1.83411e-09
+Ve.I	1.84645e-09
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.3
+Succeeded
+CURVE: 0 0.2 -0.3 1.2346267900703e-11 1.8341077389275e-09 -1.84645400682821e-09
+last end -3.000000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 1.01749e+04	AbsError: 3.23520e+17
+    Region: "bjt"	RelError: 1.01749e+04	AbsError: 3.23520e+17
+      Equation: "ElectronContinuityEquation"	RelError: 2.62839e+00	AbsError: 8.74933e+16
+      Equation: "HoleContinuityEquation"	RelError: 1.93893e+02	AbsError: 2.36027e+17
+      Equation: "PotentialEquation"	RelError: 9.97837e+03	AbsError: 1.66431e-01
+  Circuit: 	RelError: 7.84464e-01	AbsError: 1.00000e-01
+Iteration: 1
+  Device: "bjt"	RelError: 5.63154e+02	AbsError: 2.46753e+17
+    Region: "bjt"	RelError: 5.63154e+02	AbsError: 2.46753e+17
+      Equation: "ElectronContinuityEquation"	RelError: 2.82239e+02	AbsError: 4.61554e+16
+      Equation: "HoleContinuityEquation"	RelError: 1.66499e+02	AbsError: 2.00598e+17
+      Equation: "PotentialEquation"	RelError: 1.14416e+02	AbsError: 1.50282e-01
+  Circuit: 	RelError: 8.92068e-01	AbsError: 1.48510e-07
+Iteration: 2
+  Device: "bjt"	RelError: 8.39685e+03	AbsError: 1.00962e+17
+    Region: "bjt"	RelError: 8.39685e+03	AbsError: 1.00962e+17
+      Equation: "ElectronContinuityEquation"	RelError: 5.90401e+01	AbsError: 1.27615e+16
+      Equation: "HoleContinuityEquation"	RelError: 8.33686e+03	AbsError: 8.82009e+16
+      Equation: "PotentialEquation"	RelError: 9.54417e-01	AbsError: 2.70232e-02
+  Circuit: 	RelError: 4.73277e-02	AbsError: 8.26057e-09
+Iteration: 3
+  Device: "bjt"	RelError: 2.15484e+01	AbsError: 7.82356e+15
+    Region: "bjt"	RelError: 2.15484e+01	AbsError: 7.82356e+15
+      Equation: "ElectronContinuityEquation"	RelError: 7.40977e+00	AbsError: 6.67283e+14
+      Equation: "HoleContinuityEquation"	RelError: 1.40986e+01	AbsError: 7.15628e+15
+      Equation: "PotentialEquation"	RelError: 3.99491e-02	AbsError: 2.00394e-03
+  Circuit: 	RelError: 2.67198e-02	AbsError: 4.54230e-09
+Iteration: 4
+  Device: "bjt"	RelError: 2.74450e-01	AbsError: 1.96143e+13
+    Region: "bjt"	RelError: 2.74450e-01	AbsError: 1.96143e+13
+      Equation: "ElectronContinuityEquation"	RelError: 2.43341e-01	AbsError: 9.78766e+12
+      Equation: "HoleContinuityEquation"	RelError: 3.07580e-02	AbsError: 9.82664e+12
+      Equation: "PotentialEquation"	RelError: 3.50211e-04	AbsError: 4.18231e-06
+  Circuit: 	RelError: 1.92069e-03	AbsError: 3.27140e-10
+Iteration: 5
+  Device: "bjt"	RelError: 7.11489e-03	AbsError: 2.41138e+11
+    Region: "bjt"	RelError: 7.11489e-03	AbsError: 2.41138e+11
+      Equation: "ElectronContinuityEquation"	RelError: 5.50084e-03	AbsError: 3.85488e+10
+      Equation: "HoleContinuityEquation"	RelError: 1.61071e-03	AbsError: 2.02589e+11
+      Equation: "PotentialEquation"	RelError: 3.34505e-06	AbsError: 2.55511e-08
+  Circuit: 	RelError: 4.24260e-05	AbsError: 7.22659e-12
+Iteration: 6
+  Device: "bjt"	RelError: 1.04903e-06	AbsError: 9.59717e+07
+    Region: "bjt"	RelError: 1.04903e-06	AbsError: 9.59717e+07
+      Equation: "ElectronContinuityEquation"	RelError: 4.95848e-08	AbsError: 5.94828e+07
+      Equation: "HoleContinuityEquation"	RelError: 9.97834e-07	AbsError: 3.64889e+07
+      Equation: "PotentialEquation"	RelError: 1.60687e-09	AbsError: 4.44249e-11
+  Circuit: 	RelError: 3.03886e-11	AbsError: 2.10750e-18
+Iteration: 7
+  Device: "bjt"	RelError: 1.13278e-07	AbsError: 2.65262e+04
+    Region: "bjt"	RelError: 1.13278e-07	AbsError: 2.65262e+04
+      Equation: "ElectronContinuityEquation"	RelError: 2.52536e-08	AbsError: 1.43683e+04
+      Equation: "HoleContinuityEquation"	RelError: 8.80236e-08	AbsError: 1.21579e+04
+      Equation: "PotentialEquation"	RelError: 1.01050e-12	AbsError: 6.57408e-15
+  Circuit: 	RelError: 2.00883e-11	AbsError: 3.32969e-18
+Circuit Solution:
+Vb.I	-1.28251e-10
+Vc.I	-8.5066e-08
+Ve.I	8.51942e-08
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.4
+Succeeded
+CURVE: 0 0.2 -0.4 1.28250636806963e-10 8.50659985140022e-08 -8.51942491508093e-08
+last end -4.000000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 3.91068e+03	AbsError: 4.32151e+17
+    Region: "bjt"	RelError: 3.91068e+03	AbsError: 4.32151e+17
+      Equation: "ElectronContinuityEquation"	RelError: 4.40817e+01	AbsError: 2.68858e+17
+      Equation: "HoleContinuityEquation"	RelError: 1.81516e+01	AbsError: 1.63293e+17
+      Equation: "PotentialEquation"	RelError: 3.84845e+03	AbsError: 2.22674e-01
+  Circuit: 	RelError: 7.93095e-01	AbsError: 1.00001e-01
+Iteration: 1
+  Device: "bjt"	RelError: 1.67235e+02	AbsError: 4.59453e+17
+    Region: "bjt"	RelError: 1.67235e+02	AbsError: 4.59453e+17
+      Equation: "ElectronContinuityEquation"	RelError: 1.36465e+02	AbsError: 2.18784e+17
+      Equation: "HoleContinuityEquation"	RelError: 2.81305e+01	AbsError: 2.40669e+17
+      Equation: "PotentialEquation"	RelError: 2.63981e+00	AbsError: 2.13158e-01
+  Circuit: 	RelError: 1.01733e+00	AbsError: 2.15625e-05
+Iteration: 2
+  Device: "bjt"	RelError: 2.50662e+03	AbsError: 5.20836e+17
+    Region: "bjt"	RelError: 2.50662e+03	AbsError: 5.20836e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.76180e+02	AbsError: 1.00652e+17
+      Equation: "HoleContinuityEquation"	RelError: 1.72988e+03	AbsError: 4.20185e+17
+      Equation: "PotentialEquation"	RelError: 5.61531e-01	AbsError: 9.15291e-02
+  Circuit: 	RelError: 1.51917e+00	AbsError: 7.50907e-05
+Iteration: 3
+  Device: "bjt"	RelError: 2.23818e+04	AbsError: 1.89917e+17
+    Region: "bjt"	RelError: 2.23818e+04	AbsError: 1.89917e+17
+      Equation: "ElectronContinuityEquation"	RelError: 2.16375e+04	AbsError: 3.08519e+16
+      Equation: "HoleContinuityEquation"	RelError: 7.44155e+02	AbsError: 1.59065e+17
+      Equation: "PotentialEquation"	RelError: 1.31761e-01	AbsError: 3.49523e-02
+  Circuit: 	RelError: 4.11221e+01	AbsError: 9.03670e-05
+Iteration: 4
+  Device: "bjt"	RelError: 1.88571e+02	AbsError: 2.31842e+16
+    Region: "bjt"	RelError: 1.88571e+02	AbsError: 2.31842e+16
+      Equation: "ElectronContinuityEquation"	RelError: 1.11257e+01	AbsError: 2.93947e+15
+      Equation: "HoleContinuityEquation"	RelError: 1.77412e+02	AbsError: 2.02447e+16
+      Equation: "PotentialEquation"	RelError: 3.37303e-02	AbsError: 4.31728e-03
+  Circuit: 	RelError: 6.08807e-01	AbsError: 8.24258e-07
+Iteration: 5
+  Device: "bjt"	RelError: 1.04689e+01	AbsError: 4.21167e+14
+    Region: "bjt"	RelError: 1.04689e+01	AbsError: 4.21167e+14
+      Equation: "ElectronContinuityEquation"	RelError: 7.90274e-01	AbsError: 5.76333e+13
+      Equation: "HoleContinuityEquation"	RelError: 9.67796e+00	AbsError: 3.63534e+14
+      Equation: "PotentialEquation"	RelError: 7.10019e-04	AbsError: 7.62775e-05
+  Circuit: 	RelError: 1.45005e-02	AbsError: 6.92778e-09
+Iteration: 6
+  Device: "bjt"	RelError: 2.66789e-03	AbsError: 1.90867e+11
+    Region: "bjt"	RelError: 2.66789e-03	AbsError: 1.90867e+11
+      Equation: "ElectronContinuityEquation"	RelError: 8.56480e-04	AbsError: 7.59641e+10
+      Equation: "HoleContinuityEquation"	RelError: 1.80918e-03	AbsError: 1.14903e+11
+      Equation: "PotentialEquation"	RelError: 2.23693e-06	AbsError: 4.30327e-08
+  Circuit: 	RelError: 1.04471e-04	AbsError: 3.90973e-11
+Iteration: 7
+  Device: "bjt"	RelError: 1.20702e-06	AbsError: 5.26452e+07
+    Region: "bjt"	RelError: 1.20702e-06	AbsError: 5.26452e+07
+      Equation: "ElectronContinuityEquation"	RelError: 2.32561e-08	AbsError: 3.48945e+07
+      Equation: "HoleContinuityEquation"	RelError: 1.18118e-06	AbsError: 1.77507e+07
+      Equation: "PotentialEquation"	RelError: 2.58578e-09	AbsError: 2.39955e-11
+  Circuit: 	RelError: 1.27418e-09	AbsError: 1.49204e-17
+Iteration: 8
+  Device: "bjt"	RelError: 8.34492e-10	AbsError: 1.84577e+04
+    Region: "bjt"	RelError: 8.34492e-10	AbsError: 1.84577e+04
+      Equation: "ElectronContinuityEquation"	RelError: 4.53668e-10	AbsError: 8.18401e+03
+      Equation: "HoleContinuityEquation"	RelError: 3.80222e-10	AbsError: 1.02737e+04
+      Equation: "PotentialEquation"	RelError: 6.01915e-13	AbsError: 4.40199e-15
+  Circuit: 	RelError: 1.07782e-12	AbsError: 3.88206e-18
+Circuit Solution:
+Vb.I	-2.14708e-09
+Vc.I	-3.94154e-06
+Ve.I	3.94369e-06
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.5
+Succeeded
+CURVE: 0 0.2 -0.5 2.14707952948817e-09 3.94154090291162e-06 -3.94368798244111e-06
+last end -5.000000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 1.64314e+02	AbsError: 3.68131e+17
+    Region: "bjt"	RelError: 1.64314e+02	AbsError: 3.68131e+17
+      Equation: "ElectronContinuityEquation"	RelError: 2.11292e+00	AbsError: 2.03537e+17
+      Equation: "HoleContinuityEquation"	RelError: 1.55251e+02	AbsError: 1.64594e+17
+      Equation: "PotentialEquation"	RelError: 6.94956e+00	AbsError: 1.49148e-01
+  Circuit: 	RelError: 7.93135e-01	AbsError: 1.00030e-01
+Iteration: 1
+  Device: "bjt"	RelError: 1.40054e+02	AbsError: 2.69458e+17
+    Region: "bjt"	RelError: 1.40054e+02	AbsError: 2.69458e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.98703e+00	AbsError: 1.55879e+17
+      Equation: "HoleContinuityEquation"	RelError: 1.26405e+02	AbsError: 1.13579e+17
+      Equation: "PotentialEquation"	RelError: 5.66167e+00	AbsError: 9.07391e-02
+  Circuit: 	RelError: 8.96833e-01	AbsError: 3.31385e-04
+Iteration: 2
+  Device: "bjt"	RelError: 4.39531e+01	AbsError: 9.94871e+16
+    Region: "bjt"	RelError: 4.39531e+01	AbsError: 9.94871e+16
+      Equation: "ElectronContinuityEquation"	RelError: 5.07573e+00	AbsError: 6.57723e+16
+      Equation: "HoleContinuityEquation"	RelError: 3.88084e+01	AbsError: 3.37148e+16
+      Equation: "PotentialEquation"	RelError: 6.90053e-02	AbsError: 1.45359e-02
+  Circuit: 	RelError: 1.39880e-01	AbsError: 1.00159e-05
+Iteration: 3
+  Device: "bjt"	RelError: 1.06839e+00	AbsError: 6.64468e+15
+    Region: "bjt"	RelError: 1.06839e+00	AbsError: 6.64468e+15
+      Equation: "ElectronContinuityEquation"	RelError: 2.38703e-01	AbsError: 5.35130e+15
+      Equation: "HoleContinuityEquation"	RelError: 8.24245e-01	AbsError: 1.29338e+15
+      Equation: "PotentialEquation"	RelError: 5.44007e-03	AbsError: 1.18500e-03
+  Circuit: 	RelError: 2.16341e-02	AbsError: 4.72001e-06
+Iteration: 4
+  Device: "bjt"	RelError: 1.74926e-02	AbsError: 1.45335e+13
+    Region: "bjt"	RelError: 1.74926e-02	AbsError: 1.45335e+13
+      Equation: "ElectronContinuityEquation"	RelError: 1.50411e-02	AbsError: 1.33961e+13
+      Equation: "HoleContinuityEquation"	RelError: 2.43806e-03	AbsError: 1.13738e+12
+      Equation: "PotentialEquation"	RelError: 1.34474e-05	AbsError: 2.92917e-06
+  Circuit: 	RelError: 2.07437e-04	AbsError: 7.55442e-08
+Iteration: 5
+  Device: "bjt"	RelError: 2.32759e-05	AbsError: 9.86012e+10
+    Region: "bjt"	RelError: 2.32759e-05	AbsError: 9.86012e+10
+      Equation: "ElectronContinuityEquation"	RelError: 1.96099e-05	AbsError: 8.80290e+10
+      Equation: "HoleContinuityEquation"	RelError: 3.57372e-06	AbsError: 1.05722e+10
+      Equation: "PotentialEquation"	RelError: 9.22438e-08	AbsError: 2.00930e-08
+  Circuit: 	RelError: 5.58459e-08	AbsError: 2.03392e-11
+Iteration: 6
+  Device: "bjt"	RelError: 2.50113e-09	AbsError: 5.70301e+06
+    Region: "bjt"	RelError: 2.50113e-09	AbsError: 5.70301e+06
+      Equation: "ElectronContinuityEquation"	RelError: 6.21417e-11	AbsError: 2.35162e+06
+      Equation: "HoleContinuityEquation"	RelError: 2.42823e-09	AbsError: 3.35139e+06
+      Equation: "PotentialEquation"	RelError: 1.07552e-11	AbsError: 1.60814e-12
+  Circuit: 	RelError: 1.43543e-13	AbsError: 5.21528e-17
+Iteration: 7
+  Device: "bjt"	RelError: 2.26917e-11	AbsError: 8.48990e+03
+    Region: "bjt"	RelError: 2.26917e-11	AbsError: 8.48990e+03
+      Equation: "ElectronContinuityEquation"	RelError: 1.33113e-11	AbsError: 8.15866e+03
+      Equation: "HoleContinuityEquation"	RelError: 8.83882e-12	AbsError: 3.31240e+02
+      Equation: "PotentialEquation"	RelError: 5.41620e-13	AbsError: 4.11896e-16
+  Circuit: 	RelError: 6.36065e-13	AbsError: 1.03562e-17
+Circuit Solution:
+Vb.I	-7.1536e-08
+Vc.I	-0.000182083
+Ve.I	0.000182154
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.6
+Succeeded
+CURVE: 0 0.2 -0.6 7.15359789371184e-08 0.000182082850691848 -0.000182154386670785
+last end -6.000000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 1.14991e+01	AbsError: 3.25591e+17
+    Region: "bjt"	RelError: 1.14991e+01	AbsError: 3.25591e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.99712e-01	AbsError: 1.79649e+17
+      Equation: "HoleContinuityEquation"	RelError: 9.82525e+00	AbsError: 1.45942e+17
+      Equation: "PotentialEquation"	RelError: 8.74157e-01	AbsError: 1.03853e-01
+  Circuit: 	RelError: 7.92968e-01	AbsError: 1.01395e-01
+Iteration: 1
+  Device: "bjt"	RelError: 1.19575e+01	AbsError: 2.56839e+17
+    Region: "bjt"	RelError: 1.19575e+01	AbsError: 2.56839e+17
+      Equation: "ElectronContinuityEquation"	RelError: 9.10679e-01	AbsError: 1.66678e+17
+      Equation: "HoleContinuityEquation"	RelError: 9.20683e-01	AbsError: 9.01615e+16
+      Equation: "PotentialEquation"	RelError: 1.01262e+01	AbsError: 2.84057e-02
+  Circuit: 	RelError: 8.96846e-01	AbsError: 1.52989e-02
+Iteration: 2
+  Device: "bjt"	RelError: 1.31681e+00	AbsError: 2.43331e+16
+    Region: "bjt"	RelError: 1.31681e+00	AbsError: 2.43331e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.94895e-01	AbsError: 8.34417e+15
+      Equation: "HoleContinuityEquation"	RelError: 3.21049e-01	AbsError: 1.59889e+16
+      Equation: "PotentialEquation"	RelError: 5.00866e-01	AbsError: 5.68278e-03
+  Circuit: 	RelError: 2.98906e-02	AbsError: 4.84899e-04
+Iteration: 3
+  Device: "bjt"	RelError: 1.88039e-01	AbsError: 2.83742e+14
+    Region: "bjt"	RelError: 1.88039e-01	AbsError: 2.83742e+14
+      Equation: "ElectronContinuityEquation"	RelError: 4.18736e-02	AbsError: 4.27816e+13
+      Equation: "HoleContinuityEquation"	RelError: 1.49807e-02	AbsError: 2.40961e+14
+      Equation: "PotentialEquation"	RelError: 1.31185e-01	AbsError: 7.25718e-05
+  Circuit: 	RelError: 8.73574e-03	AbsError: 1.46007e-04
+Iteration: 4
+  Device: "bjt"	RelError: 2.91272e-03	AbsError: 4.17225e+12
+    Region: "bjt"	RelError: 2.91272e-03	AbsError: 4.17225e+12
+      Equation: "ElectronContinuityEquation"	RelError: 2.64092e-03	AbsError: 3.64413e+12
+      Equation: "HoleContinuityEquation"	RelError: 6.63352e-05	AbsError: 5.28118e+11
+      Equation: "PotentialEquation"	RelError: 2.05472e-04	AbsError: 1.02492e-06
+  Circuit: 	RelError: 8.69918e-06	AbsError: 1.45440e-07
+Iteration: 5
+  Device: "bjt"	RelError: 8.78865e-07	AbsError: 6.16650e+09
+    Region: "bjt"	RelError: 8.78865e-07	AbsError: 6.16650e+09
+      Equation: "ElectronContinuityEquation"	RelError: 4.64266e-07	AbsError: 5.10796e+09
+      Equation: "HoleContinuityEquation"	RelError: 3.82621e-07	AbsError: 1.05855e+09
+      Equation: "PotentialEquation"	RelError: 3.19770e-08	AbsError: 7.69554e-10
+  Circuit: 	RelError: 1.24020e-09	AbsError: 2.07358e-11
+Iteration: 6
+  Device: "bjt"	RelError: 5.01419e-09	AbsError: 1.41339e+06
+    Region: "bjt"	RelError: 5.01419e-09	AbsError: 1.41339e+06
+      Equation: "ElectronContinuityEquation"	RelError: 7.41531e-12	AbsError: 9.22925e+05
+      Equation: "HoleContinuityEquation"	RelError: 4.91675e-09	AbsError: 4.90462e+05
+      Equation: "PotentialEquation"	RelError: 9.00213e-11	AbsError: 6.61454e-13
+  Circuit: 	RelError: 2.36766e-14	AbsError: 4.38035e-17
+Iteration: 7
+  Device: "bjt"	RelError: 1.31499e-12	AbsError: 8.29854e+03
+    Region: "bjt"	RelError: 1.31499e-12	AbsError: 8.29854e+03
+      Equation: "ElectronContinuityEquation"	RelError: 1.85166e-13	AbsError: 8.16355e+03
+      Equation: "HoleContinuityEquation"	RelError: 7.13848e-13	AbsError: 1.34989e+02
+      Equation: "PotentialEquation"	RelError: 4.15972e-13	AbsError: 2.50789e-16
+  Circuit: 	RelError: 4.10086e-14	AbsError: 3.87949e-17
+Circuit Solution:
+Vb.I	-3.16172e-06
+Vc.I	-0.00835673
+Ve.I	0.00835989
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.7
+Succeeded
+CURVE: 0 0.2 -0.7 3.16172233355341e-06 0.0083567272609568 -0.00835988898329036
+last end -7.000000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 1.46898e+01	AbsError: 3.54817e+17
+    Region: "bjt"	RelError: 1.46898e+01	AbsError: 3.54817e+17
+      Equation: "ElectronContinuityEquation"	RelError: 8.00823e-01	AbsError: 1.83020e+17
+      Equation: "HoleContinuityEquation"	RelError: 7.98328e-01	AbsError: 1.71797e+17
+      Equation: "PotentialEquation"	RelError: 1.30906e+01	AbsError: 1.02486e-01
+  Circuit: 	RelError: 7.93094e-01	AbsError: 1.63852e-01
+Iteration: 1
+  Device: "bjt"	RelError: 9.84903e+01	AbsError: 2.79584e+17
+    Region: "bjt"	RelError: 9.84903e+01	AbsError: 2.79584e+17
+      Equation: "ElectronContinuityEquation"	RelError: 9.08410e-01	AbsError: 1.76034e+17
+      Equation: "HoleContinuityEquation"	RelError: 9.04399e-01	AbsError: 1.03550e+17
+      Equation: "PotentialEquation"	RelError: 9.66775e+01	AbsError: 5.70338e-02
+  Circuit: 	RelError: 8.94092e-01	AbsError: 6.60860e-01
+Iteration: 2
+  Device: "bjt"	RelError: 1.64130e+02	AbsError: 4.93135e+16
+    Region: "bjt"	RelError: 1.64130e+02	AbsError: 4.93135e+16
+      Equation: "ElectronContinuityEquation"	RelError: 7.00558e-01	AbsError: 2.99047e+16
+      Equation: "HoleContinuityEquation"	RelError: 6.44348e-01	AbsError: 1.94088e+16
+      Equation: "PotentialEquation"	RelError: 1.62785e+02	AbsError: 4.74747e-03
+  Circuit: 	RelError: 1.98434e-02	AbsError: 8.99855e-03
+Iteration: 3
+  Device: "bjt"	RelError: 1.54053e+00	AbsError: 1.77847e+15
+    Region: "bjt"	RelError: 1.54053e+00	AbsError: 1.77847e+15
+      Equation: "ElectronContinuityEquation"	RelError: 3.10087e-02	AbsError: 1.28385e+15
+      Equation: "HoleContinuityEquation"	RelError: 2.51591e-02	AbsError: 4.94620e+14
+      Equation: "PotentialEquation"	RelError: 1.48436e+00	AbsError: 4.74542e-04
+  Circuit: 	RelError: 6.69873e-03	AbsError: 4.93774e-03
+Iteration: 4
+  Device: "bjt"	RelError: 1.06985e-02	AbsError: 1.34338e+14
+    Region: "bjt"	RelError: 1.06985e-02	AbsError: 1.34338e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.22213e-03	AbsError: 9.22080e+13
+      Equation: "HoleContinuityEquation"	RelError: 5.15342e-04	AbsError: 4.21295e+13
+      Equation: "PotentialEquation"	RelError: 7.96102e-03	AbsError: 1.28897e-05
+  Circuit: 	RelError: 2.22289e-05	AbsError: 1.63866e-05
+Iteration: 5
+  Device: "bjt"	RelError: 9.54990e-05	AbsError: 3.03363e+10
+    Region: "bjt"	RelError: 9.54990e-05	AbsError: 3.03363e+10
+      Equation: "ElectronContinuityEquation"	RelError: 3.52095e-07	AbsError: 8.01199e+09
+      Equation: "HoleContinuityEquation"	RelError: 4.93746e-05	AbsError: 2.23243e+10
+      Equation: "PotentialEquation"	RelError: 4.57724e-05	AbsError: 8.33141e-09
+  Circuit: 	RelError: 1.79839e-08	AbsError: 1.32600e-08
+Iteration: 6
+  Device: "bjt"	RelError: 9.62732e-07	AbsError: 1.26310e+07
+    Region: "bjt"	RelError: 9.62732e-07	AbsError: 1.26310e+07
+      Equation: "ElectronContinuityEquation"	RelError: 9.94772e-11	AbsError: 8.90023e+06
+      Equation: "HoleContinuityEquation"	RelError: 8.06920e-07	AbsError: 3.73073e+06
+      Equation: "PotentialEquation"	RelError: 1.55713e-07	AbsError: 1.05599e-11
+  Circuit: 	RelError: 5.31297e-14	AbsError: 3.88809e-14
+Iteration: 7
+  Device: "bjt"	RelError: 8.18450e-12	AbsError: 8.30577e+03
+    Region: "bjt"	RelError: 8.18450e-12	AbsError: 8.30577e+03
+      Equation: "ElectronContinuityEquation"	RelError: 8.00266e-14	AbsError: 8.17073e+03
+      Equation: "HoleContinuityEquation"	RelError: 3.49120e-13	AbsError: 1.35037e+02
+      Equation: "PotentialEquation"	RelError: 7.75535e-12	AbsError: 3.59672e-16
+  Circuit: 	RelError: 2.45082e-15	AbsError: 7.56037e-16
+Circuit Solution:
+Vb.I	-0.000147323
+Vc.I	-0.368549
+Ve.I	0.368697
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.8
+Succeeded
+CURVE: 0 0.2 -0.8 0.000147323401913744 0.368549270470709 -0.368696593872622
+last end -8.000000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 1.23195e+03	AbsError: 4.61310e+17
+    Region: "bjt"	RelError: 1.23195e+03	AbsError: 4.61310e+17
+      Equation: "ElectronContinuityEquation"	RelError: 8.04625e-01	AbsError: 1.87990e+17
+      Equation: "HoleContinuityEquation"	RelError: 1.56329e+00	AbsError: 2.73320e+17
+      Equation: "PotentialEquation"	RelError: 1.22958e+03	AbsError: 2.35299e-01
+  Circuit: 	RelError: 7.93062e-01	AbsError: 2.83142e+00
+Iteration: 1
+  Device: "bjt"	RelError: 1.36379e+03	AbsError: 6.21834e+17
+    Region: "bjt"	RelError: 1.36379e+03	AbsError: 6.21834e+17
+      Equation: "ElectronContinuityEquation"	RelError: 9.31929e-01	AbsError: 3.04862e+17
+      Equation: "HoleContinuityEquation"	RelError: 1.36361e+02	AbsError: 3.16972e+17
+      Equation: "PotentialEquation"	RelError: 1.22650e+03	AbsError: 1.91113e+00
+  Circuit: 	RelError: 8.88779e-01	AbsError: 1.94649e+01
+Iteration: 2
+  Device: "bjt"	RelError: 2.99598e+04	AbsError: 5.27180e+18
+    Region: "bjt"	RelError: 2.99598e+04	AbsError: 5.27180e+18
+      Equation: "ElectronContinuityEquation"	RelError: 1.04076e+03	AbsError: 2.59174e+18
+      Equation: "HoleContinuityEquation"	RelError: 3.25045e+03	AbsError: 2.68006e+18
+      Equation: "PotentialEquation"	RelError: 2.56686e+04	AbsError: 1.52614e+01
+  Circuit: 	RelError: 6.23081e-01	AbsError: 7.62381e+00
+Iteration: 3
+  Device: "bjt"	RelError: 1.65910e+04	AbsError: 2.45484e+20
+    Region: "bjt"	RelError: 1.65910e+04	AbsError: 2.45484e+20
+      Equation: "ElectronContinuityEquation"	RelError: 1.05280e+03	AbsError: 1.05442e+20
+      Equation: "HoleContinuityEquation"	RelError: 1.28518e+04	AbsError: 1.40042e+20
+      Equation: "PotentialEquation"	RelError: 2.68641e+03	AbsError: 1.27044e+02
+  Circuit: 	RelError: 1.41208e+00	AbsError: 3.19348e+01
+Iteration: 4
+  Device: "bjt"	RelError: 1.95812e+05	AbsError: 6.05486e+21
+    Region: "bjt"	RelError: 1.95812e+05	AbsError: 6.05486e+21
+      Equation: "ElectronContinuityEquation"	RelError: 1.89723e+05	AbsError: 3.95465e+21
+      Equation: "HoleContinuityEquation"	RelError: 4.72297e+03	AbsError: 2.10022e+21
+      Equation: "PotentialEquation"	RelError: 1.36535e+03	AbsError: 3.31727e+03
+  Circuit: 	RelError: 1.11350e+00	AbsError: 1.16052e+03
+setting new step size 5.000000e-02
+last end -8.000000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 3.68736e+02	AbsError: 1.85920e+17
+    Region: "bjt"	RelError: 3.68736e+02	AbsError: 1.85920e+17
+      Equation: "ElectronContinuityEquation"	RelError: 6.93873e-01	AbsError: 9.06524e+16
+      Equation: "HoleContinuityEquation"	RelError: 3.67293e+01	AbsError: 9.52679e+16
+      Equation: "PotentialEquation"	RelError: 3.31313e+02	AbsError: 1.17173e-01
+  Circuit: 	RelError: 6.57086e-01	AbsError: 1.41571e+00
+Iteration: 1
+  Device: "bjt"	RelError: 2.34680e+02	AbsError: 1.07351e+17
+    Region: "bjt"	RelError: 2.34680e+02	AbsError: 1.07351e+17
+      Equation: "ElectronContinuityEquation"	RelError: 5.96439e-01	AbsError: 5.32125e+16
+      Equation: "HoleContinuityEquation"	RelError: 1.02612e+00	AbsError: 5.41384e+16
+      Equation: "PotentialEquation"	RelError: 2.33057e+02	AbsError: 2.14350e-01
+  Circuit: 	RelError: 5.62747e-01	AbsError: 2.31065e+00
+Iteration: 2
+  Device: "bjt"	RelError: 1.22558e+01	AbsError: 2.40786e+16
+    Region: "bjt"	RelError: 1.22558e+01	AbsError: 2.40786e+16
+      Equation: "ElectronContinuityEquation"	RelError: 1.69236e-01	AbsError: 7.87354e+15
+      Equation: "HoleContinuityEquation"	RelError: 9.98764e-01	AbsError: 1.62051e+16
+      Equation: "PotentialEquation"	RelError: 1.10878e+01	AbsError: 1.62633e-02
+  Circuit: 	RelError: 1.28572e-02	AbsError: 5.60037e-02
+Iteration: 3
+  Device: "bjt"	RelError: 9.91545e-01	AbsError: 1.99377e+15
+    Region: "bjt"	RelError: 9.91545e-01	AbsError: 1.99377e+15
+      Equation: "ElectronContinuityEquation"	RelError: 3.99054e-02	AbsError: 4.95374e+14
+      Equation: "HoleContinuityEquation"	RelError: 3.75859e-01	AbsError: 1.49840e+15
+      Equation: "PotentialEquation"	RelError: 5.75780e-01	AbsError: 1.02399e-03
+  Circuit: 	RelError: 4.56331e-04	AbsError: 1.98896e-03
+Iteration: 4
+  Device: "bjt"	RelError: 5.88521e-03	AbsError: 4.99139e+12
+    Region: "bjt"	RelError: 5.88521e-03	AbsError: 4.99139e+12
+      Equation: "ElectronContinuityEquation"	RelError: 2.30250e-04	AbsError: 9.77348e+11
+      Equation: "HoleContinuityEquation"	RelError: 1.46838e-03	AbsError: 4.01405e+12
+      Equation: "PotentialEquation"	RelError: 4.18658e-03	AbsError: 3.10479e-06
+  Circuit: 	RelError: 5.92210e-06	AbsError: 2.44217e-05
+Iteration: 5
+  Device: "bjt"	RelError: 4.05604e-04	AbsError: 1.36154e+11
+    Region: "bjt"	RelError: 4.05604e-04	AbsError: 1.36154e+11
+      Equation: "ElectronContinuityEquation"	RelError: 9.30710e-07	AbsError: 3.67476e+10
+      Equation: "HoleContinuityEquation"	RelError: 1.66131e-04	AbsError: 9.94059e+10
+      Equation: "PotentialEquation"	RelError: 2.38543e-04	AbsError: 1.59487e-07
+  Circuit: 	RelError: 2.83957e-07	AbsError: 1.23793e-06
+Iteration: 6
+  Device: "bjt"	RelError: 3.55147e-06	AbsError: 5.40209e+08
+    Region: "bjt"	RelError: 3.55147e-06	AbsError: 5.40209e+08
+      Equation: "ElectronContinuityEquation"	RelError: 2.95992e-09	AbsError: 3.09960e+08
+      Equation: "HoleContinuityEquation"	RelError: 3.48824e-06	AbsError: 2.30249e+08
+      Equation: "PotentialEquation"	RelError: 6.02660e-08	AbsError: 2.72180e-10
+  Circuit: 	RelError: 2.46201e-13	AbsError: 1.07245e-12
+Iteration: 7
+  Device: "bjt"	RelError: 4.20506e-12	AbsError: 1.01605e+04
+    Region: "bjt"	RelError: 4.20506e-12	AbsError: 1.01605e+04
+      Equation: "ElectronContinuityEquation"	RelError: 2.18500e-13	AbsError: 8.17273e+03
+      Equation: "HoleContinuityEquation"	RelError: 2.84043e-13	AbsError: 1.98778e+03
+      Equation: "PotentialEquation"	RelError: 3.70252e-12	AbsError: 6.88530e-15
+  Circuit: 	RelError: 1.25884e-15	AbsError: 2.37755e-15
+Circuit Solution:
+Vb.I	-0.000982429
+Vc.I	-2.1789
+Ve.I	2.17988
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.85
+Succeeded
+CURVE: 0 0.2 -0.85 0.000982429003984083 2.17890154083164 -2.17988396983563
+last end -8.500000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 2.91551e+03	AbsError: 3.94329e+17
+    Region: "bjt"	RelError: 2.91551e+03	AbsError: 3.94329e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.33008e-01	AbsError: 1.91401e+17
+      Equation: "HoleContinuityEquation"	RelError: 2.02231e+00	AbsError: 2.02929e+17
+      Equation: "PotentialEquation"	RelError: 2.91275e+03	AbsError: 7.59904e-01
+  Circuit: 	RelError: 6.51043e-01	AbsError: 7.29806e+00
+Iteration: 1
+  Device: "bjt"	RelError: 2.58100e+03	AbsError: 3.49980e+18
+    Region: "bjt"	RelError: 2.58100e+03	AbsError: 3.49980e+18
+      Equation: "ElectronContinuityEquation"	RelError: 8.06080e+02	AbsError: 1.52069e+18
+      Equation: "HoleContinuityEquation"	RelError: 1.05778e+03	AbsError: 1.97911e+18
+      Equation: "PotentialEquation"	RelError: 7.17132e+02	AbsError: 1.12701e+01
+  Circuit: 	RelError: 5.05917e-01	AbsError: 1.25667e+00
+Iteration: 2
+  Device: "bjt"	RelError: 1.05677e+04	AbsError: 5.81613e+19
+    Region: "bjt"	RelError: 1.05677e+04	AbsError: 5.81613e+19
+      Equation: "ElectronContinuityEquation"	RelError: 2.88952e+03	AbsError: 3.49568e+19
+      Equation: "HoleContinuityEquation"	RelError: 1.79423e+03	AbsError: 2.32045e+19
+      Equation: "PotentialEquation"	RelError: 5.88395e+03	AbsError: 2.11159e+01
+  Circuit: 	RelError: 4.54773e+00	AbsError: 1.65194e+01
+Iteration: 3
+  Device: "bjt"	RelError: 1.58392e+04	AbsError: 2.23995e+20
+    Region: "bjt"	RelError: 1.58392e+04	AbsError: 2.23995e+20
+      Equation: "ElectronContinuityEquation"	RelError: 7.89008e+03	AbsError: 5.74921e+19
+      Equation: "HoleContinuityEquation"	RelError: 7.57754e+03	AbsError: 1.66503e+20
+      Equation: "PotentialEquation"	RelError: 3.71527e+02	AbsError: 3.15999e+01
+  Circuit: 	RelError: 9.08869e+00	AbsError: 6.50656e+00
+Iteration: 4
+  Device: "bjt"	RelError: 1.22869e+04	AbsError: 2.04682e+22
+    Region: "bjt"	RelError: 1.22869e+04	AbsError: 2.04682e+22
+      Equation: "ElectronContinuityEquation"	RelError: 2.55949e+03	AbsError: 1.70655e+22
+      Equation: "HoleContinuityEquation"	RelError: 2.25963e+03	AbsError: 3.40268e+21
+      Equation: "PotentialEquation"	RelError: 7.46778e+03	AbsError: 1.93367e+04
+  Circuit: 	RelError: 1.05966e+00	AbsError: 2.39015e+03
+setting new step size 2.500000e-02
+last end -8.500000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 1.67940e+02	AbsError: 1.92251e+17
+    Region: "bjt"	RelError: 1.67940e+02	AbsError: 1.92251e+17
+      Equation: "ElectronContinuityEquation"	RelError: 5.78541e-01	AbsError: 9.65346e+16
+      Equation: "HoleContinuityEquation"	RelError: 9.36094e-01	AbsError: 9.57163e+16
+      Equation: "PotentialEquation"	RelError: 1.66426e+02	AbsError: 3.79952e-01
+  Circuit: 	RelError: 4.82627e-01	AbsError: 3.64903e+00
+Iteration: 1
+  Device: "bjt"	RelError: 3.33476e+02	AbsError: 9.39333e+16
+    Region: "bjt"	RelError: 3.33476e+02	AbsError: 9.39333e+16
+      Equation: "ElectronContinuityEquation"	RelError: 7.57181e-01	AbsError: 4.82888e+16
+      Equation: "HoleContinuityEquation"	RelError: 9.99996e-01	AbsError: 4.56445e+16
+      Equation: "PotentialEquation"	RelError: 3.31719e+02	AbsError: 2.51093e-01
+  Circuit: 	RelError: 2.29949e-01	AbsError: 1.56285e+00
+Iteration: 2
+  Device: "bjt"	RelError: 9.72146e+02	AbsError: 3.57212e+18
+    Region: "bjt"	RelError: 9.72146e+02	AbsError: 3.57212e+18
+      Equation: "ElectronContinuityEquation"	RelError: 9.90346e-01	AbsError: 1.74130e+18
+      Equation: "HoleContinuityEquation"	RelError: 5.04040e+02	AbsError: 1.83082e+18
+      Equation: "PotentialEquation"	RelError: 4.67116e+02	AbsError: 8.06309e+00
+  Circuit: 	RelError: 6.66417e-01	AbsError: 1.90698e+01
+Iteration: 3
+  Device: "bjt"	RelError: 1.78634e+04	AbsError: 1.00330e+19
+    Region: "bjt"	RelError: 1.78634e+04	AbsError: 1.00330e+19
+      Equation: "ElectronContinuityEquation"	RelError: 3.86229e+03	AbsError: 4.92334e+18
+      Equation: "HoleContinuityEquation"	RelError: 1.22078e+04	AbsError: 5.10962e+18
+      Equation: "PotentialEquation"	RelError: 1.79334e+03	AbsError: 1.06945e+01
+  Circuit: 	RelError: 1.61531e+00	AbsError: 9.88934e+00
+Iteration: 4
+  Device: "bjt"	RelError: 1.10635e+04	AbsError: 3.21609e+20
+    Region: "bjt"	RelError: 1.10635e+04	AbsError: 3.21609e+20
+      Equation: "ElectronContinuityEquation"	RelError: 2.70070e+02	AbsError: 1.55108e+20
+      Equation: "HoleContinuityEquation"	RelError: 7.55535e+03	AbsError: 1.66501e+20
+      Equation: "PotentialEquation"	RelError: 3.23805e+03	AbsError: 4.08557e+01
+  Circuit: 	RelError: 1.00296e+00	AbsError: 2.60435e+01
+setting new step size 1.250000e-02
+last end -8.500000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 5.23888e+02	AbsError: 8.13081e+16
+    Region: "bjt"	RelError: 5.23888e+02	AbsError: 8.13081e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.07005e-01	AbsError: 4.07215e+16
+      Equation: "HoleContinuityEquation"	RelError: 8.79866e-01	AbsError: 4.05866e+16
+      Equation: "PotentialEquation"	RelError: 5.22601e+02	AbsError: 1.89976e-01
+  Circuit: 	RelError: 3.18068e-01	AbsError: 1.82452e+00
+Iteration: 1
+  Device: "bjt"	RelError: 2.56572e+02	AbsError: 2.14066e+16
+    Region: "bjt"	RelError: 2.56572e+02	AbsError: 2.14066e+16
+      Equation: "ElectronContinuityEquation"	RelError: 2.73125e-01	AbsError: 9.04679e+15
+      Equation: "HoleContinuityEquation"	RelError: 9.96426e-01	AbsError: 1.23598e+16
+      Equation: "PotentialEquation"	RelError: 2.55302e+02	AbsError: 5.57868e-02
+  Circuit: 	RelError: 7.73072e-02	AbsError: 3.63485e-01
+Iteration: 2
+  Device: "bjt"	RelError: 1.92336e+01	AbsError: 9.07510e+14
+    Region: "bjt"	RelError: 1.92336e+01	AbsError: 9.07510e+14
+      Equation: "ElectronContinuityEquation"	RelError: 5.38074e-02	AbsError: 2.80517e+14
+      Equation: "HoleContinuityEquation"	RelError: 8.20859e-01	AbsError: 6.26994e+14
+      Equation: "PotentialEquation"	RelError: 1.83590e+01	AbsError: 8.10038e-04
+  Circuit: 	RelError: 3.23769e-04	AbsError: 2.11444e-03
+Iteration: 3
+  Device: "bjt"	RelError: 1.77072e-01	AbsError: 1.78984e+13
+    Region: "bjt"	RelError: 1.77072e-01	AbsError: 1.78984e+13
+      Equation: "ElectronContinuityEquation"	RelError: 2.06874e-04	AbsError: 8.74337e+12
+      Equation: "HoleContinuityEquation"	RelError: 2.01731e-02	AbsError: 9.15502e+12
+      Equation: "PotentialEquation"	RelError: 1.56692e-01	AbsError: 4.19541e-05
+  Circuit: 	RelError: 4.34062e-05	AbsError: 2.83561e-04
+Iteration: 4
+  Device: "bjt"	RelError: 2.79563e-03	AbsError: 2.70469e+11
+    Region: "bjt"	RelError: 2.79563e-03	AbsError: 2.70469e+11
+      Equation: "ElectronContinuityEquation"	RelError: 3.03814e-06	AbsError: 9.96153e+10
+      Equation: "HoleContinuityEquation"	RelError: 3.53971e-04	AbsError: 1.70854e+11
+      Equation: "PotentialEquation"	RelError: 2.43862e-03	AbsError: 3.71813e-07
+  Circuit: 	RelError: 1.33876e-07	AbsError: 8.74468e-07
+Iteration: 5
+  Device: "bjt"	RelError: 1.51842e-05	AbsError: 9.10278e+09
+    Region: "bjt"	RelError: 1.51842e-05	AbsError: 9.10278e+09
+      Equation: "ElectronContinuityEquation"	RelError: 8.01279e-08	AbsError: 6.86791e+08
+      Equation: "HoleContinuityEquation"	RelError: 8.32726e-06	AbsError: 8.41599e+09
+      Equation: "PotentialEquation"	RelError: 6.77677e-06	AbsError: 1.09431e-08
+  Circuit: 	RelError: 2.47366e-09	AbsError: 1.48026e-08
+Iteration: 6
+  Device: "bjt"	RelError: 3.24821e-07	AbsError: 1.51301e+07
+    Region: "bjt"	RelError: 3.24821e-07	AbsError: 1.51301e+07
+      Equation: "ElectronContinuityEquation"	RelError: 1.73511e-10	AbsError: 1.91356e+06
+      Equation: "HoleContinuityEquation"	RelError: 3.24252e-07	AbsError: 1.32165e+07
+      Equation: "PotentialEquation"	RelError: 3.94982e-10	AbsError: 1.75990e-11
+  Circuit: 	RelError: 1.02399e-13	AbsError: 6.65506e-13
+Iteration: 7
+  Device: "bjt"	RelError: 3.09089e-12	AbsError: 8.35735e+03
+    Region: "bjt"	RelError: 3.09089e-12	AbsError: 8.35735e+03
+      Equation: "ElectronContinuityEquation"	RelError: 1.32290e-13	AbsError: 8.19158e+03
+      Equation: "HoleContinuityEquation"	RelError: 2.17029e-13	AbsError: 1.65764e+02
+      Equation: "PotentialEquation"	RelError: 2.74157e-12	AbsError: 5.22041e-15
+  Circuit: 	RelError: 4.76755e-16	AbsError: 1.77218e-15
+Circuit Solution:
+Vb.I	-0.00156118
+Vc.I	-3.26487
+Ve.I	3.26643
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.8625
+Succeeded
+CURVE: 0 0.2 -0.8625 0.00156118306982662 3.26487349602093 -3.26643467909076
+last end -8.625000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 8.95437e+02	AbsError: 9.80352e+16
+    Region: "bjt"	RelError: 8.95437e+02	AbsError: 9.80352e+16
+      Equation: "ElectronContinuityEquation"	RelError: 5.71334e-01	AbsError: 4.91543e+16
+      Equation: "HoleContinuityEquation"	RelError: 9.22535e-01	AbsError: 4.88810e+16
+      Equation: "PotentialEquation"	RelError: 8.93943e+02	AbsError: 3.08821e-01
+  Circuit: 	RelError: 3.14970e-01	AbsError: 2.57306e+00
+Iteration: 1
+  Device: "bjt"	RelError: 1.15169e+03	AbsError: 2.15887e+17
+    Region: "bjt"	RelError: 1.15169e+03	AbsError: 2.15887e+17
+      Equation: "ElectronContinuityEquation"	RelError: 8.94469e-01	AbsError: 8.62480e+16
+      Equation: "HoleContinuityEquation"	RelError: 3.05029e+02	AbsError: 1.29640e+17
+      Equation: "PotentialEquation"	RelError: 8.45763e+02	AbsError: 6.16723e-01
+  Circuit: 	RelError: 1.23594e-01	AbsError: 9.74657e-01
+Iteration: 2
+  Device: "bjt"	RelError: 3.54014e+03	AbsError: 4.09381e+17
+    Region: "bjt"	RelError: 3.54014e+03	AbsError: 4.09381e+17
+      Equation: "ElectronContinuityEquation"	RelError: 9.73391e+02	AbsError: 2.08492e+17
+      Equation: "HoleContinuityEquation"	RelError: 1.10434e+03	AbsError: 2.00889e+17
+      Equation: "PotentialEquation"	RelError: 1.46241e+03	AbsError: 9.09484e-01
+  Circuit: 	RelError: 2.61263e-01	AbsError: 2.08553e+00
+Iteration: 3
+  Device: "bjt"	RelError: 6.00670e+04	AbsError: 5.14820e+18
+    Region: "bjt"	RelError: 6.00670e+04	AbsError: 5.14820e+18
+      Equation: "ElectronContinuityEquation"	RelError: 6.75044e+03	AbsError: 4.10183e+18
+      Equation: "HoleContinuityEquation"	RelError: 5.11715e+04	AbsError: 1.04637e+18
+      Equation: "PotentialEquation"	RelError: 2.14504e+03	AbsError: 3.49717e+00
+  Circuit: 	RelError: 1.14273e+00	AbsError: 1.23319e+00
+Iteration: 4
+  Device: "bjt"	RelError: 1.01328e+03	AbsError: 2.73620e+19
+    Region: "bjt"	RelError: 1.01328e+03	AbsError: 2.73620e+19
+      Equation: "ElectronContinuityEquation"	RelError: 2.17298e+02	AbsError: 1.50817e+19
+      Equation: "HoleContinuityEquation"	RelError: 5.14990e+02	AbsError: 1.22803e+19
+      Equation: "PotentialEquation"	RelError: 2.80988e+02	AbsError: 3.50523e+01
+  Circuit: 	RelError: 1.68387e+00	AbsError: 2.26814e+01
+setting new step size 6.250000e-03
+last end -8.625000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 4.12787e+02	AbsError: 4.93429e+16
+    Region: "bjt"	RelError: 4.12787e+02	AbsError: 4.93429e+16
+      Equation: "ElectronContinuityEquation"	RelError: 3.99883e-01	AbsError: 2.49051e+16
+      Equation: "HoleContinuityEquation"	RelError: 8.56207e-01	AbsError: 2.44379e+16
+      Equation: "PotentialEquation"	RelError: 4.11531e+02	AbsError: 1.54408e-01
+  Circuit: 	RelError: 1.86922e-01	AbsError: 1.28653e+00
+Iteration: 1
+  Device: "bjt"	RelError: 2.71947e+01	AbsError: 1.52366e+16
+    Region: "bjt"	RelError: 2.71947e+01	AbsError: 1.52366e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.25470e-01	AbsError: 8.36359e+15
+      Equation: "HoleContinuityEquation"	RelError: 9.81844e-01	AbsError: 6.87301e+15
+      Equation: "PotentialEquation"	RelError: 2.57874e+01	AbsError: 1.75894e-02
+  Circuit: 	RelError: 2.26502e-02	AbsError: 1.02786e-01
+Iteration: 2
+  Device: "bjt"	RelError: 3.50288e+00	AbsError: 6.29882e+14
+    Region: "bjt"	RelError: 3.50288e+00	AbsError: 6.29882e+14
+      Equation: "ElectronContinuityEquation"	RelError: 2.20657e-02	AbsError: 2.16294e+14
+      Equation: "HoleContinuityEquation"	RelError: 4.16799e-01	AbsError: 4.13588e+14
+      Equation: "PotentialEquation"	RelError: 3.06402e+00	AbsError: 2.67619e-03
+  Circuit: 	RelError: 5.63468e-04	AbsError: 4.45710e-03
+Iteration: 3
+  Device: "bjt"	RelError: 2.65730e-01	AbsError: 1.61721e+13
+    Region: "bjt"	RelError: 2.65730e-01	AbsError: 1.61721e+13
+      Equation: "ElectronContinuityEquation"	RelError: 4.04111e-04	AbsError: 6.80659e+12
+      Equation: "HoleContinuityEquation"	RelError: 2.46843e-02	AbsError: 9.36547e+12
+      Equation: "PotentialEquation"	RelError: 2.40641e-01	AbsError: 3.84311e-05
+  Circuit: 	RelError: 2.97734e-05	AbsError: 2.35505e-04
+Iteration: 4
+  Device: "bjt"	RelError: 8.50828e-03	AbsError: 7.65664e+11
+    Region: "bjt"	RelError: 8.50828e-03	AbsError: 7.65664e+11
+      Equation: "ElectronContinuityEquation"	RelError: 1.26644e-05	AbsError: 3.75452e+11
+      Equation: "HoleContinuityEquation"	RelError: 6.29317e-04	AbsError: 3.90213e+11
+      Equation: "PotentialEquation"	RelError: 7.86629e-03	AbsError: 1.85710e-06
+  Circuit: 	RelError: 1.76521e-06	AbsError: 1.23576e-05
+Iteration: 5
+  Device: "bjt"	RelError: 1.48357e-06	AbsError: 2.76984e+09
+    Region: "bjt"	RelError: 1.48357e-06	AbsError: 2.76984e+09
+      Equation: "ElectronContinuityEquation"	RelError: 7.90785e-08	AbsError: 8.89428e+08
+      Equation: "HoleContinuityEquation"	RelError: 8.17669e-07	AbsError: 1.88041e+09
+      Equation: "PotentialEquation"	RelError: 5.86822e-07	AbsError: 5.24492e-09
+  Circuit: 	RelError: 1.17196e-10	AbsError: 9.27046e-10
+Iteration: 6
+  Device: "bjt"	RelError: 1.99105e-11	AbsError: 1.92495e+05
+    Region: "bjt"	RelError: 1.99105e-11	AbsError: 1.92495e+05
+      Equation: "ElectronContinuityEquation"	RelError: 2.80200e-12	AbsError: 8.34210e+04
+      Equation: "HoleContinuityEquation"	RelError: 4.60098e-12	AbsError: 1.09074e+05
+      Equation: "PotentialEquation"	RelError: 1.25075e-11	AbsError: 1.19016e-13
+  Circuit: 	RelError: 7.89735e-16	AbsError: 3.31352e-15
+Circuit Solution:
+Vb.I	-0.00196383
+Vc.I	-3.95366
+Ve.I	3.95563
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.86875
+Succeeded
+CURVE: 0 0.2 -0.86875 0.00196383138471326 3.95366442526322 -3.95562825664793
+last end -8.687500e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 2.22997e+03	AbsError: 5.37558e+16
+    Region: "bjt"	RelError: 2.22997e+03	AbsError: 5.37558e+16
+      Equation: "ElectronContinuityEquation"	RelError: 5.74829e-01	AbsError: 2.65994e+16
+      Equation: "HoleContinuityEquation"	RelError: 8.64217e-01	AbsError: 2.71564e+16
+      Equation: "PotentialEquation"	RelError: 2.22853e+03	AbsError: 1.65018e-01
+  Circuit: 	RelError: 1.86793e-01	AbsError: 1.47220e+00
+Iteration: 1
+  Device: "bjt"	RelError: 2.93161e+03	AbsError: 4.41540e+16
+    Region: "bjt"	RelError: 2.93161e+03	AbsError: 4.41540e+16
+      Equation: "ElectronContinuityEquation"	RelError: 5.50236e-01	AbsError: 1.96173e+16
+      Equation: "HoleContinuityEquation"	RelError: 2.76422e+03	AbsError: 2.45367e+16
+      Equation: "PotentialEquation"	RelError: 1.66838e+02	AbsError: 1.03505e-01
+  Circuit: 	RelError: 4.81495e-02	AbsError: 4.60118e-01
+Iteration: 2
+  Device: "bjt"	RelError: 2.15982e+01	AbsError: 2.24679e+16
+    Region: "bjt"	RelError: 2.15982e+01	AbsError: 2.24679e+16
+      Equation: "ElectronContinuityEquation"	RelError: 3.03019e-01	AbsError: 1.11228e+16
+      Equation: "HoleContinuityEquation"	RelError: 1.21481e+01	AbsError: 1.13452e+16
+      Equation: "PotentialEquation"	RelError: 9.14703e+00	AbsError: 4.55864e-02
+  Circuit: 	RelError: 2.84436e-02	AbsError: 2.72016e-01
+Iteration: 3
+  Device: "bjt"	RelError: 8.34747e+00	AbsError: 1.13555e+16
+    Region: "bjt"	RelError: 8.34747e+00	AbsError: 1.13555e+16
+      Equation: "ElectronContinuityEquation"	RelError: 2.51027e-01	AbsError: 5.51970e+15
+      Equation: "HoleContinuityEquation"	RelError: 9.26152e-01	AbsError: 5.83582e+15
+      Equation: "PotentialEquation"	RelError: 7.17029e+00	AbsError: 1.72815e-02
+  Circuit: 	RelError: 1.29714e-02	AbsError: 1.22462e-01
+Iteration: 4
+  Device: "bjt"	RelError: 4.57632e-01	AbsError: 3.88991e+14
+    Region: "bjt"	RelError: 4.57632e-01	AbsError: 3.88991e+14
+      Equation: "ElectronContinuityEquation"	RelError: 1.03963e-02	AbsError: 1.73734e+14
+      Equation: "HoleContinuityEquation"	RelError: 3.41131e-01	AbsError: 2.15258e+14
+      Equation: "PotentialEquation"	RelError: 1.06105e-01	AbsError: 1.63590e-03
+  Circuit: 	RelError: 3.32558e-04	AbsError: 3.13855e-03
+Iteration: 5
+  Device: "bjt"	RelError: 2.28040e-02	AbsError: 2.13756e+13
+    Region: "bjt"	RelError: 2.28040e-02	AbsError: 2.13756e+13
+      Equation: "ElectronContinuityEquation"	RelError: 3.23399e-04	AbsError: 1.04898e+13
+      Equation: "HoleContinuityEquation"	RelError: 5.79070e-03	AbsError: 1.08857e+13
+      Equation: "PotentialEquation"	RelError: 1.66899e-02	AbsError: 4.69951e-05
+  Circuit: 	RelError: 4.48688e-05	AbsError: 3.64540e-04
+Iteration: 6
+  Device: "bjt"	RelError: 1.08387e-04	AbsError: 6.16305e+10
+    Region: "bjt"	RelError: 1.08387e-04	AbsError: 6.16305e+10
+      Equation: "ElectronContinuityEquation"	RelError: 1.48319e-06	AbsError: 2.88782e+10
+      Equation: "HoleContinuityEquation"	RelError: 9.30865e-05	AbsError: 3.27523e+10
+      Equation: "PotentialEquation"	RelError: 1.38169e-05	AbsError: 1.32868e-07
+  Circuit: 	RelError: 2.95427e-08	AbsError: 1.23140e-07
+Iteration: 7
+  Device: "bjt"	RelError: 1.99637e-08	AbsError: 7.81131e+07
+    Region: "bjt"	RelError: 1.99637e-08	AbsError: 7.81131e+07
+      Equation: "ElectronContinuityEquation"	RelError: 2.20230e-09	AbsError: 4.89158e+07
+      Equation: "HoleContinuityEquation"	RelError: 1.07344e-08	AbsError: 2.91973e+07
+      Equation: "PotentialEquation"	RelError: 7.02695e-09	AbsError: 6.35790e-11
+  Circuit: 	RelError: 2.26834e-13	AbsError: 2.13335e-12
+Iteration: 8
+  Device: "bjt"	RelError: 7.86143e-12	AbsError: 1.95978e+05
+    Region: "bjt"	RelError: 7.86143e-12	AbsError: 1.95978e+05
+      Equation: "ElectronContinuityEquation"	RelError: 2.74230e-13	AbsError: 1.65719e+05
+      Equation: "HoleContinuityEquation"	RelError: 1.85029e-13	AbsError: 3.02585e+04
+      Equation: "PotentialEquation"	RelError: 7.40217e-12	AbsError: 4.09832e-15
+  Circuit: 	RelError: 7.47214e-16	AbsError: 1.66913e-15
+Circuit Solution:
+Vb.I	-0.00247403
+Vc.I	-4.7172
+Ve.I	4.71967
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.875
+Succeeded
+CURVE: 0 0.2 -0.875 0.00247402745238705 4.7171987856621 -4.71967281311449
+last end -8.750000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 1.89325e+02	AbsError: 5.97464e+16
+    Region: "bjt"	RelError: 1.89325e+02	AbsError: 5.97464e+16
+      Equation: "ElectronContinuityEquation"	RelError: 5.17619e-01	AbsError: 2.95745e+16
+      Equation: "HoleContinuityEquation"	RelError: 8.52673e-01	AbsError: 3.01719e+16
+      Equation: "PotentialEquation"	RelError: 1.87955e+02	AbsError: 1.50058e-01
+  Circuit: 	RelError: 1.88298e-01	AbsError: 1.59064e+00
+Iteration: 1
+  Device: "bjt"	RelError: 1.00016e+03	AbsError: 2.48674e+16
+    Region: "bjt"	RelError: 1.00016e+03	AbsError: 2.48674e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.14034e-01	AbsError: 1.09942e+16
+      Equation: "HoleContinuityEquation"	RelError: 9.49118e+02	AbsError: 1.38732e+16
+      Equation: "PotentialEquation"	RelError: 5.06320e+01	AbsError: 6.19140e-02
+  Circuit: 	RelError: 3.32148e-02	AbsError: 3.26294e-01
+Iteration: 2
+  Device: "bjt"	RelError: 2.99765e+01	AbsError: 1.08869e+16
+    Region: "bjt"	RelError: 2.99765e+01	AbsError: 1.08869e+16
+      Equation: "ElectronContinuityEquation"	RelError: 1.93324e-01	AbsError: 5.09798e+15
+      Equation: "HoleContinuityEquation"	RelError: 2.48267e+00	AbsError: 5.78889e+15
+      Equation: "PotentialEquation"	RelError: 2.73005e+01	AbsError: 2.77766e-02
+  Circuit: 	RelError: 2.35029e-02	AbsError: 2.60549e-01
+Iteration: 3
+  Device: "bjt"	RelError: 2.03437e+00	AbsError: 1.52056e+15
+    Region: "bjt"	RelError: 2.03437e+00	AbsError: 1.52056e+15
+      Equation: "ElectronContinuityEquation"	RelError: 5.44267e-02	AbsError: 6.43995e+14
+      Equation: "HoleContinuityEquation"	RelError: 8.50655e-01	AbsError: 8.76568e+14
+      Equation: "PotentialEquation"	RelError: 1.12929e+00	AbsError: 8.36245e-03
+  Circuit: 	RelError: 1.66404e-03	AbsError: 1.84155e-02
+Iteration: 4
+  Device: "bjt"	RelError: 1.74364e-01	AbsError: 9.22497e+13
+    Region: "bjt"	RelError: 1.74364e-01	AbsError: 9.22497e+13
+      Equation: "ElectronContinuityEquation"	RelError: 3.26608e-03	AbsError: 4.13283e+13
+      Equation: "HoleContinuityEquation"	RelError: 1.34100e-01	AbsError: 5.09214e+13
+      Equation: "PotentialEquation"	RelError: 3.69978e-02	AbsError: 3.33300e-04
+  Circuit: 	RelError: 4.13766e-05	AbsError: 4.57805e-04
+Iteration: 5
+  Device: "bjt"	RelError: 2.46477e-03	AbsError: 1.03395e+12
+    Region: "bjt"	RelError: 2.46477e-03	AbsError: 1.03395e+12
+      Equation: "ElectronContinuityEquation"	RelError: 1.40969e-05	AbsError: 5.07850e+11
+      Equation: "HoleContinuityEquation"	RelError: 1.37401e-03	AbsError: 5.26099e+11
+      Equation: "PotentialEquation"	RelError: 1.07666e-03	AbsError: 1.90537e-06
+  Circuit: 	RelError: 1.89568e-06	AbsError: 1.50041e-05
+Iteration: 6
+  Device: "bjt"	RelError: 4.20368e-06	AbsError: 4.82415e+09
+    Region: "bjt"	RelError: 4.20368e-06	AbsError: 4.82415e+09
+      Equation: "ElectronContinuityEquation"	RelError: 6.43846e-08	AbsError: 3.22282e+09
+      Equation: "HoleContinuityEquation"	RelError: 3.22992e-06	AbsError: 1.60133e+09
+      Equation: "PotentialEquation"	RelError: 9.09379e-07	AbsError: 8.51802e-09
+  Circuit: 	RelError: 2.02328e-12	AbsError: 6.18220e-12
+Iteration: 7
+  Device: "bjt"	RelError: 8.85800e-09	AbsError: 7.22774e+04
+    Region: "bjt"	RelError: 8.85800e-09	AbsError: 7.22774e+04
+      Equation: "ElectronContinuityEquation"	RelError: 1.76199e-12	AbsError: 5.14764e+04
+      Equation: "HoleContinuityEquation"	RelError: 8.85135e-09	AbsError: 2.08010e+04
+      Equation: "PotentialEquation"	RelError: 4.89128e-12	AbsError: 1.33008e-13
+  Circuit: 	RelError: 3.73769e-16	AbsError: 3.09753e-15
+Circuit Solution:
+Vb.I	-0.00312077
+Vc.I	-5.53219
+Ve.I	5.53531
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.88125
+Succeeded
+CURVE: 0 0.2 -0.88125 0.00312077263994323 5.53219072200167 -5.53531149464161
+last end -8.812500e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 3.65180e+02	AbsError: 6.66501e+16
+    Region: "bjt"	RelError: 3.65180e+02	AbsError: 6.66501e+16
+      Equation: "ElectronContinuityEquation"	RelError: 5.01991e-01	AbsError: 3.28295e+16
+      Equation: "HoleContinuityEquation"	RelError: 8.42710e-01	AbsError: 3.38206e+16
+      Equation: "PotentialEquation"	RelError: 3.63835e+02	AbsError: 1.38951e-01
+  Circuit: 	RelError: 1.88372e-01	AbsError: 1.68139e+00
+Iteration: 1
+  Device: "bjt"	RelError: 4.81736e+01	AbsError: 1.77502e+16
+    Region: "bjt"	RelError: 4.81736e+01	AbsError: 1.77502e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.46343e-01	AbsError: 8.14263e+15
+      Equation: "HoleContinuityEquation"	RelError: 2.30202e+01	AbsError: 9.60755e+15
+      Equation: "PotentialEquation"	RelError: 2.47071e+01	AbsError: 4.98490e-02
+  Circuit: 	RelError: 2.79776e-02	AbsError: 2.19089e-01
+Iteration: 2
+  Device: "bjt"	RelError: 4.49860e+01	AbsError: 5.87032e+15
+    Region: "bjt"	RelError: 4.49860e+01	AbsError: 5.87032e+15
+      Equation: "ElectronContinuityEquation"	RelError: 9.82914e-02	AbsError: 2.80988e+15
+      Equation: "HoleContinuityEquation"	RelError: 9.30315e-01	AbsError: 3.06044e+15
+      Equation: "PotentialEquation"	RelError: 4.39574e+01	AbsError: 1.50278e-02
+  Circuit: 	RelError: 1.30060e-02	AbsError: 1.66399e-01
+Iteration: 3
+  Device: "bjt"	RelError: 3.27347e+00	AbsError: 2.94370e+14
+    Region: "bjt"	RelError: 3.27347e+00	AbsError: 2.94370e+14
+      Equation: "ElectronContinuityEquation"	RelError: 8.42877e-03	AbsError: 1.21285e+14
+      Equation: "HoleContinuityEquation"	RelError: 4.11619e-01	AbsError: 1.73086e+14
+      Equation: "PotentialEquation"	RelError: 2.85343e+00	AbsError: 1.79520e-03
+  Circuit: 	RelError: 5.24187e-04	AbsError: 6.70205e-03
+Iteration: 4
+  Device: "bjt"	RelError: 1.52370e-02	AbsError: 4.20949e+12
+    Region: "bjt"	RelError: 1.52370e-02	AbsError: 4.20949e+12
+      Equation: "ElectronContinuityEquation"	RelError: 1.31862e-04	AbsError: 2.08571e+12
+      Equation: "HoleContinuityEquation"	RelError: 1.10653e-02	AbsError: 2.12377e+12
+      Equation: "PotentialEquation"	RelError: 4.03983e-03	AbsError: 9.28573e-06
+  Circuit: 	RelError: 4.52428e-06	AbsError: 5.78539e-05
+Iteration: 5
+  Device: "bjt"	RelError: 1.53111e-03	AbsError: 1.40471e+11
+    Region: "bjt"	RelError: 1.53111e-03	AbsError: 1.40471e+11
+      Equation: "ElectronContinuityEquation"	RelError: 2.47436e-06	AbsError: 6.90801e+10
+      Equation: "HoleContinuityEquation"	RelError: 4.64738e-04	AbsError: 7.13912e+10
+      Equation: "PotentialEquation"	RelError: 1.06390e-03	AbsError: 1.80002e-07
+  Circuit: 	RelError: 1.81207e-07	AbsError: 1.24324e-06
+Iteration: 6
+  Device: "bjt"	RelError: 8.70966e-07	AbsError: 1.64917e+08
+    Region: "bjt"	RelError: 8.70966e-07	AbsError: 1.64917e+08
+      Equation: "ElectronContinuityEquation"	RelError: 5.25565e-09	AbsError: 5.57341e+07
+      Equation: "HoleContinuityEquation"	RelError: 6.52261e-07	AbsError: 1.09183e+08
+      Equation: "PotentialEquation"	RelError: 2.13450e-07	AbsError: 2.24594e-10
+  Circuit: 	RelError: 2.22997e-13	AbsError: 2.85127e-12
+Iteration: 7
+  Device: "bjt"	RelError: 1.02118e-11	AbsError: 1.02004e+04
+    Region: "bjt"	RelError: 1.02118e-11	AbsError: 1.02004e+04
+      Equation: "ElectronContinuityEquation"	RelError: 1.47693e-13	AbsError: 8.51543e+03
+      Equation: "HoleContinuityEquation"	RelError: 1.64006e-13	AbsError: 1.68499e+03
+      Equation: "PotentialEquation"	RelError: 9.90006e-12	AbsError: 4.23537e-15
+  Circuit: 	RelError: 4.80402e-16	AbsError: 3.17032e-15
+Circuit Solution:
+Vb.I	-0.00393279
+Vc.I	-6.39191
+Ve.I	6.39585
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.8875
+Succeeded
+CURVE: 0 0.2 -0.8875 0.00393279237608666 6.39191479328401 -6.3958475856601
+last end -8.875000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 4.38701e+02	AbsError: 7.33441e+16
+    Region: "bjt"	RelError: 4.38701e+02	AbsError: 7.33441e+16
+      Equation: "ElectronContinuityEquation"	RelError: 5.49121e-01	AbsError: 3.63640e+16
+      Equation: "HoleContinuityEquation"	RelError: 8.37197e-01	AbsError: 3.69801e+16
+      Equation: "PotentialEquation"	RelError: 4.37315e+02	AbsError: 1.33416e-01
+  Circuit: 	RelError: 1.87133e-01	AbsError: 1.77421e+00
+Iteration: 1
+  Device: "bjt"	RelError: 3.98332e+02	AbsError: 1.71560e+16
+    Region: "bjt"	RelError: 3.98332e+02	AbsError: 1.71560e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.78836e-01	AbsError: 8.44556e+15
+      Equation: "HoleContinuityEquation"	RelError: 4.75053e+00	AbsError: 8.71049e+15
+      Equation: "PotentialEquation"	RelError: 3.93103e+02	AbsError: 4.23601e-02
+  Circuit: 	RelError: 2.57971e-02	AbsError: 1.76752e-01
+Iteration: 2
+  Device: "bjt"	RelError: 8.35179e+00	AbsError: 4.61452e+15
+    Region: "bjt"	RelError: 8.35179e+00	AbsError: 4.61452e+15
+      Equation: "ElectronContinuityEquation"	RelError: 1.00685e-01	AbsError: 1.91976e+15
+      Equation: "HoleContinuityEquation"	RelError: 7.80336e-01	AbsError: 2.69476e+15
+      Equation: "PotentialEquation"	RelError: 7.47077e+00	AbsError: 9.65135e-03
+  Circuit: 	RelError: 8.34261e-03	AbsError: 1.21885e-01
+Iteration: 3
+  Device: "bjt"	RelError: 5.46303e-01	AbsError: 1.98627e+14
+    Region: "bjt"	RelError: 5.46303e-01	AbsError: 1.98627e+14
+      Equation: "ElectronContinuityEquation"	RelError: 9.41837e-03	AbsError: 7.76655e+13
+      Equation: "HoleContinuityEquation"	RelError: 2.45829e-01	AbsError: 1.20962e+14
+      Equation: "PotentialEquation"	RelError: 2.91056e-01	AbsError: 6.89098e-04
+  Circuit: 	RelError: 2.13071e-04	AbsError: 3.11139e-03
+Iteration: 4
+  Device: "bjt"	RelError: 4.67192e-03	AbsError: 1.79468e+12
+    Region: "bjt"	RelError: 4.67192e-03	AbsError: 1.79468e+12
+      Equation: "ElectronContinuityEquation"	RelError: 5.68167e-05	AbsError: 7.83027e+11
+      Equation: "HoleContinuityEquation"	RelError: 3.01590e-03	AbsError: 1.01165e+12
+      Equation: "PotentialEquation"	RelError: 1.59920e-03	AbsError: 2.36109e-06
+  Circuit: 	RelError: 1.07074e-06	AbsError: 8.83251e-06
+Iteration: 5
+  Device: "bjt"	RelError: 5.91438e-05	AbsError: 1.55992e+10
+    Region: "bjt"	RelError: 5.91438e-05	AbsError: 1.55992e+10
+      Equation: "ElectronContinuityEquation"	RelError: 5.47831e-07	AbsError: 6.59078e+09
+      Equation: "HoleContinuityEquation"	RelError: 5.31748e-05	AbsError: 9.00843e+09
+      Equation: "PotentialEquation"	RelError: 5.42125e-06	AbsError: 3.41535e-08
+  Circuit: 	RelError: 3.58819e-09	AbsError: 5.24259e-08
+Iteration: 6
+  Device: "bjt"	RelError: 2.02013e-07	AbsError: 4.50421e+06
+    Region: "bjt"	RelError: 2.02013e-07	AbsError: 4.50421e+06
+      Equation: "ElectronContinuityEquation"	RelError: 1.12767e-10	AbsError: 3.54473e+06
+      Equation: "HoleContinuityEquation"	RelError: 2.01184e-07	AbsError: 9.59479e+05
+      Equation: "PotentialEquation"	RelError: 7.16182e-10	AbsError: 8.71400e-12
+  Circuit: 	RelError: 3.37019e-15	AbsError: 4.75974e-14
+Iteration: 7
+  Device: "bjt"	RelError: 7.39697e-13	AbsError: 8.76377e+03
+    Region: "bjt"	RelError: 7.39697e-13	AbsError: 8.76377e+03
+      Equation: "ElectronContinuityEquation"	RelError: 1.79184e-13	AbsError: 8.18642e+03
+      Equation: "HoleContinuityEquation"	RelError: 1.94902e-13	AbsError: 5.77348e+02
+      Equation: "PotentialEquation"	RelError: 3.65611e-13	AbsError: 4.02359e-16
+  Circuit: 	RelError: 2.94650e-16	AbsError: 2.54490e-15
+Circuit Solution:
+Vb.I	-0.00494388
+Vc.I	-7.30076
+Ve.I	7.3057
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.89375
+Succeeded
+CURVE: 0 0.2 -0.89375 0.00494387959394746 7.30075518475634 -7.30569906435029
+last end -8.937500e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 4.65661e+02	AbsError: 8.09526e+16
+    Region: "bjt"	RelError: 4.65661e+02	AbsError: 8.09526e+16
+      Equation: "ElectronContinuityEquation"	RelError: 5.72929e-01	AbsError: 4.01657e+16
+      Equation: "HoleContinuityEquation"	RelError: 8.32582e-01	AbsError: 4.07869e+16
+      Equation: "PotentialEquation"	RelError: 4.64255e+02	AbsError: 1.29084e-01
+  Circuit: 	RelError: 1.85227e-01	AbsError: 1.87441e+00
+Iteration: 1
+  Device: "bjt"	RelError: 1.21681e+01	AbsError: 1.43466e+16
+    Region: "bjt"	RelError: 1.21681e+01	AbsError: 1.43466e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.97869e-01	AbsError: 6.68450e+15
+      Equation: "HoleContinuityEquation"	RelError: 3.43224e+00	AbsError: 7.66208e+15
+      Equation: "PotentialEquation"	RelError: 8.23798e+00	AbsError: 3.85166e-02
+  Circuit: 	RelError: 2.42226e-02	AbsError: 1.60434e-01
+Iteration: 2
+  Device: "bjt"	RelError: 9.46028e+01	AbsError: 3.71280e+15
+    Region: "bjt"	RelError: 9.46028e+01	AbsError: 3.71280e+15
+      Equation: "ElectronContinuityEquation"	RelError: 1.03896e-01	AbsError: 1.54766e+15
+      Equation: "HoleContinuityEquation"	RelError: 7.39376e-01	AbsError: 2.16514e+15
+      Equation: "PotentialEquation"	RelError: 9.37595e+01	AbsError: 7.54551e-03
+  Circuit: 	RelError: 6.02171e-03	AbsError: 9.95743e-02
+Iteration: 3
+  Device: "bjt"	RelError: 8.98215e+00	AbsError: 1.31055e+14
+    Region: "bjt"	RelError: 8.98215e+00	AbsError: 1.31055e+14
+      Equation: "ElectronContinuityEquation"	RelError: 4.94860e-03	AbsError: 5.52927e+13
+      Equation: "HoleContinuityEquation"	RelError: 1.48370e-01	AbsError: 7.57624e+13
+      Equation: "PotentialEquation"	RelError: 8.82883e+00	AbsError: 3.22961e-04
+  Circuit: 	RelError: 1.14767e-04	AbsError: 1.89708e-03
+Iteration: 4
+  Device: "bjt"	RelError: 1.00061e-01	AbsError: 7.72365e+11
+    Region: "bjt"	RelError: 1.00061e-01	AbsError: 7.72365e+11
+      Equation: "ElectronContinuityEquation"	RelError: 1.19221e-05	AbsError: 3.80688e+11
+      Equation: "HoleContinuityEquation"	RelError: 3.47553e-03	AbsError: 3.91678e+11
+      Equation: "PotentialEquation"	RelError: 9.65733e-02	AbsError: 8.23254e-07
+  Circuit: 	RelError: 1.24861e-06	AbsError: 8.95267e-06
+Iteration: 5
+  Device: "bjt"	RelError: 8.59457e-05	AbsError: 4.71889e+09
+    Region: "bjt"	RelError: 8.59457e-05	AbsError: 4.71889e+09
+      Equation: "ElectronContinuityEquation"	RelError: 4.10316e-08	AbsError: 5.12615e+08
+      Equation: "HoleContinuityEquation"	RelError: 2.27943e-05	AbsError: 4.20627e+09
+      Equation: "PotentialEquation"	RelError: 6.31103e-05	AbsError: 3.88865e-09
+  Circuit: 	RelError: 2.72534e-10	AbsError: 3.85164e-11
+Iteration: 6
+  Device: "bjt"	RelError: 4.18462e-07	AbsError: 3.54148e+05
+    Region: "bjt"	RelError: 4.18462e-07	AbsError: 3.54148e+05
+      Equation: "ElectronContinuityEquation"	RelError: 1.89635e-11	AbsError: 1.27339e+05
+      Equation: "HoleContinuityEquation"	RelError: 4.14868e-07	AbsError: 2.26809e+05
+      Equation: "PotentialEquation"	RelError: 3.57501e-09	AbsError: 1.04174e-12
+  Circuit: 	RelError: 4.85254e-15	AbsError: 6.85067e-14
+Circuit Solution:
+Vb.I	-0.00619459
+Vc.I	-8.26306
+Ve.I	8.26926
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.9
+setting new step size 1.250000e-02
+Succeeded
+CURVE: 0 0.2 -0.9 0.00619459483435779 8.26306190205002 -8.26925649688438
+last end -9.000000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 1.37573e+02	AbsError: 1.86527e+17
+    Region: "bjt"	RelError: 1.37573e+02	AbsError: 1.86527e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.36966e-01	AbsError: 9.50001e+16
+      Equation: "HoleContinuityEquation"	RelError: 9.03440e-01	AbsError: 9.15269e+16
+      Equation: "PotentialEquation"	RelError: 1.35933e+02	AbsError: 2.43016e-01
+  Circuit: 	RelError: 3.09042e-01	AbsError: 3.99240e+00
+Iteration: 1
+  Device: "bjt"	RelError: 1.30744e+03	AbsError: 1.54719e+17
+    Region: "bjt"	RelError: 1.30744e+03	AbsError: 1.54719e+17
+      Equation: "ElectronContinuityEquation"	RelError: 9.34136e-01	AbsError: 7.62619e+16
+      Equation: "HoleContinuityEquation"	RelError: 4.06122e+02	AbsError: 7.84574e+16
+      Equation: "PotentialEquation"	RelError: 9.00385e+02	AbsError: 2.92876e-01
+  Circuit: 	RelError: 1.63829e-01	AbsError: 2.67202e+00
+Iteration: 2
+  Device: "bjt"	RelError: 1.67703e+03	AbsError: 1.23705e+17
+    Region: "bjt"	RelError: 1.67703e+03	AbsError: 1.23705e+17
+      Equation: "ElectronContinuityEquation"	RelError: 2.67503e+02	AbsError: 7.42827e+16
+      Equation: "HoleContinuityEquation"	RelError: 7.26952e+02	AbsError: 4.94222e+16
+      Equation: "PotentialEquation"	RelError: 6.82577e+02	AbsError: 3.47544e-01
+  Circuit: 	RelError: 1.47313e-01	AbsError: 2.97730e+00
+Iteration: 3
+  Device: "bjt"	RelError: 1.12623e+04	AbsError: 4.65998e+17
+    Region: "bjt"	RelError: 1.12623e+04	AbsError: 4.65998e+17
+      Equation: "ElectronContinuityEquation"	RelError: 9.45849e+03	AbsError: 1.49363e+17
+      Equation: "HoleContinuityEquation"	RelError: 1.72822e+03	AbsError: 3.16635e+17
+      Equation: "PotentialEquation"	RelError: 7.55947e+01	AbsError: 6.59711e-01
+  Circuit: 	RelError: 4.91736e-01	AbsError: 3.78219e-02
+Iteration: 4
+  Device: "bjt"	RelError: 5.25645e+02	AbsError: 1.00533e+18
+    Region: "bjt"	RelError: 5.25645e+02	AbsError: 1.00533e+18
+      Equation: "ElectronContinuityEquation"	RelError: 4.07122e+01	AbsError: 9.17989e+16
+      Equation: "HoleContinuityEquation"	RelError: 4.01798e+02	AbsError: 9.13534e+17
+      Equation: "PotentialEquation"	RelError: 8.31352e+01	AbsError: 7.73221e-01
+  Circuit: 	RelError: 9.26412e-01	AbsError: 1.96738e-01
+setting new step size 6.250000e-03
+last end -9.000000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 6.20314e+01	AbsError: 8.90517e+16
+    Region: "bjt"	RelError: 6.20314e+01	AbsError: 8.90517e+16
+      Equation: "ElectronContinuityEquation"	RelError: 5.83488e-01	AbsError: 4.42142e+16
+      Equation: "HoleContinuityEquation"	RelError: 8.23869e-01	AbsError: 4.48375e+16
+      Equation: "PotentialEquation"	RelError: 6.06240e+01	AbsError: 1.21495e-01
+  Circuit: 	RelError: 1.82762e-01	AbsError: 1.99620e+00
+Iteration: 1
+  Device: "bjt"	RelError: 1.09374e+03	AbsError: 1.21904e+16
+    Region: "bjt"	RelError: 1.09374e+03	AbsError: 1.21904e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.86628e-01	AbsError: 5.46965e+15
+      Equation: "HoleContinuityEquation"	RelError: 2.08167e+00	AbsError: 6.72074e+15
+      Equation: "PotentialEquation"	RelError: 1.09117e+03	AbsError: 3.43609e-02
+  Circuit: 	RelError: 2.22478e-02	AbsError: 1.31629e-01
+Iteration: 2
+  Device: "bjt"	RelError: 2.05461e+01	AbsError: 2.71839e+15
+    Region: "bjt"	RelError: 2.05461e+01	AbsError: 2.71839e+15
+      Equation: "ElectronContinuityEquation"	RelError: 7.08352e-02	AbsError: 1.04248e+15
+      Equation: "HoleContinuityEquation"	RelError: 6.44286e-01	AbsError: 1.67591e+15
+      Equation: "PotentialEquation"	RelError: 1.98309e+01	AbsError: 5.44137e-03
+  Circuit: 	RelError: 3.65923e-03	AbsError: 6.80175e-02
+Iteration: 3
+  Device: "bjt"	RelError: 2.42457e-01	AbsError: 7.79697e+13
+    Region: "bjt"	RelError: 2.42457e-01	AbsError: 7.79697e+13
+      Equation: "ElectronContinuityEquation"	RelError: 2.90415e-03	AbsError: 3.35423e+13
+      Equation: "HoleContinuityEquation"	RelError: 8.85247e-02	AbsError: 4.44274e+13
+      Equation: "PotentialEquation"	RelError: 1.51028e-01	AbsError: 1.65784e-04
+  Circuit: 	RelError: 4.56807e-05	AbsError: 8.48802e-04
+Iteration: 4
+  Device: "bjt"	RelError: 4.76531e-03	AbsError: 8.37424e+11
+    Region: "bjt"	RelError: 4.76531e-03	AbsError: 8.37424e+11
+      Equation: "ElectronContinuityEquation"	RelError: 1.39512e-05	AbsError: 4.13565e+11
+      Equation: "HoleContinuityEquation"	RelError: 2.27131e-03	AbsError: 4.23860e+11
+      Equation: "PotentialEquation"	RelError: 2.48004e-03	AbsError: 7.80866e-07
+  Circuit: 	RelError: 1.14082e-06	AbsError: 8.22843e-06
+Iteration: 5
+  Device: "bjt"	RelError: 1.66980e-05	AbsError: 5.66955e+09
+    Region: "bjt"	RelError: 1.66980e-05	AbsError: 5.66955e+09
+      Equation: "ElectronContinuityEquation"	RelError: 6.05041e-08	AbsError: 7.46571e+08
+      Equation: "HoleContinuityEquation"	RelError: 1.60887e-05	AbsError: 4.92298e+09
+      Equation: "PotentialEquation"	RelError: 5.48807e-07	AbsError: 7.29853e-09
+  Circuit: 	RelError: 2.63041e-10	AbsError: 2.19327e-09
+Iteration: 6
+  Device: "bjt"	RelError: 1.73920e-07	AbsError: 1.37841e+06
+    Region: "bjt"	RelError: 1.73920e-07	AbsError: 1.37841e+06
+      Equation: "ElectronContinuityEquation"	RelError: 4.74564e-11	AbsError: 1.41330e+05
+      Equation: "HoleContinuityEquation"	RelError: 1.73391e-07	AbsError: 1.23708e+06
+      Equation: "PotentialEquation"	RelError: 4.81817e-10	AbsError: 1.80774e-12
+  Circuit: 	RelError: 3.51213e-15	AbsError: 5.71525e-14
+Iteration: 7
+  Device: "bjt"	RelError: 3.43142e-12	AbsError: 8.85102e+03
+    Region: "bjt"	RelError: 3.43142e-12	AbsError: 8.85102e+03
+      Equation: "ElectronContinuityEquation"	RelError: 6.92545e-14	AbsError: 8.18970e+03
+      Equation: "HoleContinuityEquation"	RelError: 2.37317e-12	AbsError: 6.61322e+02
+      Equation: "PotentialEquation"	RelError: 9.89001e-13	AbsError: 2.71228e-16
+  Circuit: 	RelError: 4.80477e-16	AbsError: 5.82984e-15
+Circuit Solution:
+Vb.I	-0.00773154
+Vc.I	-9.28788
+Ve.I	9.29561
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.90625
+Succeeded
+CURVE: 0 0.2 -0.90625 0.00773153881275147 9.28787831048995 -9.29560984930271
+last end -9.062500e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 1.00775e+02	AbsError: 9.75723e+16
+    Region: "bjt"	RelError: 1.00775e+02	AbsError: 9.75723e+16
+      Equation: "ElectronContinuityEquation"	RelError: 5.85608e-01	AbsError: 4.84744e+16
+      Equation: "HoleContinuityEquation"	RelError: 8.16100e-01	AbsError: 4.90979e+16
+      Equation: "PotentialEquation"	RelError: 9.93735e+01	AbsError: 1.15358e-01
+  Circuit: 	RelError: 1.79990e-01	AbsError: 2.12869e+00
+Iteration: 1
+  Device: "bjt"	RelError: 2.12637e+01	AbsError: 1.02205e+16
+    Region: "bjt"	RelError: 2.12637e+01	AbsError: 1.02205e+16
+      Equation: "ElectronContinuityEquation"	RelError: 4.84032e-01	AbsError: 4.37742e+15
+      Equation: "HoleContinuityEquation"	RelError: 1.40966e+00	AbsError: 5.84307e+15
+      Equation: "PotentialEquation"	RelError: 1.93700e+01	AbsError: 3.14569e-02
+  Circuit: 	RelError: 2.06617e-02	AbsError: 1.37252e-01
+Iteration: 2
+  Device: "bjt"	RelError: 3.83044e+00	AbsError: 2.05940e+15
+    Region: "bjt"	RelError: 3.83044e+00	AbsError: 2.05940e+15
+      Equation: "ElectronContinuityEquation"	RelError: 5.99404e-02	AbsError: 7.84296e+14
+      Equation: "HoleContinuityEquation"	RelError: 5.63053e-01	AbsError: 1.27511e+15
+      Equation: "PotentialEquation"	RelError: 3.20745e+00	AbsError: 4.02326e-03
+  Circuit: 	RelError: 2.71319e-03	AbsError: 5.64085e-02
+Iteration: 3
+  Device: "bjt"	RelError: 8.23006e-02	AbsError: 5.01546e+13
+    Region: "bjt"	RelError: 8.23006e-02	AbsError: 5.01546e+13
+      Equation: "ElectronContinuityEquation"	RelError: 1.85101e-03	AbsError: 2.35046e+13
+      Equation: "HoleContinuityEquation"	RelError: 5.55737e-02	AbsError: 2.66500e+13
+      Equation: "PotentialEquation"	RelError: 2.48759e-02	AbsError: 9.52804e-05
+  Circuit: 	RelError: 1.91240e-05	AbsError: 3.97435e-04
+Iteration: 4
+  Device: "bjt"	RelError: 2.54571e-03	AbsError: 3.74980e+11
+    Region: "bjt"	RelError: 2.54571e-03	AbsError: 3.74980e+11
+      Equation: "ElectronContinuityEquation"	RelError: 1.04323e-05	AbsError: 1.85508e+11
+      Equation: "HoleContinuityEquation"	RelError: 2.07020e-03	AbsError: 1.89472e+11
+      Equation: "PotentialEquation"	RelError: 4.65072e-04	AbsError: 5.75140e-07
+  Circuit: 	RelError: 5.62918e-07	AbsError: 5.37455e-06
+Iteration: 5
+  Device: "bjt"	RelError: 2.25955e-05	AbsError: 7.14965e+08
+    Region: "bjt"	RelError: 2.25955e-05	AbsError: 7.14965e+08
+      Equation: "ElectronContinuityEquation"	RelError: 1.18898e-08	AbsError: 1.80401e+08
+      Equation: "HoleContinuityEquation"	RelError: 2.24902e-05	AbsError: 5.34564e+08
+      Equation: "PotentialEquation"	RelError: 9.34772e-08	AbsError: 6.04062e-10
+  Circuit: 	RelError: 4.70488e-12	AbsError: 6.16677e-11
+Iteration: 6
+  Device: "bjt"	RelError: 1.05871e-10	AbsError: 2.32138e+04
+    Region: "bjt"	RelError: 1.05871e-10	AbsError: 2.32138e+04
+      Equation: "ElectronContinuityEquation"	RelError: 2.97176e-12	AbsError: 1.53476e+04
+      Equation: "HoleContinuityEquation"	RelError: 9.28808e-11	AbsError: 7.86619e+03
+      Equation: "PotentialEquation"	RelError: 1.00180e-11	AbsError: 2.24652e-13
+  Circuit: 	RelError: 9.28272e-16	AbsError: 1.26278e-14
+Circuit Solution:
+Vb.I	-0.00960684
+Vc.I	-10.3874
+Ve.I	10.397
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.9125
+Succeeded
+CURVE: 0 0.2 -0.9125 0.00960683743722982 10.3874424551371 -10.3970492925744
+last end -9.125000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 3.92781e+02	AbsError: 1.06422e+17
+    Region: "bjt"	RelError: 3.92781e+02	AbsError: 1.06422e+17
+      Equation: "ElectronContinuityEquation"	RelError: 6.11899e-01	AbsError: 5.28998e+16
+      Equation: "HoleContinuityEquation"	RelError: 8.09325e-01	AbsError: 5.35225e+16
+      Equation: "PotentialEquation"	RelError: 3.91360e+02	AbsError: 1.10439e-01
+  Circuit: 	RelError: 1.76844e-01	AbsError: 2.28419e+00
+Iteration: 1
+  Device: "bjt"	RelError: 2.79555e+01	AbsError: 9.14023e+15
+    Region: "bjt"	RelError: 2.79555e+01	AbsError: 9.14023e+15
+      Equation: "ElectronContinuityEquation"	RelError: 4.96510e-01	AbsError: 3.98031e+15
+      Equation: "HoleContinuityEquation"	RelError: 1.50111e+00	AbsError: 5.15992e+15
+      Equation: "PotentialEquation"	RelError: 2.59579e+01	AbsError: 2.89241e-02
+  Circuit: 	RelError: 1.92931e-02	AbsError: 1.17343e-01
+Iteration: 2
+  Device: "bjt"	RelError: 9.57529e+01	AbsError: 1.67317e+15
+    Region: "bjt"	RelError: 9.57529e+01	AbsError: 1.67317e+15
+      Equation: "ElectronContinuityEquation"	RelError: 3.94806e-02	AbsError: 6.28912e+14
+      Equation: "HoleContinuityEquation"	RelError: 5.82062e-01	AbsError: 1.04426e+15
+      Equation: "PotentialEquation"	RelError: 9.51314e+01	AbsError: 3.54903e-03
+  Circuit: 	RelError: 1.86359e-03	AbsError: 4.31321e-02
+Iteration: 3
+  Device: "bjt"	RelError: 1.01704e+00	AbsError: 3.12887e+13
+    Region: "bjt"	RelError: 1.01704e+00	AbsError: 3.12887e+13
+      Equation: "ElectronContinuityEquation"	RelError: 1.73994e-03	AbsError: 1.47143e+13
+      Equation: "HoleContinuityEquation"	RelError: 4.38631e-02	AbsError: 1.65744e+13
+      Equation: "PotentialEquation"	RelError: 9.71432e-01	AbsError: 5.91138e-05
+  Circuit: 	RelError: 8.71462e-06	AbsError: 2.01588e-04
+Iteration: 4
+  Device: "bjt"	RelError: 2.29531e-02	AbsError: 3.12971e+11
+    Region: "bjt"	RelError: 2.29531e-02	AbsError: 3.12971e+11
+      Equation: "ElectronContinuityEquation"	RelError: 8.80390e-06	AbsError: 1.55017e+11
+      Equation: "HoleContinuityEquation"	RelError: 1.59236e-03	AbsError: 1.57954e+11
+      Equation: "PotentialEquation"	RelError: 2.13520e-02	AbsError: 5.00561e-07
+  Circuit: 	RelError: 4.08989e-07	AbsError: 4.36918e-06
+Iteration: 5
+  Device: "bjt"	RelError: 4.14922e-05	AbsError: 1.49637e+09
+    Region: "bjt"	RelError: 4.14922e-05	AbsError: 1.49637e+09
+      Equation: "ElectronContinuityEquation"	RelError: 2.29655e-08	AbsError: 3.79963e+08
+      Equation: "HoleContinuityEquation"	RelError: 1.25766e-05	AbsError: 1.11640e+09
+      Equation: "PotentialEquation"	RelError: 2.88926e-05	AbsError: 2.03838e-09
+  Circuit: 	RelError: 1.51641e-11	AbsError: 2.73741e-10
+Iteration: 6
+  Device: "bjt"	RelError: 4.21401e-09	AbsError: 2.41890e+05
+    Region: "bjt"	RelError: 4.21401e-09	AbsError: 2.41890e+05
+      Equation: "ElectronContinuityEquation"	RelError: 2.93112e-11	AbsError: 1.13603e+05
+      Equation: "HoleContinuityEquation"	RelError: 4.01290e-11	AbsError: 1.28287e+05
+      Equation: "PotentialEquation"	RelError: 4.14457e-09	AbsError: 1.03905e-12
+  Circuit: 	RelError: 8.11725e-16	AbsError: 1.57822e-14
+Circuit Solution:
+Vb.I	-0.0118797
+Vc.I	-11.5611
+Ve.I	11.573
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.91875
+Succeeded
+CURVE: 0 0.2 -0.91875 0.0118796761526819 11.5611439020106 -11.5730235781633
+last end -9.187500e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 4.44993e+02	AbsError: 1.15476e+17
+    Region: "bjt"	RelError: 4.44993e+02	AbsError: 1.15476e+17
+      Equation: "ElectronContinuityEquation"	RelError: 6.09312e-01	AbsError: 5.74273e+16
+      Equation: "HoleContinuityEquation"	RelError: 8.01362e-01	AbsError: 5.80489e+16
+      Equation: "PotentialEquation"	RelError: 4.43583e+02	AbsError: 1.05208e-01
+  Circuit: 	RelError: 1.73374e-01	AbsError: 2.44011e+00
+Iteration: 1
+  Device: "bjt"	RelError: 8.24059e+00	AbsError: 8.37812e+15
+    Region: "bjt"	RelError: 8.24059e+00	AbsError: 8.37812e+15
+      Equation: "ElectronContinuityEquation"	RelError: 4.78846e-01	AbsError: 3.69373e+15
+      Equation: "HoleContinuityEquation"	RelError: 9.01666e-01	AbsError: 4.68439e+15
+      Equation: "PotentialEquation"	RelError: 6.86008e+00	AbsError: 2.56469e-02
+  Circuit: 	RelError: 1.78056e-02	AbsError: 1.20091e-01
+Iteration: 2
+  Device: "bjt"	RelError: 3.17290e+00	AbsError: 1.37974e+15
+    Region: "bjt"	RelError: 3.17290e+00	AbsError: 1.37974e+15
+      Equation: "ElectronContinuityEquation"	RelError: 3.26984e-02	AbsError: 5.36321e+14
+      Equation: "HoleContinuityEquation"	RelError: 4.68227e-01	AbsError: 8.43422e+14
+      Equation: "PotentialEquation"	RelError: 2.67197e+00	AbsError: 3.04699e-03
+  Circuit: 	RelError: 1.37862e-03	AbsError: 3.52964e-02
+Iteration: 3
+  Device: "bjt"	RelError: 5.38050e-02	AbsError: 1.76355e+13
+    Region: "bjt"	RelError: 5.38050e-02	AbsError: 1.76355e+13
+      Equation: "ElectronContinuityEquation"	RelError: 1.58221e-03	AbsError: 7.54298e+12
+      Equation: "HoleContinuityEquation"	RelError: 3.09262e-02	AbsError: 1.00925e+13
+      Equation: "PotentialEquation"	RelError: 2.12966e-02	AbsError: 3.98626e-05
+  Circuit: 	RelError: 2.46589e-06	AbsError: 6.32141e-05
+Iteration: 4
+  Device: "bjt"	RelError: 1.48995e-03	AbsError: 1.96012e+11
+    Region: "bjt"	RelError: 1.48995e-03	AbsError: 1.96012e+11
+      Equation: "ElectronContinuityEquation"	RelError: 4.70209e-06	AbsError: 7.68646e+10
+      Equation: "HoleContinuityEquation"	RelError: 1.36600e-03	AbsError: 1.19147e+11
+      Equation: "PotentialEquation"	RelError: 1.19243e-04	AbsError: 4.04329e-07
+  Circuit: 	RelError: 1.29011e-07	AbsError: 4.39442e-07
+Iteration: 5
+  Device: "bjt"	RelError: 2.85919e-05	AbsError: 1.64874e+09
+    Region: "bjt"	RelError: 2.85919e-05	AbsError: 1.64874e+09
+      Equation: "ElectronContinuityEquation"	RelError: 2.42236e-08	AbsError: 9.98821e+07
+      Equation: "HoleContinuityEquation"	RelError: 2.84466e-05	AbsError: 1.54885e+09
+      Equation: "PotentialEquation"	RelError: 1.21142e-07	AbsError: 1.68553e-09
+  Circuit: 	RelError: 4.91825e-12	AbsError: 7.65601e-11
+Iteration: 6
+  Device: "bjt"	RelError: 3.90966e-11	AbsError: 3.93123e+04
+    Region: "bjt"	RelError: 3.90966e-11	AbsError: 3.93123e+04
+      Equation: "ElectronContinuityEquation"	RelError: 2.70277e-12	AbsError: 1.61504e+04
+      Equation: "HoleContinuityEquation"	RelError: 2.74005e-11	AbsError: 2.31619e+04
+      Equation: "PotentialEquation"	RelError: 8.99329e-12	AbsError: 6.85953e-14
+  Circuit: 	RelError: 1.78783e-15	AbsError: 5.62415e-15
+Circuit Solution:
+Vb.I	-0.0146117
+Vc.I	-12.8177
+Ve.I	12.8323
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.925
+Succeeded
+CURVE: 0 0.2 -0.925 0.014611675431252 12.8177077492153 -12.8323194246465
+last end -9.250000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 8.80305e+01	AbsError: 1.24612e+17
+    Region: "bjt"	RelError: 8.80305e+01	AbsError: 1.24612e+17
+      Equation: "ElectronContinuityEquation"	RelError: 5.98726e-01	AbsError: 6.19949e+16
+      Equation: "HoleContinuityEquation"	RelError: 8.09582e-01	AbsError: 6.26169e+16
+      Equation: "PotentialEquation"	RelError: 8.66222e+01	AbsError: 1.10979e-01
+  Circuit: 	RelError: 1.69583e-01	AbsError: 2.60453e+00
+Iteration: 1
+  Device: "bjt"	RelError: 3.40820e+01	AbsError: 8.91904e+15
+    Region: "bjt"	RelError: 3.40820e+01	AbsError: 8.91904e+15
+      Equation: "ElectronContinuityEquation"	RelError: 5.08047e-01	AbsError: 4.43026e+15
+      Equation: "HoleContinuityEquation"	RelError: 9.49361e-01	AbsError: 4.48878e+15
+      Equation: "PotentialEquation"	RelError: 3.26246e+01	AbsError: 2.40446e-02
+  Circuit: 	RelError: 1.65777e-02	AbsError: 1.07569e-01
+Iteration: 2
+  Device: "bjt"	RelError: 1.73592e+00	AbsError: 1.20489e+15
+    Region: "bjt"	RelError: 1.73592e+00	AbsError: 1.20489e+15
+      Equation: "ElectronContinuityEquation"	RelError: 2.60298e-02	AbsError: 4.63582e+14
+      Equation: "HoleContinuityEquation"	RelError: 4.77034e-01	AbsError: 7.41313e+14
+      Equation: "PotentialEquation"	RelError: 1.23286e+00	AbsError: 2.68927e-03
+  Circuit: 	RelError: 1.26504e-03	AbsError: 3.19599e-02
+Iteration: 3
+  Device: "bjt"	RelError: 3.79176e-02	AbsError: 1.58611e+13
+    Region: "bjt"	RelError: 3.79176e-02	AbsError: 1.58611e+13
+      Equation: "ElectronContinuityEquation"	RelError: 1.52738e-03	AbsError: 6.71282e+12
+      Equation: "HoleContinuityEquation"	RelError: 2.13032e-02	AbsError: 9.14830e+12
+      Equation: "PotentialEquation"	RelError: 1.50870e-02	AbsError: 3.20886e-05
+  Circuit: 	RelError: 2.62476e-06	AbsError: 7.43300e-05
+Iteration: 4
+  Device: "bjt"	RelError: 1.54655e-03	AbsError: 1.81612e+11
+    Region: "bjt"	RelError: 1.54655e-03	AbsError: 1.81612e+11
+      Equation: "ElectronContinuityEquation"	RelError: 4.49314e-06	AbsError: 7.52173e+10
+      Equation: "HoleContinuityEquation"	RelError: 1.47775e-03	AbsError: 1.06395e+11
+      Equation: "PotentialEquation"	RelError: 6.43024e-05	AbsError: 3.48863e-07
+  Circuit: 	RelError: 1.60507e-07	AbsError: 1.80568e-06
+Iteration: 5
+  Device: "bjt"	RelError: 6.43349e-05	AbsError: 4.95030e+08
+    Region: "bjt"	RelError: 6.43349e-05	AbsError: 4.95030e+08
+      Equation: "ElectronContinuityEquation"	RelError: 6.84384e-09	AbsError: 5.86548e+07
+      Equation: "HoleContinuityEquation"	RelError: 6.43187e-05	AbsError: 4.36375e+08
+      Equation: "PotentialEquation"	RelError: 9.38511e-09	AbsError: 5.15221e-10
+  Circuit: 	RelError: 8.61489e-13	AbsError: 1.20866e-11
+Iteration: 6
+  Device: "bjt"	RelError: 3.14757e-11	AbsError: 1.21519e+05
+    Region: "bjt"	RelError: 3.14757e-11	AbsError: 1.21519e+05
+      Equation: "ElectronContinuityEquation"	RelError: 1.25171e-11	AbsError: 8.51889e+04
+      Equation: "HoleContinuityEquation"	RelError: 1.74172e-11	AbsError: 3.63304e+04
+      Equation: "PotentialEquation"	RelError: 1.54139e-12	AbsError: 4.50885e-13
+  Circuit: 	RelError: 2.76174e-16	AbsError: 5.47635e-15
+Circuit Solution:
+Vb.I	-0.0178696
+Vc.I	-14.1514
+Ve.I	14.1692
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.93125
+Succeeded
+CURVE: 0 0.2 -0.93125 0.0178695678366263 14.1513565875431 -14.1692261553798
+last end -9.312500e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 1.37127e+03	AbsError: 1.33648e+17
+    Region: "bjt"	RelError: 1.37127e+03	AbsError: 1.33648e+17
+      Equation: "ElectronContinuityEquation"	RelError: 6.27289e-01	AbsError: 6.65119e+16
+      Equation: "HoleContinuityEquation"	RelError: 8.21497e-01	AbsError: 6.71356e+16
+      Equation: "PotentialEquation"	RelError: 1.36982e+03	AbsError: 1.20222e-01
+  Circuit: 	RelError: 1.65448e-01	AbsError: 2.75604e+00
+Iteration: 1
+  Device: "bjt"	RelError: 4.73096e+00	AbsError: 1.20533e+16
+    Region: "bjt"	RelError: 4.73096e+00	AbsError: 1.20533e+16
+      Equation: "ElectronContinuityEquation"	RelError: 6.12059e-01	AbsError: 5.42122e+15
+      Equation: "HoleContinuityEquation"	RelError: 9.28464e-01	AbsError: 6.63207e+15
+      Equation: "PotentialEquation"	RelError: 3.19044e+00	AbsError: 2.92135e-02
+  Circuit: 	RelError: 1.50169e-02	AbsError: 1.01487e-01
+Iteration: 2
+  Device: "bjt"	RelError: 3.56275e+00	AbsError: 2.97402e+15
+    Region: "bjt"	RelError: 3.56275e+00	AbsError: 2.97402e+15
+      Equation: "ElectronContinuityEquation"	RelError: 7.81307e-02	AbsError: 1.18074e+15
+      Equation: "HoleContinuityEquation"	RelError: 4.00418e-01	AbsError: 1.79328e+15
+      Equation: "PotentialEquation"	RelError: 3.08420e+00	AbsError: 7.36936e-03
+  Circuit: 	RelError: 8.85629e-04	AbsError: 2.56752e-02
+Iteration: 3
+  Device: "bjt"	RelError: 1.22729e-01	AbsError: 1.39733e+14
+    Region: "bjt"	RelError: 1.22729e-01	AbsError: 1.39733e+14
+      Equation: "ElectronContinuityEquation"	RelError: 4.31142e-03	AbsError: 5.96359e+13
+      Equation: "HoleContinuityEquation"	RelError: 5.77969e-02	AbsError: 8.00969e+13
+      Equation: "PotentialEquation"	RelError: 6.06211e-02	AbsError: 3.34770e-04
+  Circuit: 	RelError: 1.42434e-05	AbsError: 6.01225e-05
+Iteration: 4
+  Device: "bjt"	RelError: 1.28958e-03	AbsError: 7.76758e+11
+    Region: "bjt"	RelError: 1.28958e-03	AbsError: 7.76758e+11
+      Equation: "ElectronContinuityEquation"	RelError: 2.67056e-05	AbsError: 3.23714e+11
+      Equation: "HoleContinuityEquation"	RelError: 1.13734e-03	AbsError: 4.53045e+11
+      Equation: "PotentialEquation"	RelError: 1.25532e-04	AbsError: 1.57156e-06
+  Circuit: 	RelError: 1.28801e-07	AbsError: 1.18790e-06
+Iteration: 5
+  Device: "bjt"	RelError: 1.28987e-05	AbsError: 4.31440e+09
+    Region: "bjt"	RelError: 1.28987e-05	AbsError: 4.31440e+09
+      Equation: "ElectronContinuityEquation"	RelError: 1.45012e-07	AbsError: 1.53886e+09
+      Equation: "HoleContinuityEquation"	RelError: 1.20861e-05	AbsError: 2.77554e+09
+      Equation: "PotentialEquation"	RelError: 6.67520e-07	AbsError: 6.94546e-09
+  Circuit: 	RelError: 1.94331e-11	AbsError: 3.05607e-10
+Iteration: 6
+  Device: "bjt"	RelError: 2.52495e-10	AbsError: 4.96009e+05
+    Region: "bjt"	RelError: 2.52495e-10	AbsError: 4.96009e+05
+      Equation: "ElectronContinuityEquation"	RelError: 1.18329e-11	AbsError: 1.80709e+05
+      Equation: "HoleContinuityEquation"	RelError: 2.23050e-10	AbsError: 3.15300e+05
+      Equation: "PotentialEquation"	RelError: 1.76117e-11	AbsError: 3.56239e-13
+  Circuit: 	RelError: 1.25162e-15	AbsError: 2.22136e-14
+Circuit Solution:
+Vb.I	-0.0217191
+Vc.I	-15.5603
+Ve.I	15.582
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.9375
+setting new step size 1.250000e-02
+Succeeded
+CURVE: 0 0.2 -0.9375 0.0217190562323938 15.5602793351683 -15.5819983914007
+last end -9.375000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 5.35693e+04	AbsError: 2.84880e+17
+    Region: "bjt"	RelError: 5.35693e+04	AbsError: 2.84880e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.72452e-01	AbsError: 1.41815e+17
+      Equation: "HoleContinuityEquation"	RelError: 8.89037e-01	AbsError: 1.43065e+17
+      Equation: "PotentialEquation"	RelError: 5.35676e+04	AbsError: 2.09914e-01
+  Circuit: 	RelError: 2.77336e-01	AbsError: 5.81599e+00
+Iteration: 1
+  Device: "bjt"	RelError: 5.33149e+02	AbsError: 7.57410e+16
+    Region: "bjt"	RelError: 5.33149e+02	AbsError: 7.57410e+16
+      Equation: "ElectronContinuityEquation"	RelError: 8.27574e-01	AbsError: 4.39660e+16
+      Equation: "HoleContinuityEquation"	RelError: 4.33319e+02	AbsError: 3.17750e+16
+      Equation: "PotentialEquation"	RelError: 9.90031e+01	AbsError: 1.80570e-01
+  Circuit: 	RelError: 6.89361e-02	AbsError: 8.45897e-01
+Iteration: 2
+  Device: "bjt"	RelError: 5.38055e+01	AbsError: 5.40192e+16
+    Region: "bjt"	RelError: 5.38055e+01	AbsError: 5.40192e+16
+      Equation: "ElectronContinuityEquation"	RelError: 1.30261e+00	AbsError: 2.99082e+16
+      Equation: "HoleContinuityEquation"	RelError: 1.79514e+00	AbsError: 2.41110e+16
+      Equation: "PotentialEquation"	RelError: 5.07077e+01	AbsError: 9.28903e-02
+  Circuit: 	RelError: 2.21622e-02	AbsError: 5.06275e-01
+Iteration: 3
+  Device: "bjt"	RelError: 2.87541e+01	AbsError: 2.18958e+16
+    Region: "bjt"	RelError: 2.87541e+01	AbsError: 2.18958e+16
+      Equation: "ElectronContinuityEquation"	RelError: 3.59371e-01	AbsError: 1.09786e+16
+      Equation: "HoleContinuityEquation"	RelError: 7.77746e-01	AbsError: 1.09172e+16
+      Equation: "PotentialEquation"	RelError: 2.76170e+01	AbsError: 1.11652e-02
+  Circuit: 	RelError: 4.19220e-03	AbsError: 5.07575e-02
+Iteration: 4
+  Device: "bjt"	RelError: 5.77705e+00	AbsError: 6.41173e+14
+    Region: "bjt"	RelError: 5.77705e+00	AbsError: 6.41173e+14
+      Equation: "ElectronContinuityEquation"	RelError: 3.27418e-02	AbsError: 3.12905e+14
+      Equation: "HoleContinuityEquation"	RelError: 2.34605e-01	AbsError: 3.28268e+14
+      Equation: "PotentialEquation"	RelError: 5.50970e+00	AbsError: 2.08840e-03
+  Circuit: 	RelError: 5.38196e-05	AbsError: 4.03672e-04
+Iteration: 5
+  Device: "bjt"	RelError: 6.12092e-02	AbsError: 1.01563e+13
+    Region: "bjt"	RelError: 6.12092e-02	AbsError: 1.01563e+13
+      Equation: "ElectronContinuityEquation"	RelError: 2.75475e-04	AbsError: 5.19358e+12
+      Equation: "HoleContinuityEquation"	RelError: 1.08035e-02	AbsError: 4.96268e+12
+      Equation: "PotentialEquation"	RelError: 5.01302e-02	AbsError: 2.66611e-05
+  Circuit: 	RelError: 5.73294e-07	AbsError: 1.25889e-05
+Iteration: 6
+  Device: "bjt"	RelError: 1.01101e-04	AbsError: 2.31967e+10
+    Region: "bjt"	RelError: 1.01101e-04	AbsError: 2.31967e+10
+      Equation: "ElectronContinuityEquation"	RelError: 7.26504e-07	AbsError: 1.25770e+10
+      Equation: "HoleContinuityEquation"	RelError: 5.54203e-05	AbsError: 1.06197e+10
+      Equation: "PotentialEquation"	RelError: 4.49544e-05	AbsError: 3.92803e-08
+  Circuit: 	RelError: 2.88474e-10	AbsError: 1.07475e-08
+Iteration: 7
+  Device: "bjt"	RelError: 1.18429e-08	AbsError: 1.23624e+07
+    Region: "bjt"	RelError: 1.18429e-08	AbsError: 1.23624e+07
+      Equation: "ElectronContinuityEquation"	RelError: 1.40712e-10	AbsError: 6.79428e+06
+      Equation: "HoleContinuityEquation"	RelError: 1.15713e-08	AbsError: 5.56810e+06
+      Equation: "PotentialEquation"	RelError: 1.30881e-10	AbsError: 3.76510e-12
+  Circuit: 	RelError: 3.80094e-16	AbsError: 9.36285e-15
+Iteration: 8
+  Device: "bjt"	RelError: 4.65520e-10	AbsError: 9.11394e+03
+    Region: "bjt"	RelError: 4.65520e-10	AbsError: 9.11394e+03
+      Equation: "ElectronContinuityEquation"	RelError: 1.55270e-13	AbsError: 8.18470e+03
+      Equation: "HoleContinuityEquation"	RelError: 4.65034e-10	AbsError: 9.29239e+02
+      Equation: "PotentialEquation"	RelError: 3.30615e-13	AbsError: 1.77235e-16
+  Circuit: 	RelError: 1.92187e-16	AbsError: 4.50818e-16
+Circuit Solution:
+Vb.I	-0.0314493
+Vc.I	-18.5969
+Ve.I	18.6284
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.95
+Succeeded
+CURVE: 0 0.2 -0.95 0.0314493238709714 18.5969344259529 -18.6283837498239
+last end -9.500000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 1.60343e+02	AbsError: 3.17560e+17
+    Region: "bjt"	RelError: 1.60343e+02	AbsError: 3.17560e+17
+      Equation: "ElectronContinuityEquation"	RelError: 7.02638e-01	AbsError: 1.58266e+17
+      Equation: "HoleContinuityEquation"	RelError: 8.67917e-01	AbsError: 1.59294e+17
+      Equation: "PotentialEquation"	RelError: 1.58772e+02	AbsError: 1.73305e-01
+  Circuit: 	RelError: 2.62606e-01	AbsError: 6.36703e+00
+Iteration: 1
+  Device: "bjt"	RelError: 1.04737e+04	AbsError: 3.31569e+16
+    Region: "bjt"	RelError: 1.04737e+04	AbsError: 3.31569e+16
+      Equation: "ElectronContinuityEquation"	RelError: 7.81404e-01	AbsError: 1.61859e+16
+      Equation: "HoleContinuityEquation"	RelError: 1.04626e+04	AbsError: 1.69711e+16
+      Equation: "PotentialEquation"	RelError: 1.03635e+01	AbsError: 9.63442e-02
+  Circuit: 	RelError: 4.92488e-02	AbsError: 5.44638e-01
+Iteration: 2
+  Device: "bjt"	RelError: 1.09171e+01	AbsError: 1.37254e+16
+    Region: "bjt"	RelError: 1.09171e+01	AbsError: 1.37254e+16
+      Equation: "ElectronContinuityEquation"	RelError: 6.38669e-01	AbsError: 6.58569e+15
+      Equation: "HoleContinuityEquation"	RelError: 1.47454e+00	AbsError: 7.13969e+15
+      Equation: "PotentialEquation"	RelError: 8.80388e+00	AbsError: 2.45299e-02
+  Circuit: 	RelError: 1.24495e-02	AbsError: 3.03838e-01
+Iteration: 3
+  Device: "bjt"	RelError: 2.01163e+00	AbsError: 1.58034e+15
+    Region: "bjt"	RelError: 2.01163e+00	AbsError: 1.58034e+15
+      Equation: "ElectronContinuityEquation"	RelError: 6.36444e-02	AbsError: 7.42892e+14
+      Equation: "HoleContinuityEquation"	RelError: 5.78333e-01	AbsError: 8.37451e+14
+      Equation: "PotentialEquation"	RelError: 1.36965e+00	AbsError: 5.11186e-03
+  Circuit: 	RelError: 1.15889e-03	AbsError: 2.69422e-02
+Iteration: 4
+  Device: "bjt"	RelError: 5.19463e-02	AbsError: 5.78238e+13
+    Region: "bjt"	RelError: 5.19463e-02	AbsError: 5.78238e+13
+      Equation: "ElectronContinuityEquation"	RelError: 3.23831e-03	AbsError: 3.17944e+13
+      Equation: "HoleContinuityEquation"	RelError: 3.30528e-02	AbsError: 2.60294e+13
+      Equation: "PotentialEquation"	RelError: 1.56552e-02	AbsError: 6.40104e-05
+  Circuit: 	RelError: 9.37701e-06	AbsError: 1.56886e-04
+Iteration: 5
+  Device: "bjt"	RelError: 1.42206e-03	AbsError: 4.08964e+11
+    Region: "bjt"	RelError: 1.42206e-03	AbsError: 4.08964e+11
+      Equation: "ElectronContinuityEquation"	RelError: 1.36717e-05	AbsError: 1.87035e+11
+      Equation: "HoleContinuityEquation"	RelError: 1.00054e-03	AbsError: 2.21928e+11
+      Equation: "PotentialEquation"	RelError: 4.07847e-04	AbsError: 7.01482e-07
+  Circuit: 	RelError: 3.24131e-07	AbsError: 7.71422e-06
+Iteration: 6
+  Device: "bjt"	RelError: 2.11864e-06	AbsError: 5.40777e+08
+    Region: "bjt"	RelError: 2.11864e-06	AbsError: 5.40777e+08
+      Equation: "ElectronContinuityEquation"	RelError: 7.47069e-09	AbsError: 2.87881e+08
+      Equation: "HoleContinuityEquation"	RelError: 2.04132e-06	AbsError: 2.52897e+08
+      Equation: "PotentialEquation"	RelError: 6.98537e-08	AbsError: 3.94424e-10
+  Circuit: 	RelError: 7.77803e-13	AbsError: 3.40101e-11
+Iteration: 7
+  Device: "bjt"	RelError: 4.49347e-10	AbsError: 1.82028e+04
+    Region: "bjt"	RelError: 4.49347e-10	AbsError: 1.82028e+04
+      Equation: "ElectronContinuityEquation"	RelError: 1.22682e-12	AbsError: 8.18371e+03
+      Equation: "HoleContinuityEquation"	RelError: 4.43514e-10	AbsError: 1.00191e+04
+      Equation: "PotentialEquation"	RelError: 4.60660e-12	AbsError: 4.34298e-14
+  Circuit: 	RelError: 6.88131e-16	AbsError: 1.67295e-14
+Circuit Solution:
+Vb.I	-0.0442561
+Vc.I	-21.8684
+Ve.I	21.9127
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.9625
+Succeeded
+CURVE: 0 0.2 -0.9625 0.0442560747982174 21.868402259965 -21.9126583347632
+last end -9.625000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 1.27973e+03	AbsError: 3.46005e+17
+    Region: "bjt"	RelError: 1.27973e+03	AbsError: 3.46005e+17
+      Equation: "ElectronContinuityEquation"	RelError: 6.89683e-01	AbsError: 1.72588e+17
+      Equation: "HoleContinuityEquation"	RelError: 8.55523e-01	AbsError: 1.73417e+17
+      Equation: "PotentialEquation"	RelError: 1.27818e+03	AbsError: 1.56408e-01
+  Circuit: 	RelError: 2.46379e-01	AbsError: 6.77947e+00
+Iteration: 1
+  Device: "bjt"	RelError: 4.12935e+01	AbsError: 2.57880e+16
+    Region: "bjt"	RelError: 4.12935e+01	AbsError: 2.57880e+16
+      Equation: "ElectronContinuityEquation"	RelError: 7.20291e-01	AbsError: 1.26438e+16
+      Equation: "HoleContinuityEquation"	RelError: 1.88061e+01	AbsError: 1.31442e+16
+      Equation: "PotentialEquation"	RelError: 2.17671e+01	AbsError: 7.10766e-02
+  Circuit: 	RelError: 3.63756e-02	AbsError: 3.69238e-01
+Iteration: 2
+  Device: "bjt"	RelError: 2.48289e+02	AbsError: 8.92019e+15
+    Region: "bjt"	RelError: 2.48289e+02	AbsError: 8.92019e+15
+      Equation: "ElectronContinuityEquation"	RelError: 3.81620e-01	AbsError: 4.22631e+15
+      Equation: "HoleContinuityEquation"	RelError: 9.35634e-01	AbsError: 4.69388e+15
+      Equation: "PotentialEquation"	RelError: 2.46972e+02	AbsError: 1.73595e-02
+  Circuit: 	RelError: 7.30318e-03	AbsError: 1.98722e-01
+Iteration: 3
+  Device: "bjt"	RelError: 2.97170e+00	AbsError: 6.26479e+14
+    Region: "bjt"	RelError: 2.97170e+00	AbsError: 6.26479e+14
+      Equation: "ElectronContinuityEquation"	RelError: 3.21469e-02	AbsError: 2.79856e+14
+      Equation: "HoleContinuityEquation"	RelError: 3.18333e-01	AbsError: 3.46623e+14
+      Equation: "PotentialEquation"	RelError: 2.62122e+00	AbsError: 1.83210e-03
+  Circuit: 	RelError: 4.17348e-04	AbsError: 1.12283e-02
+Iteration: 4
+  Device: "bjt"	RelError: 3.19680e-02	AbsError: 9.26235e+12
+    Region: "bjt"	RelError: 3.19680e-02	AbsError: 9.26235e+12
+      Equation: "ElectronContinuityEquation"	RelError: 2.81572e-04	AbsError: 4.50723e+12
+      Equation: "HoleContinuityEquation"	RelError: 1.21703e-02	AbsError: 4.75512e+12
+      Equation: "PotentialEquation"	RelError: 1.95161e-02	AbsError: 1.03432e-05
+  Circuit: 	RelError: 1.07336e-06	AbsError: 2.88818e-05
+Iteration: 5
+  Device: "bjt"	RelError: 2.46812e-04	AbsError: 6.42487e+10
+    Region: "bjt"	RelError: 2.46812e-04	AbsError: 6.42487e+10
+      Equation: "ElectronContinuityEquation"	RelError: 7.55796e-07	AbsError: 5.04334e+09
+      Equation: "HoleContinuityEquation"	RelError: 2.29766e-04	AbsError: 5.92054e+10
+      Equation: "PotentialEquation"	RelError: 1.62906e-05	AbsError: 6.73467e-08
+  Circuit: 	RelError: 1.28568e-09	AbsError: 2.21548e-08
+Iteration: 6
+  Device: "bjt"	RelError: 1.80029e-06	AbsError: 6.25841e+06
+    Region: "bjt"	RelError: 1.80029e-06	AbsError: 6.25841e+06
+      Equation: "ElectronContinuityEquation"	RelError: 1.76777e-10	AbsError: 3.16609e+06
+      Equation: "HoleContinuityEquation"	RelError: 1.79924e-06	AbsError: 3.09232e+06
+      Equation: "PotentialEquation"	RelError: 8.67672e-10	AbsError: 6.65391e-12
+  Circuit: 	RelError: 2.52165e-15	AbsError: 1.12175e-13
+Iteration: 7
+  Device: "bjt"	RelError: 4.30431e-10	AbsError: 1.00506e+04
+    Region: "bjt"	RelError: 4.30431e-10	AbsError: 1.00506e+04
+      Equation: "ElectronContinuityEquation"	RelError: 9.35713e-14	AbsError: 8.18543e+03
+      Equation: "HoleContinuityEquation"	RelError: 4.29741e-10	AbsError: 1.86518e+03
+      Equation: "PotentialEquation"	RelError: 5.96125e-13	AbsError: 2.39515e-16
+  Circuit: 	RelError: 5.42914e-16	AbsError: 3.92811e-15
+Circuit Solution:
+Vb.I	-0.0604742
+Vc.I	-25.3153
+Ve.I	25.3758
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.975
+Succeeded
+CURVE: 0 0.2 -0.975 0.0604742229000294 25.3152964664101 -25.3757706893101
+last end -9.750000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 7.48768e+01	AbsError: 3.68194e+17
+    Region: "bjt"	RelError: 7.48768e+01	AbsError: 3.68194e+17
+      Equation: "ElectronContinuityEquation"	RelError: 6.70744e-01	AbsError: 1.83721e+17
+      Equation: "HoleContinuityEquation"	RelError: 8.45063e-01	AbsError: 1.84474e+17
+      Equation: "PotentialEquation"	RelError: 7.33610e+01	AbsError: 1.44896e-01
+  Circuit: 	RelError: 2.29387e-01	AbsError: 7.07716e+00
+Iteration: 1
+  Device: "bjt"	RelError: 4.85848e+01	AbsError: 2.00863e+16
+    Region: "bjt"	RelError: 4.85848e+01	AbsError: 2.00863e+16
+      Equation: "ElectronContinuityEquation"	RelError: 6.73599e-01	AbsError: 1.00079e+16
+      Equation: "HoleContinuityEquation"	RelError: 5.12738e+00	AbsError: 1.00784e+16
+      Equation: "PotentialEquation"	RelError: 4.27838e+01	AbsError: 5.33585e-02
+  Circuit: 	RelError: 2.67881e-02	AbsError: 2.22754e-01
+Iteration: 2
+  Device: "bjt"	RelError: 7.37635e+00	AbsError: 5.93906e+15
+    Region: "bjt"	RelError: 7.37635e+00	AbsError: 5.93906e+15
+      Equation: "ElectronContinuityEquation"	RelError: 2.26042e-01	AbsError: 2.78191e+15
+      Equation: "HoleContinuityEquation"	RelError: 8.07890e-01	AbsError: 3.15714e+15
+      Equation: "PotentialEquation"	RelError: 6.34242e+00	AbsError: 1.05274e-02
+  Circuit: 	RelError: 4.17044e-03	AbsError: 1.25848e-01
+Iteration: 3
+  Device: "bjt"	RelError: 8.07220e-01	AbsError: 2.85484e+14
+    Region: "bjt"	RelError: 8.07220e-01	AbsError: 2.85484e+14
+      Equation: "ElectronContinuityEquation"	RelError: 1.92881e-02	AbsError: 1.23989e+14
+      Equation: "HoleContinuityEquation"	RelError: 1.89132e-01	AbsError: 1.61494e+14
+      Equation: "PotentialEquation"	RelError: 5.98799e-01	AbsError: 7.58370e-04
+  Circuit: 	RelError: 1.28858e-04	AbsError: 3.89517e-03
+Iteration: 4
+  Device: "bjt"	RelError: 1.59545e-01	AbsError: 2.66819e+12
+    Region: "bjt"	RelError: 1.59545e-01	AbsError: 2.66819e+12
+      Equation: "ElectronContinuityEquation"	RelError: 5.31121e-05	AbsError: 1.33153e+12
+      Equation: "HoleContinuityEquation"	RelError: 1.57854e-01	AbsError: 1.33666e+12
+      Equation: "PotentialEquation"	RelError: 1.63775e-03	AbsError: 2.74289e-06
+  Circuit: 	RelError: 1.95254e-06	AbsError: 5.36214e-05
+Iteration: 5
+  Device: "bjt"	RelError: 2.07978e-03	AbsError: 5.12707e+09
+    Region: "bjt"	RelError: 2.07978e-03	AbsError: 5.12707e+09
+      Equation: "ElectronContinuityEquation"	RelError: 1.89788e-07	AbsError: 2.03728e+09
+      Equation: "HoleContinuityEquation"	RelError: 2.07747e-03	AbsError: 3.08979e+09
+      Equation: "PotentialEquation"	RelError: 2.12416e-06	AbsError: 1.43987e-08
+  Circuit: 	RelError: 1.23036e-10	AbsError: 1.55283e-09
+Iteration: 6
+  Device: "bjt"	RelError: 1.38262e-06	AbsError: 1.71455e+06
+    Region: "bjt"	RelError: 1.38262e-06	AbsError: 1.71455e+06
+      Equation: "ElectronContinuityEquation"	RelError: 3.12680e-11	AbsError: 8.63916e+05
+      Equation: "HoleContinuityEquation"	RelError: 1.38193e-06	AbsError: 8.50632e+05
+      Equation: "PotentialEquation"	RelError: 6.63924e-10	AbsError: 8.98220e-13
+  Circuit: 	RelError: 1.40037e-15	AbsError: 5.44413e-14
+Iteration: 7
+  Device: "bjt"	RelError: 6.64264e-09	AbsError: 1.33070e+04
+    Region: "bjt"	RelError: 6.64264e-09	AbsError: 1.33070e+04
+      Equation: "ElectronContinuityEquation"	RelError: 1.91729e-13	AbsError: 8.18021e+03
+      Equation: "HoleContinuityEquation"	RelError: 6.64222e-09	AbsError: 5.12675e+03
+      Equation: "PotentialEquation"	RelError: 2.28097e-13	AbsError: 3.18603e-16
+  Circuit: 	RelError: 3.12694e-16	AbsError: 4.07079e-15
+Circuit Solution:
+Vb.I	-0.0802901
+Vc.I	-28.8743
+Ve.I	28.9546
+base_bias	0
+collector_bias	0.2
+emitter_bias	-0.9875
+Succeeded
+CURVE: 0 0.2 -0.987499999999999 0.0802901329075932 28.8742911056815 -28.9545812385891
+last end -9.875000e-01 -1.000000e+00
+Region "bjt" on device "bjt" has equations 0:44318
+Device "bjt" has equations 0:44318
+0	18446744073709551615	ground
+GND	18446744073709551615	ground
+Vb.I	0	mna
+Vc.I	1	mna
+Ve.I	2	mna
+base_bias	3	default
+collector_bias	4	default
+emitter_bias	5	default
+Circuit  has equations 44319:44324
+number of equations 44325
+Iteration: 0
+  Device: "bjt"	RelError: 7.69823e+01	AbsError: 3.83698e+17
+    Region: "bjt"	RelError: 7.69823e+01	AbsError: 3.83698e+17
+      Equation: "ElectronContinuityEquation"	RelError: 6.52320e-01	AbsError: 1.91521e+17
+      Equation: "HoleContinuityEquation"	RelError: 9.96120e-01	AbsError: 1.92177e+17
+      Equation: "PotentialEquation"	RelError: 7.53339e+01	AbsError: 1.31477e-01
+  Circuit: 	RelError: 2.12272e-01	AbsError: 7.23999e+00
+Iteration: 1
+  Device: "bjt"	RelError: 4.13589e+02	AbsError: 1.63568e+16
+    Region: "bjt"	RelError: 4.13589e+02	AbsError: 1.63568e+16
+      Equation: "ElectronContinuityEquation"	RelError: 6.10448e-01	AbsError: 8.15228e+15
+      Equation: "HoleContinuityEquation"	RelError: 2.72682e+02	AbsError: 8.20456e+15
+      Equation: "PotentialEquation"	RelError: 1.40296e+02	AbsError: 4.13830e-02
+  Circuit: 	RelError: 2.00399e-02	AbsError: 1.13345e-01
+Iteration: 2
+  Device: "bjt"	RelError: 5.72090e+00	AbsError: 3.94611e+15
+    Region: "bjt"	RelError: 5.72090e+00	AbsError: 3.94611e+15
+      Equation: "ElectronContinuityEquation"	RelError: 1.12740e-01	AbsError: 1.85717e+15
+      Equation: "HoleContinuityEquation"	RelError: 8.29019e-01	AbsError: 2.08894e+15
+      Equation: "PotentialEquation"	RelError: 4.77914e+00	AbsError: 6.69409e-03
+  Circuit: 	RelError: 2.39642e-03	AbsError: 7.88278e-02
+Iteration: 3
+  Device: "bjt"	RelError: 2.51369e-01	AbsError: 1.18290e+14
+    Region: "bjt"	RelError: 2.51369e-01	AbsError: 1.18290e+14
+      Equation: "ElectronContinuityEquation"	RelError: 3.29030e-03	AbsError: 5.51111e+13
+      Equation: "HoleContinuityEquation"	RelError: 1.13251e-01	AbsError: 6.31790e+13
+      Equation: "PotentialEquation"	RelError: 1.34828e-01	AbsError: 3.06756e-04
+  Circuit: 	RelError: 4.69113e-05	AbsError: 1.59209e-03
+Iteration: 4
+  Device: "bjt"	RelError: 3.23527e-03	AbsError: 1.26623e+12
+    Region: "bjt"	RelError: 3.23527e-03	AbsError: 1.26623e+12
+      Equation: "ElectronContinuityEquation"	RelError: 3.09364e-05	AbsError: 5.05668e+11
+      Equation: "HoleContinuityEquation"	RelError: 2.86156e-03	AbsError: 7.60562e+11
+      Equation: "PotentialEquation"	RelError: 3.42779e-04	AbsError: 2.61694e-06
+  Circuit: 	RelError: 6.07959e-07	AbsError: 1.80249e-05
+Iteration: 5
+  Device: "bjt"	RelError: 6.47845e-05	AbsError: 1.32933e+09
+    Region: "bjt"	RelError: 6.47845e-05	AbsError: 1.32933e+09
+      Equation: "ElectronContinuityEquation"	RelError: 3.60366e-08	AbsError: 7.14750e+08
+      Equation: "HoleContinuityEquation"	RelError: 6.46852e-05	AbsError: 6.14583e+08
+      Equation: "PotentialEquation"	RelError: 6.32892e-08	AbsError: 1.22982e-09
+  Circuit: 	RelError: 5.93864e-12	AbsError: 1.93841e-10
+Iteration: 6
+  Device: "bjt"	RelError: 2.19419e-08	AbsError: 6.00343e+04
+    Region: "bjt"	RelError: 2.19419e-08	AbsError: 6.00343e+04
+      Equation: "ElectronContinuityEquation"	RelError: 5.38168e-13	AbsError: 3.73027e+04
+      Equation: "HoleContinuityEquation"	RelError: 2.19382e-08	AbsError: 2.27316e+04
+      Equation: "PotentialEquation"	RelError: 3.20908e-12	AbsError: 8.29978e-14
+  Circuit: 	RelError: 1.59444e-16	AbsError: 5.62034e-15
+Circuit Solution:
+Vb.I	-0.103757
+Vc.I	-32.481
+Ve.I	32.5848
+base_bias	0
+collector_bias	0.2
+emitter_bias	-1
+Succeeded
+CURVE: 0 0.2 -0.999999999999999 0.103756947434181 32.4810214088869 -32.5847783563211
+834.06user 23.57system 14:19.15elapsed 99%CPU (0avgtext+0avgdata 1424816maxresident)k
+0inputs+480outputs (0major+10202491minor)pagefaults 0swaps
