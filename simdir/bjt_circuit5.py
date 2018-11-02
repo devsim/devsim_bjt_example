@@ -13,7 +13,7 @@
 # limitations under the License.
 
 import sys
-from ds import *
+from devsim import *
 Vc=float(sys.argv[1])
 fmin=float(sys.argv[2])
 fmax=float(sys.argv[3])

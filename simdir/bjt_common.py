@@ -12,14 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from ds import *
+from devsim import *
 from physics.new_physics import *
 import bjt_params
 import netdoping
 
 def make_bias(contact):
   def mycall():
-    print "BIAS %s %1.15g" % (contact, get_circuit_node_value(solution="dcop", node=GetContactBiasName(contact)))
+    print("BIAS %s %1.15g" % (contact, get_circuit_node_value(solution="dcop", node=GetContactBiasName(contact))))
   return mycall
 
 def make_sweep(contact_names, bias_names):
@@ -30,13 +30,13 @@ def make_sweep(contact_names, bias_names):
       v.append("%1.15g" % get_circuit_node_value(solution="dcop", node=GetContactBiasName(c)))
     for b in bias_names:
       v.append("%1.15g" % -get_circuit_node_value(solution="dcop", node=b+".I"))
-    print "CURVE: " + " ".join(v)
+    print("CURVE: " + " ".join(v))
   h = []
   for c in contact_names:
     h.append("V(%s)" % c)
   for c in contact_names:
     h.append("I(%s)" % c)
-  print "HEADER: " + " ".join(h)
+  print("HEADER: " + " ".join(h))
   return mycall
 
 def make_ac_callback(contact_names, bias_names, minf, maxf, ppd):
@@ -59,7 +59,7 @@ def make_ac_callback(contact_names, bias_names, minf, maxf, ppd):
   for c in contact_names:
     h.append("IR(%s)" % c)
     h.append("II(%s)" % c)
-  print "ACHEADER: " + " ".join(h)
+  print("ACHEADER: " + " ".join(h))
   def ac_callback():
     # solve a few extra times for better ac sensitivity
     solve(type="dc", absolute_error=1e10, relative_error=1e-2, maximum_iterations=40)
@@ -77,7 +77,7 @@ def make_ac_callback(contact_names, bias_names, minf, maxf, ppd):
       for b in bias_names:
         v.append("%1.15g" % -get_circuit_node_value(solution="ssac_real", node=b+".I"))
         v.append("%1.15g" % -get_circuit_node_value(solution="ssac_imag", node=b+".I"))
-      print "AC: " + " ".join(v)
+      print("AC: " + " ".join(v))
   return ac_callback
 
 def run():

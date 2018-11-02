@@ -2,15 +2,15 @@
 # create the background mesh
 # use the background mesh
 gmsh -2 bjt.geo 
-devsim bjt_refine.py 
+python bjt_refine.py 
 gmsh -2 bjt.geo -bgm ./bjt_bgmesh.pos 
-devsim bjt_refine.py 
+python bjt_refine.py 
 gmsh -2 bjt.geo -bgm ./bjt_bgmesh.pos 
-devsim bjt_refine.py 
+python bjt_refine.py 
 gmsh -2 bjt.geo -bgm ./bjt_bgmesh.pos 
-devsim bjt_refine.py 
+python bjt_refine.py 
 gmsh -2 bjt.geo -bgm ./bjt_bgmesh.pos 
-devsim bjt_refine.py 
+python bjt_refine.py 
 
 #visualize
 visit bjt_refine.tec

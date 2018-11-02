@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from ds import *
+from devsim import *
 def emag_refinement(device, region):
   element_from_edge_model(edge_model="EField", device=device, region=region)
   element_model(device=device, region=region, name="Emag", equation="(EField_x^2 + EField_y^2)^(0.5)")
@@ -63,13 +63,13 @@ def run(device, region, outfile, mincl, maxcl, pdiff):
   en1 = get_element_model_values(device=device, region=region, name='node_index@en1')
   en2 = get_element_model_values(device=device, region=region, name='node_index@en2')
 
-  en0 = map(lambda x : int(x), en0)
-  en1 = map(lambda x : int(x), en1)
-  en2 = map(lambda x : int(x), en2)
+  en0 = [int(x) for x in en0]
+  en1 = [int(x) for x in en1]
+  en2 = [int(x) for x in en2]
 
   element_model(device=device, region=region, name="eindex", equation="edge_index")
   eindex = get_element_model_values(device=device, region=region, name='eindex')
-  eindex = map(lambda x : int(x), eindex)
+  eindex = [int(x) for x in eindex]
 
   emag_refinement(device, region)
   contact_refinement(device, region)
@@ -84,8 +84,8 @@ def run(device, region, outfile, mincl, maxcl, pdiff):
 
   node_cl = [0.0]*len(x)
   fh = open(outfile, 'w')
-  print >>fh, 'View "background mesh" {'
-  for i in range(len(cl)/3):
+  print('View "background mesh" {', file=fh)
+  for i in range(len(cl)//3):
     j = i * 3
     v = cl[j]
     ni0 = en0[j]
@@ -108,7 +108,7 @@ def run(device, region, outfile, mincl, maxcl, pdiff):
   miny = 1e30
   maxx = 0.0
   maxy = 0.0
-  for i in range(len(cl)/3):
+  for i in range(len(cl)//3):
     j = i * 3
     ni0 = en0[j]
     ni1 = en1[j]
@@ -116,11 +116,11 @@ def run(device, region, outfile, mincl, maxcl, pdiff):
     xp = (x[ni0], x[ni1], x[ni2])
     yp = (y[ni0], y[ni1], y[ni2])
     #if node_cl[ni0] and node_cl[ni1] and node_cl[ni2]:
-    print >>fh, "ST(%g, %g, %g, %g, %g, %g, %g, %g, %g) {%g, %g, %g};" % (
+    print("ST(%g, %g, %g, %g, %g, %g, %g, %g, %g) {%g, %g, %g};" % (
     xp[0], yp[0], 0.0,
     xp[1], yp[1], 0.0,
     xp[2], yp[2], 0.0,
-    node_cl[ni0], node_cl[ni1], node_cl[ni2])
+    node_cl[ni0], node_cl[ni1], node_cl[ni2]), file=fh)
     if min(xp) < minx:
       minx = min(xp)
     elif max(xp) > maxx :
@@ -129,7 +129,7 @@ def run(device, region, outfile, mincl, maxcl, pdiff):
       miny = min(yp)
     elif max(yp) > maxy :
       maxy = max(yp)
-  print >>fh, '};'
+  print('};', file=fh)
   fh.close()
-  print "BOX: %g %g %g %g" % (minx, miny, maxx, maxy)
+  print("BOX: %g %g %g %g" % (minx, miny, maxx, maxy))
 

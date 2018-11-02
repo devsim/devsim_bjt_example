@@ -6,6 +6,6 @@ vc=0.0
 fmin=1e3
 fmax=1e11
 ppd=3
-/usr/bin/time /home/jsanchez/git/devsim/linux_x86_64_release/src/main/devsim_py bjt_circuit5.py $vc $fmin $fmax $ppd &> ssac_$vc.out
+/usr/bin/time python bjt_circuit5.py $vc $fmin $fmax $ppd &> ssac_$vc.out
 #done
 
