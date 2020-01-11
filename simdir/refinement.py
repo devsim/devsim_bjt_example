@@ -117,10 +117,10 @@ def run(device, region, outfile, mincl, maxcl, pdiff):
     yp = (y[ni0], y[ni1], y[ni2])
     #if node_cl[ni0] and node_cl[ni1] and node_cl[ni2]:
     print("ST(%g, %g, %g, %g, %g, %g, %g, %g, %g) {%g, %g, %g};" % (
-    xp[0], yp[0], 0.0,
-    xp[1], yp[1], 0.0,
-    xp[2], yp[2], 0.0,
-    node_cl[ni0], node_cl[ni1], node_cl[ni2]), file=fh)
+        xp[0], yp[0], 0.0,
+        xp[1], yp[1], 0.0,
+        xp[2], yp[2], 0.0,
+        node_cl[ni0], node_cl[ni1], node_cl[ni2]), file=fh)
     if min(xp) < minx:
       minx = min(xp)
     elif max(xp) > maxx :

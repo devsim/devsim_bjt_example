@@ -20,16 +20,16 @@ import pylab
 ##HEADER: V(base) V(collector) V(emitter) I(base) I(collector) I(emitter)
 
 files = (
-#'ic_vce_0.1.out',
-#'ic_vce_0.2.out',
-#'ic_vce_0.3.out',
-#'ic_vce_0.4.out',
-#'ic_vce_0.5.out',
-#'ic_vce_0.6.out',
-'ic_vce_0.7.out',
-#'ic_vce_0.8.out',
-#'ic_vce_0.9.out',
-#'ic_vce_1.0.out',
+    #'ic_vce_0.1.out',
+    #'ic_vce_0.2.out',
+    #'ic_vce_0.3.out',
+    #'ic_vce_0.4.out',
+    #'ic_vce_0.5.out',
+    #'ic_vce_0.6.out',
+    'ic_vce_0.7.out',
+    #'ic_vce_0.8.out',
+    #'ic_vce_0.9.out',
+    #'ic_vce_1.0.out',
 )
 
 for filename in files:

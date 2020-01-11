@@ -16,7 +16,7 @@ from devsim import *
 
 def set_params(device, region):
   params = {
-    'base_center' : 13.75e-4,
+      'base_center' : 13.75e-4,
     'base_depth' : 1.3e-4,
     'base_doping' : 1e17,
     'base_hdiff' : 1.0e-5,

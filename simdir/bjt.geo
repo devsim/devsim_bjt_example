@@ -6,7 +6,7 @@
 */
 Mesh.CharacteristicLengthExtendFromBoundary=0; /* don't extend from boundary points */
 Mesh.Algorithm=5; /*Delaunay*/
-Mesh.RandomFactor=1e-7; /*perturbation*/
+//Mesh.RandomFactor=1e-7; /*perturbation*/
 /*Mesh.Algorithm=6;*/ /*Frontal*/
 
 sf = 1.0e-4;

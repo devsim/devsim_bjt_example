@@ -17,7 +17,7 @@ from .model_create import *
 
 def SetUniversalParameters(device, region):
   universal = {
-    'q' :          1.6e-19,          #, 'coul'),
+      'q' :          1.6e-19,          #, 'coul'),
     'k' :          1.3806503e-23,    #, 'J/K'),
     'Permittivity_0' :  8.85e-14     #, 'F/cm^2')
   }
@@ -35,7 +35,7 @@ def SetSiliconParameters(device, region):
 
 ##D. B. M. Klaassen, J. W. Slotboom, and H. C. de Graaff, "Unified apparent bandgap narrowing in n- and p-type Silicon," Solid-State Electronics, vol. 35, no. 2, pp. 125-29, 1992.
   par = {
-    'Permittivity'     : 11.1*get_parameter(device=device, region=region, name='Permittivity_0'),
+      'Permittivity'     : 11.1*get_parameter(device=device, region=region, name='Permittivity_0'),
     'NC300'       : 2.8e19,  # '1/cm^3'
     'NV300'       : 3.1e19, # '1/cm^3'
     'EG300'       : 1.12,    # 'eV'
@@ -85,7 +85,7 @@ def CreateQuasiFermiLevels(device, region, electron_model, hole_model, variables
   Creates the models for the quasi-Fermi levels.  Assuming Boltzmann statistics.
   '''
   eq = (
-    ('EFN', 'EC + V_t * log(%s/NC)' % electron_model, ('Potential', 'Electrons')),
+      ('EFN', 'EC + V_t * log(%s/NC)' % electron_model, ('Potential', 'Electrons')),
     ('EFP', 'EV - V_t * log(%s/NV)' % hole_model, ('Potential', 'Holes')),
   )
   for (model, equation, variable_list) in eq:
@@ -102,7 +102,7 @@ def CreateDensityOfStates(device, region, variables):
     Neglects Bandgap narrowing.
   '''
   eq = (
-    ('NC', 'NC300 * (T/300)^1.5', ('T',)),
+      ('NC', 'NC300 * (T/300)^1.5', ('T',)),
     ('NV', 'NV300 * (T/300)^1.5', ('T',)),
     ('NTOT', 'Donors + Acceptors', ()),
     # Band Gap Narrowing
@@ -148,9 +148,9 @@ def CreateEField(device, region):
     Creates the EField and DField.
   '''
   edge_average_model(device=device, region=region, node_model="Potential",
-    edge_model="EField", average_type="negative_gradient")
+                     edge_model="EField", average_type="negative_gradient")
   edge_average_model(device=device, region=region, node_model="Potential",
-    edge_model="EField", average_type="negative_gradient", derivative="Potential")
+                     edge_model="EField", average_type="negative_gradient", derivative="Potential")
 
 def CreateDField(device, region):
   CreateEdgeModel(device, region, "DField", "Permittivity * EField")
@@ -170,11 +170,11 @@ def CreateSiliconPotentialOnly(device, region):
 
   # require NetDoping
   for i in (
-       ("IntrinsicElectrons",       "NIE*exp(Potential/V_t)"),
+      ("IntrinsicElectrons",       "NIE*exp(Potential/V_t)"),
        ("IntrinsicHoles",           "NIE^2/IntrinsicElectrons"),
        ("IntrinsicCharge",          "kahan3(IntrinsicHoles, -IntrinsicElectrons, NetDoping)"),
        ("PotentialIntrinsicCharge", "-q * IntrinsicCharge")
-      ):
+  ):
     n = i[0]
     e = i[1]
     CreateNodeModel(device, region, n, e)
@@ -210,14 +210,14 @@ def CreateSiliconPotentialOnlyContact(device, region, contact, is_circuit=False)
 
   if is_circuit:
     contact_equation(device=device, contact=contact, name="PotentialEquation", variable_name="Potential",
-                   node_model=contact_model_name, edge_model="",
-                   node_charge_model="contactcharge_node", edge_charge_model="DField",
-                   node_current_model="", edge_current_model="", circuit_node=GetContactBiasName(contact))
+                     node_model=contact_model_name, edge_model="",
+                     node_charge_model="contactcharge_node", edge_charge_model="DField",
+                     node_current_model="", edge_current_model="", circuit_node=GetContactBiasName(contact))
   else:
     contact_equation(device=device, contact=contact, name="PotentialEquation", variable_name="Potential",
-                   node_model=contact_model_name, edge_model="",
-                   node_charge_model="contactcharge_node", edge_charge_model="DField",
-                   node_current_model="", edge_current_model="")
+                     node_model=contact_model_name, edge_model="",
+                     node_charge_model="contactcharge_node", edge_charge_model="DField",
+                     node_current_model="", edge_current_model="")
 
 
 def CreateSRH(device, region, variables):
@@ -245,8 +245,8 @@ def CreateECE(device, region, Jn):
   CreateNodeModelDerivative(device, region, "NCharge", NCharge, "Electrons")
 
   equation(device=device, region=region, name="ElectronContinuityEquation", variable_name="Electrons",
-        time_node_model = "NCharge",
-        edge_model=Jn, variable_update="positive", node_model="ElectronGeneration")
+           time_node_model = "NCharge",
+           edge_model=Jn, variable_update="positive", node_model="ElectronGeneration")
 
 def CreateHCE(device, region, Jp):
   '''
@@ -257,8 +257,8 @@ def CreateHCE(device, region, Jp):
   CreateNodeModelDerivative(device, region, "PCharge", PCharge, "Holes")
 
   equation(device=device, region=region, name="HoleContinuityEquation", variable_name="Holes",
-        time_node_model = "PCharge",
-        edge_model=Jp, variable_update="positive", node_model="HoleGeneration")
+           time_node_model = "PCharge",
+           edge_model=Jp, variable_update="positive", node_model="HoleGeneration")
 
 def CreatePE(device, region):
   '''
@@ -270,8 +270,8 @@ def CreatePE(device, region):
   CreateNodeModelDerivative(device, region, "PotentialNodeCharge", pne, "Holes")
 
   equation(device=device, region=region, name="PotentialEquation", variable_name="Potential",
-            node_model="PotentialNodeCharge", edge_model="DField",
-            time_node_model="", variable_update="log_damp")
+           node_model="PotentialNodeCharge", edge_model="DField",
+           time_node_model="", variable_update="log_damp")
 
 
 def CreateSiliconDriftDiffusion(device, region, mu_n="mu_n", mu_p="mu_p", Jn='Jn', Jp='Jp'):
@@ -308,21 +308,21 @@ def CreateSiliconDriftDiffusionContact(device, region, contact, Jn, Jp, is_circu
 
   if is_circuit:
     contact_equation(device=device, contact=contact, name="ElectronContinuityEquation", variable_name="Electrons",
-                         node_model=contact_electrons_name,
-                         edge_current_model=Jn, circuit_node=GetContactBiasName(contact))
+                     node_model=contact_electrons_name,
+                     edge_current_model=Jn, circuit_node=GetContactBiasName(contact))
 
     contact_equation(device=device, contact=contact, name="HoleContinuityEquation", variable_name="Holes",
-                         node_model=contact_holes_name,
-                         edge_current_model=Jp, circuit_node=GetContactBiasName(contact))
+                     node_model=contact_holes_name,
+                     edge_current_model=Jp, circuit_node=GetContactBiasName(contact))
 
   else:
     contact_equation(device=device, contact=contact, name="ElectronContinuityEquation", variable_name="Electrons",
-                         node_model=contact_electrons_name,
-                         edge_current_model=Jn)
+                     node_model=contact_electrons_name,
+                     edge_current_model=Jn)
 
     contact_equation(device=device, contact=contact, name="HoleContinuityEquation", variable_name="Holes",
-                         node_model=contact_holes_name,
-                         edge_current_model=Jp)
+                     node_model=contact_holes_name,
+                     edge_current_model=Jp)
 
 
 def CreateBernoulliString (Potential="Potential", scaling_variable="V_t", sign=-1):
@@ -339,7 +339,7 @@ def CreateBernoulliString (Potential="Potential", scaling_variable="V_t", sign=-
   '''
 
   tdict = {
-    "Potential" : Potential,
+      "Potential" : Potential,
     "V_t"       : scaling_variable
   }
   #### test for requisite models here
@@ -369,7 +369,7 @@ def CreateElectronCurrent(device, region, mu_n, Potential="Potential", sign=-1, 
     raise NameError("Implement proper call")
 
   tdict = {
-    'Bern01' : Bern01,
+      'Bern01' : Bern01,
     'vdiff'  : vdiff,
     'mu_n'   : mu_n,
     'V_t'    : V_t
@@ -395,7 +395,7 @@ def CreateHoleCurrent(device, region, mu_p, Potential="Potential", sign=-1, Hole
     raise NameError("Implement proper call for " + Potential)
 
   tdict = {
-    'Bern01' : Bern01,
+      'Bern01' : Bern01,
     'vdiff'  : vdiff,
     'mu_p'   : mu_p,
     'V_t'    : V_t
@@ -413,11 +413,11 @@ def CreateAroraMobilityLF(device, region):
     Add T derivative dependence later
   '''
   models = (
-    ('Tn', 'T/300'),
+      ('Tn', 'T/300'),
     ('mu_arora_n_node',
-      'MUMN * pow(Tn, MUMEN) + (MU0N * pow(T, MU0EN))/(1 + pow((NTOT/(NREFN*pow(Tn, NREFNE))), ALPHA0N*pow(Tn, ALPHAEN)))'),
+          'MUMN * pow(Tn, MUMEN) + (MU0N * pow(T, MU0EN))/(1 + pow((NTOT/(NREFN*pow(Tn, NREFNE))), ALPHA0N*pow(Tn, ALPHAEN)))'),
     ('mu_arora_p_node',
-      'MUMP * pow(Tn, MUMEP) + (MU0P * pow(T, MU0EP))/(1 + pow((NTOT/(NREFP*pow(Tn, NREFPE))), ALPHA0P*pow(Tn, ALPHAEP)))')
+          'MUMP * pow(Tn, MUMEP) + (MU0P * pow(T, MU0EP))/(1 + pow((NTOT/(NREFP*pow(Tn, NREFPE))), ALPHA0P*pow(Tn, ALPHAEP)))')
   )
 
   for k, v in models:
@@ -427,7 +427,7 @@ def CreateAroraMobilityLF(device, region):
   CreateElectronCurrent(device, region, mu_n = 'mu_arora_n_lf', Potential="Potential", sign=-1, ElectronCurrent="Jn_arora_lf", V_t="V_t_edge")
   CreateHoleCurrent(device, region, mu_p = 'mu_arora_p_lf', Potential="Potential", sign=-1, HoleCurrent="Jp_arora_lf", V_t="V_t_edge")
   return {
-    'mu_n' : 'mu_arora_n_lf',
+      'mu_n' : 'mu_arora_n_lf',
     'mu_p' : 'mu_arora_p_lf',
     'Jn'   : 'Jn_arora_lf',
     'Jp'   : 'Jp_arora_lf',
@@ -442,24 +442,24 @@ def CreateHFMobility(device, region, mu_n, mu_p, Jn, Jp):
   '''
 
   tdict = {
-    'Jn' : Jn,
+      'Jn' : Jn,
     'mu_n' : mu_n,
     'Jp' : Jp,
     'mu_p' : mu_p
   }
   tlist = (
-    ("vsat_n", "VSATN0 * pow(T, VSATNE)" % tdict, ('T')),
+      ("vsat_n", "VSATN0 * pow(T, VSATNE)" % tdict, ('T')),
     ("beta_n", "BETAN0 * pow(T, BETANE)" % tdict, ('T')),
     ("Epar_n",
-    "ifelse((%(Jn)s * EField) > 0, abs(EField), 1e-15)" % tdict, ('Potential')),
+          "ifelse((%(Jn)s * EField) > 0, abs(EField), 1e-15)" % tdict, ('Potential')),
     ("mu_n", "%(mu_n)s * pow(1 + pow((%(mu_n)s*Epar_n/vsat_n), beta_n), -1/beta_n)"
-      % tdict, ('Electrons', 'Holes', 'Potential', 'T')),
+          % tdict, ('Electrons', 'Holes', 'Potential', 'T')),
     ("vsat_p", "VSATP0 * pow(T, VSATPE)" % tdict, ('T')),
     ("beta_p", "BETAP0 * pow(T, BETAPE)" % tdict, ('T')),
     ("Epar_p",
-    "ifelse((%(Jp)s * EField) > 0, abs(EField), 1e-15)" % tdict, ('Potential')),
+          "ifelse((%(Jp)s * EField) > 0, abs(EField), 1e-15)" % tdict, ('Potential')),
     ("mu_p", "%(mu_p)s * pow(1 + pow(%(mu_p)s*Epar_p/vsat_p, beta_p), -1/beta_p)"
-   % tdict, ('Electrons', 'Holes', 'Potential', 'T')),
+          % tdict, ('Electrons', 'Holes', 'Potential', 'T')),
   )
 
   variable_list = ('Electrons', 'Holes', 'Potential')
@@ -473,7 +473,7 @@ def CreateHFMobility(device, region, mu_n, mu_p, Jn, Jp):
   CreateElectronCurrent(device, region, mu_n='mu_n', Potential="Potential", sign=-1, ElectronCurrent="Jn", V_t="V_t_edge")
   CreateHoleCurrent(    device, region, mu_p='mu_p', Potential="Potential", sign=-1, HoleCurrent="Jp", V_t="V_t_edge")
   return {
-    'mu_n' : 'mu_n',
+      'mu_n' : 'mu_n',
     'mu_p' : 'mu_p',
     'Jn'   : 'Jn',
     'Jp'   : 'Jp',

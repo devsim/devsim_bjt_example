@@ -42,13 +42,13 @@ def create_data(data):
         ft = numpy.exp(x)
         break
   return (vbe, {
-    'f' : f,
+      'f' : f,
     'ib' : ib, #ac ib
     'ic' : ic, #ac ic
     'IC' : IC, #dc Ic
     'beta' : beta, #ac beta
     'ft' : ft,
-    })
+  })
 
 data = pylab.loadtxt(filename)
 #print len(data)
