@@ -33,10 +33,10 @@ files = (
 )
 
 for filename in files:
-  data = pylab.loadtxt(filename)
-  vce = data[:,1]-data[:,2]
-  ic = data[:,4]
-  pylab.plot(vce, ic)
+    data = pylab.loadtxt(filename)
+    vce = data[:,1]-data[:,2]
+    ic = data[:,4]
+    pylab.plot(vce, ic)
 
 pylab.xlabel(r"$V_{ce}$ (V)")
 pylab.ylabel(r"$I_c$ (A/cm)")

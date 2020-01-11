@@ -41,7 +41,7 @@ set_parameter(device=device, region=region, name="n1", value=1e10)
 set_parameter(device=device, region=region, name="p1", value=1e10)
 
 for c in ("base", "emitter", "collector"):
-  set_parameter(device=device, region=region, name=GetContactBiasName(c), value=0.0)
+    set_parameter(device=device, region=region, name=GetContactBiasName(c), value=0.0)
 solve(type="dc", absolute_error=1e6, relative_error=1e-1, maximum_iterations=40)
 write_devices    (file="bjt_dd_1.msh", type="devsim")
 

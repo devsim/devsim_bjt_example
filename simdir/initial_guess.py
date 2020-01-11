@@ -17,18 +17,18 @@ from physics.new_physics import *
 
 def run(device, region):
 
-  # this is our solution variable
-  CreateSolution(device, region, "Potential")
-  # start with temperature as a model and not a parameter
-  set_parameter(device=device, name="T", value="300")
+    # this is our solution variable
+    CreateSolution(device, region, "Potential")
+    # start with temperature as a model and not a parameter
+    set_parameter(device=device, name="T", value="300")
 
-  CreateSiliconPotentialOnly(device, region)
-  for i in get_contact_list(device=device):
-    set_parameter(device=device, name=GetContactBiasName(i), value=0.0)
-    CreateSiliconPotentialOnlyContact(device, region, i)
+    CreateSiliconPotentialOnly(device, region)
+    for i in get_contact_list(device=device):
+        set_parameter(device=device, name=GetContactBiasName(i), value=0.0)
+        CreateSiliconPotentialOnlyContact(device, region, i)
 
-  ####
-  #### Initial DC solution
-  ####
-  solve(type="dc", absolute_error=1.0, relative_error=1e-9, maximum_iterations=40)
+    ####
+    #### Initial DC solution
+    ####
+    solve(type="dc", absolute_error=1.0, relative_error=1e-9, maximum_iterations=40)
 

@@ -27,15 +27,15 @@ from physics.new_physics import *
 #### Meshing
 ####
 def createMesh(device, region):
-  create_1d_mesh(mesh="dio")
-  add_1d_mesh_line(mesh="dio", pos=0, ps=1e-7, tag="top")
-  add_1d_mesh_line(mesh="dio", pos=0.5e-5, ps=1e-9, tag="mid")
-  add_1d_mesh_line(mesh="dio", pos=1e-5, ps=1e-7, tag="bot")
-  add_1d_contact  (mesh="dio", name="top", tag="top", material="metal")
-  add_1d_contact  (mesh="dio", name="bot", tag="bot", material="metal")
-  add_1d_region   (mesh="dio", material="Si", region=region, tag1="top", tag2="bot")
-  finalize_mesh(mesh="dio")
-  create_device(mesh="dio", device=device)
+    create_1d_mesh(mesh="dio")
+    add_1d_mesh_line(mesh="dio", pos=0, ps=1e-7, tag="top")
+    add_1d_mesh_line(mesh="dio", pos=0.5e-5, ps=1e-9, tag="mid")
+    add_1d_mesh_line(mesh="dio", pos=1e-5, ps=1e-7, tag="bot")
+    add_1d_contact  (mesh="dio", name="top", tag="top", material="metal")
+    add_1d_contact  (mesh="dio", name="bot", tag="bot", material="metal")
+    add_1d_region   (mesh="dio", material="Si", region=region, tag1="top", tag2="bot")
+    finalize_mesh(mesh="dio")
+    create_device(mesh="dio", device=device)
 
 device="MyDevice"
 region="MyRegion"
@@ -75,8 +75,8 @@ CreateSiliconPotentialOnly(device, region)
 #### Set up the contacts applying a bias
 ####
 for i in get_contact_list(device=device):
-  set_parameter(device=device, name=GetContactBiasName(i), value=0.0)
-  CreateSiliconPotentialOnlyContact(device, region, i)
+    set_parameter(device=device, name=GetContactBiasName(i), value=0.0)
+    CreateSiliconPotentialOnlyContact(device, region, i)
 
 
 ####
@@ -117,7 +117,7 @@ import physics.model_create
 ###
 CreateSiliconDriftDiffusion(device, region, **opts)
 for i in get_contact_list(device=device):
-  CreateSiliconDriftDiffusionContact(device, region, i, Jn=opts['Jn'], Jp=opts['Jp'])
+    CreateSiliconDriftDiffusionContact(device, region, i, Jn=opts['Jn'], Jp=opts['Jp'])
 
 ###
 ### Drift diffusion simulation at equilibrium
@@ -130,11 +130,11 @@ solve(type="dc", absolute_error=1e10, relative_error=1e-10, maximum_iterations=3
 from physics.ramp import *
 v = 0.1
 while v < 0.51:
-  set_parameter(device=device, name=GetContactBiasName("top"), value=v)
-  solve(type="dc", absolute_error=1e11, relative_error=1e-1, maximum_iterations=30)
-  PrintCurrents(device, "top")
-  PrintCurrents(device, "bot")
-  v += 0.1
+    set_parameter(device=device, name=GetContactBiasName("top"), value=v)
+    solve(type="dc", absolute_error=1e11, relative_error=1e-1, maximum_iterations=30)
+    PrintCurrents(device, "top")
+    PrintCurrents(device, "bot")
+    v += 0.1
 
 write_devices(file="diode_1d.tec", type="tecplot")
 import matplotlib
@@ -147,7 +147,7 @@ fields = ("Electrons", "Holes", "Donors", "Acceptors")
 for i in fields:
     y=get_node_model_values(device=device, region=region, name=i)
     if (max(y) > ymax):
-      ymax = max(y)
+        ymax = max(y)
     matplotlib.pyplot.semilogy(x, y)
 matplotlib.pyplot.xlabel('x (cm)')
 matplotlib.pyplot.ylabel('Density (#/cm^3)')
@@ -166,12 +166,12 @@ y=get_edge_model_values(device=device, region=region, name=efields[0])
 ymin=min(y)
 ymax=max(y)
 for i in efields:
-  y=get_edge_model_values(device=device, region=region, name=i)
-  if min(y) < ymin:
-    ymin = min(y)
-  elif max(y) > ymax:
-    ymax = max(y)
-  matplotlib.pyplot.plot(xmid, y)
+    y=get_edge_model_values(device=device, region=region, name=i)
+    if min(y) < ymin:
+        ymin = min(y)
+    elif max(y) > ymax:
+        ymax = max(y)
+    matplotlib.pyplot.plot(xmid, y)
 matplotlib.pyplot.xlabel('x (cm)')
 matplotlib.pyplot.ylabel('J (A/cm^2)')
 matplotlib.pyplot.legend(efields)
@@ -189,12 +189,12 @@ y=get_edge_model_values(device=device, region=region, name=efields[0])
 ymin=min(y)
 ymax=max(y)
 for i in efields:
-  y=get_edge_model_values(device=device, region=region, name=i)
-  if min(y) < ymin:
-    ymin = min(y)
-  elif max(y) > ymax:
-    ymax = max(y)
-  matplotlib.pyplot.plot(xmid, y)
+    y=get_edge_model_values(device=device, region=region, name=i)
+    if min(y) < ymin:
+        ymin = min(y)
+    elif max(y) > ymax:
+        ymax = max(y)
+    matplotlib.pyplot.plot(xmid, y)
 matplotlib.pyplot.xlabel('x (cm)')
 matplotlib.pyplot.ylabel('J (A/cm^2)')
 matplotlib.pyplot.legend(efields)
@@ -211,7 +211,7 @@ fields = ("USRH",)
 for i in fields:
     y=get_node_model_values(device=device, region=region, name=i)
     if (max(y) > ymax):
-      ymax = max(y)
+        ymax = max(y)
     matplotlib.pyplot.semilogy(x, y)
 matplotlib.pyplot.xlabel('x (cm)')
 matplotlib.pyplot.ylabel('Density (#/cm^3)')

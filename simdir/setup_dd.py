@@ -17,21 +17,21 @@ from physics.new_physics import *
 
 def run(device, region):
 
-  # this is our solution variable
-  CreateSolution(device, region, "Potential")
-  CreateSolution(device, region, "Electrons")
-  CreateSolution(device, region, "Holes")
+    # this is our solution variable
+    CreateSolution(device, region, "Potential")
+    CreateSolution(device, region, "Electrons")
+    CreateSolution(device, region, "Holes")
 
-  #these are needed for velocity saturation
-  CreateEField(device, region)
-  CreateDField(device, region)
-  opts = CreateAroraMobilityLF(device, region)
-  opts = CreateHFMobility(device, region, **opts)
+    #these are needed for velocity saturation
+    CreateEField(device, region)
+    CreateDField(device, region)
+    opts = CreateAroraMobilityLF(device, region)
+    opts = CreateHFMobility(device, region, **opts)
 
 
-  CreateSiliconDriftDiffusion(device, region, **opts)
-  for i in get_contact_list(device=device):
-    set_parameter(device=device, name=GetContactBiasName(i), value=0.0)
-    CreateSiliconDriftDiffusionContact(device, region, i, opts['Jn'], opts['Jp'])
+    CreateSiliconDriftDiffusion(device, region, **opts)
+    for i in get_contact_list(device=device):
+        set_parameter(device=device, name=GetContactBiasName(i), value=0.0)
+        CreateSiliconDriftDiffusionContact(device, region, i, opts['Jn'], opts['Jp'])
 
 

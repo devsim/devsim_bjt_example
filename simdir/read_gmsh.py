@@ -15,11 +15,11 @@
 from devsim import *
 
 def run(filename, device_name, region, region_material, contact_names):
-  #this reads in the gmsh format
-  create_gmsh_mesh (mesh=device_name, file=filename)
-  add_gmsh_region  (mesh=device_name, gmsh_name=region,    region=region, material=region_material)
-  for contact in contact_names:
-    add_gmsh_contact (mesh=device_name, gmsh_name=contact, region=region, material="metal", name=contact)
-  finalize_mesh    (mesh=device_name)
-  create_device    (mesh=device_name, device=device_name)
+    #this reads in the gmsh format
+    create_gmsh_mesh (mesh=device_name, file=filename)
+    add_gmsh_region  (mesh=device_name, gmsh_name=region,    region=region, material=region_material)
+    for contact in contact_names:
+        add_gmsh_contact (mesh=device_name, gmsh_name=contact, region=region, material="metal", name=contact)
+    finalize_mesh    (mesh=device_name)
+    create_device    (mesh=device_name, device=device_name)
 

@@ -34,7 +34,7 @@ initial_guess.run(device, region)
 
 import refinement
 refinement.run(device, region, outfile="bjt_bgmesh.pos", mincl=2.0e-6, maxcl=1e-4, pdiff=0.025)
-    
+
 # this is is the devsim format
 write_devices    (file="bjt_refine.tec", type="tecplot")
 
