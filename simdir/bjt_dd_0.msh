@@ -191497,15 +191497,15 @@ COMMAND element_model -device "bjt" -region "bjt" -name "Jpmag" -equation "pow((
 end_triangle_edge_model
 
 begin_equation "ElectronContinuityEquation"
-COMMAND equation -device "bjt" -region "bjt" -name "ElectronContinuityEquation" -variable_name "Electrons" -node_model "ElectronGeneration" -edge_model "Jn" -element_model "" -volume_model "" -time_node_model "NCharge"
+COMMAND equation -device "bjt" -region "bjt" -name "ElectronContinuityEquation" -variable_name "Electrons" -node_model "ElectronGeneration" -edge_model "Jn" -element_model "" -time_node_model "NCharge"
 end_equation
 
 begin_equation "HoleContinuityEquation"
-COMMAND equation -device "bjt" -region "bjt" -name "HoleContinuityEquation" -variable_name "Holes" -node_model "HoleGeneration" -edge_model "Jp" -element_model "" -volume_model "" -time_node_model "PCharge"
+COMMAND equation -device "bjt" -region "bjt" -name "HoleContinuityEquation" -variable_name "Holes" -node_model "HoleGeneration" -edge_model "Jp" -element_model "" -time_node_model "PCharge"
 end_equation
 
 begin_equation "PotentialEquation"
-COMMAND equation -device "bjt" -region "bjt" -name "PotentialEquation" -variable_name "Potential" -node_model "PotentialNodeCharge" -edge_model "DField" -element_model "" -volume_model "" -time_node_model ""
+COMMAND equation -device "bjt" -region "bjt" -name "PotentialEquation" -variable_name "Potential" -node_model "PotentialNodeCharge" -edge_model "DField" -element_model "" -time_node_model ""
 end_equation
 
 end_region
@@ -191578,15 +191578,15 @@ begin_nodes
 end_nodes
 
 begin_equation "ElectronContinuityEquation"
-COMMAND contact_equation -device "bjt" -contact "base" -name "ElectronContinuityEquation" -variable_name "Electrons" -edge_charge_model "" -edge_current_model "Jn" -edge_model "" -element_charge_model "" -element_current_model "" -element_model "" -node_charge_model "" -node_current_model "" -node_model "basenodeelectrons" -circuit_node ""
+COMMAND contact_equation -device "bjt" -contact "base" -name "ElectronContinuityEquation" -edge_charge_model "" -edge_current_model "Jn" -edge_model "" -element_charge_model "" -element_current_model "" -element_model "" -node_charge_model "" -node_current_model "" -node_model "basenodeelectrons" -circuit_node ""
 end_equation
 
 begin_equation "HoleContinuityEquation"
-COMMAND contact_equation -device "bjt" -contact "base" -name "HoleContinuityEquation" -variable_name "Holes" -edge_charge_model "" -edge_current_model "Jp" -edge_model "" -element_charge_model "" -element_current_model "" -element_model "" -node_charge_model "" -node_current_model "" -node_model "basenodeholes" -circuit_node ""
+COMMAND contact_equation -device "bjt" -contact "base" -name "HoleContinuityEquation" -edge_charge_model "" -edge_current_model "Jp" -edge_model "" -element_charge_model "" -element_current_model "" -element_model "" -node_charge_model "" -node_current_model "" -node_model "basenodeholes" -circuit_node ""
 end_equation
 
 begin_equation "PotentialEquation"
-COMMAND contact_equation -device "bjt" -contact "base" -name "PotentialEquation" -variable_name "Potential" -edge_charge_model "DField" -edge_current_model "" -edge_model "" -element_charge_model "" -element_current_model "" -element_model "" -node_charge_model "contactcharge_node" -node_current_model "" -node_model "basenodemodel" -circuit_node ""
+COMMAND contact_equation -device "bjt" -contact "base" -name "PotentialEquation" -edge_charge_model "DField" -edge_current_model "" -edge_model "" -element_charge_model "" -element_current_model "" -element_model "" -node_charge_model "contactcharge_node" -node_current_model "" -node_model "basenodemodel" -circuit_node ""
 end_equation
 
 end_contact
@@ -191941,15 +191941,15 @@ begin_nodes
 end_nodes
 
 begin_equation "ElectronContinuityEquation"
-COMMAND contact_equation -device "bjt" -contact "collector" -name "ElectronContinuityEquation" -variable_name "Electrons" -edge_charge_model "" -edge_current_model "Jn" -edge_model "" -element_charge_model "" -element_current_model "" -element_model "" -node_charge_model "" -node_current_model "" -node_model "collectornodeelectrons" -circuit_node ""
+COMMAND contact_equation -device "bjt" -contact "collector" -name "ElectronContinuityEquation" -edge_charge_model "" -edge_current_model "Jn" -edge_model "" -element_charge_model "" -element_current_model "" -element_model "" -node_charge_model "" -node_current_model "" -node_model "collectornodeelectrons" -circuit_node ""
 end_equation
 
 begin_equation "HoleContinuityEquation"
-COMMAND contact_equation -device "bjt" -contact "collector" -name "HoleContinuityEquation" -variable_name "Holes" -edge_charge_model "" -edge_current_model "Jp" -edge_model "" -element_charge_model "" -element_current_model "" -element_model "" -node_charge_model "" -node_current_model "" -node_model "collectornodeholes" -circuit_node ""
+COMMAND contact_equation -device "bjt" -contact "collector" -name "HoleContinuityEquation" -edge_charge_model "" -edge_current_model "Jp" -edge_model "" -element_charge_model "" -element_current_model "" -element_model "" -node_charge_model "" -node_current_model "" -node_model "collectornodeholes" -circuit_node ""
 end_equation
 
 begin_equation "PotentialEquation"
-COMMAND contact_equation -device "bjt" -contact "collector" -name "PotentialEquation" -variable_name "Potential" -edge_charge_model "DField" -edge_current_model "" -edge_model "" -element_charge_model "" -element_current_model "" -element_model "" -node_charge_model "contactcharge_node" -node_current_model "" -node_model "collectornodemodel" -circuit_node ""
+COMMAND contact_equation -device "bjt" -contact "collector" -name "PotentialEquation" -edge_charge_model "DField" -edge_current_model "" -edge_model "" -element_charge_model "" -element_current_model "" -element_model "" -node_charge_model "contactcharge_node" -node_current_model "" -node_model "collectornodemodel" -circuit_node ""
 end_equation
 
 end_contact
@@ -192022,15 +192022,15 @@ begin_nodes
 end_nodes
 
 begin_equation "ElectronContinuityEquation"
-COMMAND contact_equation -device "bjt" -contact "emitter" -name "ElectronContinuityEquation" -variable_name "Electrons" -edge_charge_model "" -edge_current_model "Jn" -edge_model "" -element_charge_model "" -element_current_model "" -element_model "" -node_charge_model "" -node_current_model "" -node_model "emitternodeelectrons" -circuit_node ""
+COMMAND contact_equation -device "bjt" -contact "emitter" -name "ElectronContinuityEquation" -edge_charge_model "" -edge_current_model "Jn" -edge_model "" -element_charge_model "" -element_current_model "" -element_model "" -node_charge_model "" -node_current_model "" -node_model "emitternodeelectrons" -circuit_node ""
 end_equation
 
 begin_equation "HoleContinuityEquation"
-COMMAND contact_equation -device "bjt" -contact "emitter" -name "HoleContinuityEquation" -variable_name "Holes" -edge_charge_model "" -edge_current_model "Jp" -edge_model "" -element_charge_model "" -element_current_model "" -element_model "" -node_charge_model "" -node_current_model "" -node_model "emitternodeholes" -circuit_node ""
+COMMAND contact_equation -device "bjt" -contact "emitter" -name "HoleContinuityEquation" -edge_charge_model "" -edge_current_model "Jp" -edge_model "" -element_charge_model "" -element_current_model "" -element_model "" -node_charge_model "" -node_current_model "" -node_model "emitternodeholes" -circuit_node ""
 end_equation
 
 begin_equation "PotentialEquation"
-COMMAND contact_equation -device "bjt" -contact "emitter" -name "PotentialEquation" -variable_name "Potential" -edge_charge_model "DField" -edge_current_model "" -edge_model "" -element_charge_model "" -element_current_model "" -element_model "" -node_charge_model "contactcharge_node" -node_current_model "" -node_model "emitternodemodel" -circuit_node ""
+COMMAND contact_equation -device "bjt" -contact "emitter" -name "PotentialEquation" -edge_charge_model "DField" -edge_current_model "" -edge_model "" -element_charge_model "" -element_current_model "" -element_model "" -node_charge_model "contactcharge_node" -node_current_model "" -node_model "emitternodemodel" -circuit_node ""
 end_equation
 
 end_contact

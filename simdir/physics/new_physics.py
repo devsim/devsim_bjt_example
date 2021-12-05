@@ -209,12 +209,12 @@ def CreateSiliconPotentialOnlyContact(device, region, contact, is_circuit=False)
         CreateContactNodeModel(device, contact, "{0}:{1}".format(contact_model_name,GetContactBiasName(contact)), "-1")
 
     if is_circuit:
-        contact_equation(device=device, contact=contact, name="PotentialEquation", variable_name="Potential",
+        contact_equation(device=device, contact=contact, name="PotentialEquation",
                          node_model=contact_model_name, edge_model="",
                          node_charge_model="contactcharge_node", edge_charge_model="DField",
                          node_current_model="", edge_current_model="", circuit_node=GetContactBiasName(contact))
     else:
-        contact_equation(device=device, contact=contact, name="PotentialEquation", variable_name="Potential",
+        contact_equation(device=device, contact=contact, name="PotentialEquation",
                          node_model=contact_model_name, edge_model="",
                          node_charge_model="contactcharge_node", edge_charge_model="DField",
                          node_current_model="", edge_current_model="")
@@ -307,20 +307,20 @@ def CreateSiliconDriftDiffusionContact(device, region, contact, Jn, Jp, is_circu
     CreateContactNodeModel(device, contact, "{0}:{1}".format(contact_holes_name, "Holes"), "1")
 
     if is_circuit:
-        contact_equation(device=device, contact=contact, name="ElectronContinuityEquation", variable_name="Electrons",
+        contact_equation(device=device, contact=contact, name="ElectronContinuityEquation",
                          node_model=contact_electrons_name,
                          edge_current_model=Jn, circuit_node=GetContactBiasName(contact))
 
-        contact_equation(device=device, contact=contact, name="HoleContinuityEquation", variable_name="Holes",
+        contact_equation(device=device, contact=contact, name="HoleContinuityEquation",
                          node_model=contact_holes_name,
                          edge_current_model=Jp, circuit_node=GetContactBiasName(contact))
 
     else:
-        contact_equation(device=device, contact=contact, name="ElectronContinuityEquation", variable_name="Electrons",
+        contact_equation(device=device, contact=contact, name="ElectronContinuityEquation",
                          node_model=contact_electrons_name,
                          edge_current_model=Jn)
 
-        contact_equation(device=device, contact=contact, name="HoleContinuityEquation", variable_name="Holes",
+        contact_equation(device=device, contact=contact, name="HoleContinuityEquation",
                          node_model=contact_holes_name,
                          edge_current_model=Jp)
 
