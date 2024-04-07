@@ -66,16 +66,16 @@ The file \texttt{bjt.geo} contains the initial mesh specification for the bjt st
 \begin{minipage}{\textwidth}
 The steps are:
 \begin{verbatim}
-gmsh -2 bjt.geo 
-devsim bjt_refine.py 
-gmsh -2 bjt.geo -bgm ./bjt_bgmesh.pos 
-devsim bjt_refine.py 
-gmsh -2 bjt.geo -bgm ./bjt_bgmesh.pos 
-devsim bjt_refine.py 
-gmsh -2 bjt.geo -bgm ./bjt_bgmesh.pos 
-devsim bjt_refine.py 
-gmsh -2 bjt.geo -bgm ./bjt_bgmesh.pos 
-devsim bjt_refine.py 
+gmsh -format msh2 -2 bjt.geo
+devsim bjt_refine.py
+gmsh -format msh2 -2 bjt.geo -bgm ./bjt_bgmesh.pos
+devsim bjt_refine.py
+gmsh -format msh2 -2 bjt.geo -bgm ./bjt_bgmesh.pos
+devsim bjt_refine.py
+gmsh -format msh2 -2 bjt.geo -bgm ./bjt_bgmesh.pos
+devsim bjt_refine.py
+gmsh -format msh2 -2 bjt.geo -bgm ./bjt_bgmesh.pos
+devsim bjt_refine.py
 \end{verbatim}
 \end{minipage}
 \\~\\
@@ -112,7 +112,7 @@ devsim bjt_circuit5.py 0.0 1e3 1e11 3 &> data/ssac_0.0.out
 \end{verbatim}
 
 \subsection{Visualization}
-The \texttt{data/} directory contains scripts used to generate the plots used for publication.  A script was written to collect the data from the simulations to create plots using \texttt{matplotlib}.  This script is in the \texttt{data/} directory and is called \texttt{prep.sh}.  
+The \texttt{data/} directory contains scripts used to generate the plots used for publication.  A script was written to collect the data from the simulations to create plots using \texttt{matplotlib}.  This script is in the \texttt{data/} directory and is called \texttt{prep.sh}.
 
 \begin{tabular}{ll}
 \texttt{ft.py} & Small-signal ft simulation\\
