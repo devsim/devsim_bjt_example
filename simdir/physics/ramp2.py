@@ -94,7 +94,7 @@ def rampbias(device, contact, end_bias, step_size, min_step, max_iter, rel_error
         try:
             devsim.solve(type="dc", absolute_error=abs_error, relative_error=rel_error, maximum_iterations=max_iter)
         except devsim.error as msg:
-            if msg[0].find("Convergence failure") != 0:
+            if str(msg).find("Convergence failure") != 0:
                 raise
             devsim.set_parameter(device=device, name=GetContactBiasName(contact), value=last_bias)
             step_size *= 0.5

@@ -18,7 +18,6 @@ from physics.new_physics import *
 def run(device, region):
 
     # this is our solution variable
-    CreateSolution(device, region, "Potential")
     CreateSolution(device, region, "Electrons")
     CreateSolution(device, region, "Holes")
 
